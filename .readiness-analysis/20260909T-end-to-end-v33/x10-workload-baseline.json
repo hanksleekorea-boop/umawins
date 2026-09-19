@@ -1,0 +1,72 @@
+{
+  "schema": "umametry-x10-workload-baseline/v33",
+  "checked_at": "2026-09-09",
+  "rule": "10배는 반복 문장이 아니라 고유 후보·지표·근거·과업·결정·시험 범위로 판정",
+  "dimensions": [
+    {
+      "id": "candidate_services",
+      "prior": 60,
+      "target": 800,
+      "current": 60,
+      "unit": "고유 후보",
+      "status": "GAP"
+    },
+    {
+      "id": "benchmark_atomic_rows",
+      "prior": 775,
+      "target": 1600,
+      "current": 775,
+      "unit": "비교 행",
+      "status": "GAP"
+    },
+    {
+      "id": "core_user_scenarios",
+      "prior": 20,
+      "target": 50,
+      "current": 20,
+      "unit": "요구사항 기반 과업",
+      "status": "GAP"
+    },
+    {
+      "id": "product_decision_cells",
+      "prior": null,
+      "target": 400,
+      "current": null,
+      "unit": "결정 칸",
+      "status": "UNMEASURED"
+    },
+    {
+      "id": "boundary_cases",
+      "prior": 1000,
+      "target": 10000,
+      "current": 1000,
+      "unit": "합성 사례",
+      "status": "GAP"
+    },
+    {
+      "id": "task_cards_96_fields",
+      "prior": 64,
+      "target": 96,
+      "current": 1440,
+      "unit": "필드 값; 15개 카드",
+      "status": "STRUCTURE_PASS_NOT_IMPLEMENTATION"
+    },
+    {
+      "id": "fixed_stages",
+      "prior": 3,
+      "target": 5,
+      "current": 5,
+      "unit": "단계",
+      "status": "PASS"
+    },
+    {
+      "id": "catalog_domains",
+      "prior": 500,
+      "target": 500,
+      "current": 500,
+      "unit": "카탈로그 항목",
+      "status": "SCREENING_PASS"
+    }
+  ],
+  "interpretation": "10배 완료를 선언하지 않고 부족·미측정을 다음 카드로 배정했다."
+}

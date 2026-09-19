@@ -1,0 +1,9 @@
+# 5단계 의존성 그래프
+
+STAGE-1-BASELINE → STAGE-2-FOUNDATION → STAGE-3-CORE → STAGE-4-QUALITY → STAGE-5-RELEASE
+
+T1-001 → T2-001 → T3-001 → T4-001 → T5-001
+T2-002 → T3-003 → T5-001
+T4-002 → T5-002 → T5-003
+
+BLOCKED_EXTERNAL 카드는 계획과 시험을 준비할 수 있지만 외부 증거가 없으면 출시를 통과시키지 않는다.

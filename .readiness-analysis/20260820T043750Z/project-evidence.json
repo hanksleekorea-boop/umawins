@@ -1,0 +1,101 @@
+{
+  "schema": "crh-project-evidence/v1",
+  "assessedAt": "2026-08-20",
+  "scope": "all",
+  "project": {
+    "name": "UMAMETRY",
+    "repository": "local workspace only; source remote intentionally omitted",
+    "description": "일본어 경마 정보·예측 보조 공개 웹/PWA. 실제 베팅·결제·계정 거래 기능은 이번 증거에서 확인되지 않았다.",
+    "urls": {
+      "web": "https://umametry-jp.koreabike1234.chatgpt.site/?v=16",
+      "mobile": "https://umametry-jp.koreabike1234.chatgpt.site/?v=16"
+    },
+    "features": [
+      { "name": "공개 홈", "platform": "공통", "status": "브라우저·HTTP 확인", "evidence": "v16 공개 URL HTTP 200" },
+      { "name": "대시보드", "platform": "공통", "status": "브라우저·HTTP 확인", "evidence": "dashboard?v=16 HTTP 200 및 현재 준비도 데이터" },
+      { "name": "PWA 매니페스트", "platform": "모바일 웹", "status": "파일 확인", "evidence": "site/manifest.json 및 public 아이콘" },
+      { "name": "접근성 정적 계약", "platform": "공통", "status": "자동 검증", "evidence": "site/tests/umametry-contract.test.mjs 10/10(기존 증거)" },
+      { "name": "Android 화면 표시", "platform": "모바일 웹", "status": "실기기 부분 확인", "evidence": "docs/android-evidence/20260819T194807Z/metadata.json; 설치·스크린리더·키보드는 미실시" }
+    ]
+  },
+  "direction": { "pf": "eq", "stage": "cb", "sens": "mid", "team": "s", "edge": "content", "when": "m3" },
+  "evidence": {
+    "mobile": {
+      "f01": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "공개 홈·대시보드와 정적 계약은 확인. 예측 기록의 전체 E2E는 미확인." },
+      "f08": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "manifest는 있으나 서비스 워커·오프라인 임시 저장 근거가 없음." },
+      "q01": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "사이트 계약 10/10 및 Python 계약 25/25의 기존 기록. 전체 E2E 회귀 범위는 미확인." },
+      "q08": { "score": 1, "tier": "self", "observedAt": "2026-08-19", "note": "A56 한 대에서 화면 표시만 과거 기록으로 확인. 설치·입력·보조기술·다기기 매트릭스 미실시." },
+      "s01": { "score": 3, "tier": "1", "observedAt": "2026-08-20", "note": "공개 URL HTTPS 응답 확인." },
+      "s07": { "score": 3, "tier": "auto", "observedAt": "2026-08-20", "note": "production npm audit 알려진 취약점 0의 기존 검사 기록." },
+      "l01": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "trust·data-policy 표면과 초안 준비도 파일은 있으나 독립 법률 검토는 미확인." },
+      "l02": "unknown",
+      "l04": "unknown",
+      "l07": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "운영 주체 신원·사업자 표시의 실제 공개 근거를 이번 범위에서 찾지 못함." },
+      "l10": "unknown",
+      "l21": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "data-policy 표면은 있으나 필수 항목 완결성·법률 검토는 미확인." },
+      "r01": { "score": 3, "tier": "1", "observedAt": "2026-08-20", "note": "공개 HTTPS 도메인과 v16 URL 확인." },
+      "r02": { "score": 2, "tier": "self", "observedAt": "2026-08-20", "note": "release.json·Sites 저장 버전 증거. 실제 롤백 훈련은 미확인." },
+      "r03": "unknown",
+      "u03": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "문서 언어·skip link·focus·reflow·reduced motion 정적 계약. 실보조기술은 미확인." },
+      "u06": "unknown",
+      "u07": { "score": 1, "tier": "self", "observedAt": "2026-08-19", "note": "한 Android 화면 표시 근거만 있음." },
+      "u14": "unknown",
+      "u15": "unknown",
+      "o01": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "실운영 모니터링·경보 근거 없음." },
+      "o05": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "운영자용 고객지원 도구 근거 없음." },
+      "b01": { "score": 2, "tier": "self", "observedAt": "2026-08-20", "note": "일본어 경마 정보·예측 보조 방향은 확인. 검증된 ICP·포지셔닝은 미확인." },
+      "b02": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "실결제·수익 모델·단위경제 검증 근거 없음." }
+    },
+    "web": {
+      "f01": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "공개 홈·대시보드와 정적 계약은 확인. 예측 기록의 전체 E2E는 미확인." },
+      "f10": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "반응형 정적 계약. 브라우저 매트릭스는 미실시." },
+      "f11": "unknown",
+      "q01": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "사이트 계약 10/10 및 Python 계약 25/25의 기존 기록." },
+      "q10": "unknown",
+      "q11": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "12개 공개 경로 HTTP 200 확인. 콘솔·전체 링크·혼합 콘텐츠 전수 시험은 미실시." },
+      "p07": "unknown",
+      "p08": "unknown",
+      "p09": "unknown",
+      "p10": "unknown",
+      "s01": { "score": 3, "tier": "1", "observedAt": "2026-08-20", "note": "공개 URL HTTPS 응답 확인." },
+      "s04": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "자동 계약·dependency audit은 있으나 OWASP 전체 점검은 미확인." },
+      "s07": { "score": 3, "tier": "auto", "observedAt": "2026-08-20", "note": "production npm audit 알려진 취약점 0의 기존 검사 기록." },
+      "s11": { "score": 0, "tier": "1", "observedAt": "2026-08-20", "note": "현재 공개 응답에서 HSTS·CSP·nosniff·frame 제한·referrer policy 헤더 미확인." },
+      "l01": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "trust·data-policy 표면은 있으나 독립 법률 검토는 미확인." },
+      "l02": "unknown",
+      "l04": "unknown",
+      "l07": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "운영 주체 신원·사업자 표시의 실제 공개 근거를 이번 범위에서 찾지 못함." },
+      "l10": "unknown",
+      "l12": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "정적 접근성 계약은 있으나 법적 접근성 의무 충족·독립 검토는 미확인." },
+      "l21": { "score": 1, "tier": "self", "observedAt": "2026-08-20", "note": "data-policy 표면은 있으나 필수 항목 완결성·법률 검토는 미확인." },
+      "r01": { "score": 3, "tier": "1", "observedAt": "2026-08-20", "note": "공개 HTTPS 도메인과 v16 URL 확인." },
+      "r02": { "score": 2, "tier": "self", "observedAt": "2026-08-20", "note": "release.json·Sites 저장 버전 증거. 실제 롤백 훈련은 미확인." },
+      "r03": "unknown",
+      "r08": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "robots.txt·sitemap.xml 파일을 현재 프로젝트에서 찾지 못함." },
+      "r10": "unknown",
+      "u03": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "문서 언어·skip link·focus·reflow·reduced motion 정적 계약. 실보조기술은 미확인." },
+      "u08": { "score": 3, "tier": "auto", "observedAt": "2026-08-20", "note": "skip link·focus 관련 정적 계약 통과." },
+      "u09": { "score": 2, "tier": "auto", "observedAt": "2026-08-20", "note": "시맨틱 구조 관련 정적 계약 일부 확인; 전수 수동 검토는 미실시." },
+      "u14": "unknown",
+      "o01": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "실운영 모니터링·경보 근거 없음." },
+      "o05": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "운영자용 고객지원 도구 근거 없음." },
+      "b01": { "score": 2, "tier": "self", "observedAt": "2026-08-20", "note": "일본어 경마 정보·예측 보조 방향은 확인. 검증된 ICP·포지셔닝은 미확인." },
+      "b02": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "실결제·수익 모델·단위경제 검증 근거 없음." },
+      "n02": { "score": 2, "tier": "1", "observedAt": "2026-08-20", "note": "공개 홈에서 대시보드 등 섹션 이동을 확인. 전체 정보구조 시험은 미실시." },
+      "n10": { "score": 0, "tier": "self", "observedAt": "2026-08-20", "note": "사용자용 sitemap.xml·사이트맵 화면 근거 없음." }
+    }
+  },
+  "benchmark": {
+    "comparators": [
+      { "name": "Racing Post", "scores": { "feat": 4, "ux": 3 } },
+      { "name": "Timeform", "scores": { "feat": 4, "ux": 3 } },
+      { "name": "At The Races", "scores": { "feat": 4, "ux": 3 } }
+    ],
+    "notes": "점수는 공식 공개 근거의 레이스카드·폼·평가·모바일 정보 구조만 0~5로 정규화한 기능 비교다. 품질, 시장 규모, 평점, 가격이나 시장 전체 순위가 아니다. 유효 차원은 feat·ux에 한정된다."
+  },
+  "analysisLimits": [
+    "미확인 항목은 unknown으로 남겨 0점으로 환산하지 않았다.",
+    "Android는 이번 실행에서 조작하지 않았고 과거 A56 부분 표시 증거만 썼다.",
+    "법률 자문·준수 인증·보안 인증·시장 성과 보증이 아니다."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "similarity-candidates/v1",
+  "catalogVersion": "embedded-500-v1",
+  "assessedAt": "2026-08-20",
+  "selectedDomains": [
+    {
+      "catalogNumber": 180,
+      "domain": "팬 예측 (sports prediction)",
+      "role": "primary",
+      "fit": { "problem": 38, "userBuyer": 18, "coreFlow": 19, "revenue": 4, "platform": 9, "total": 88 },
+      "confidence": "높음",
+      "reason": "예측 판단을 기록·비교하는 핵심 행동과 경마 팬 정보 맥락이 가장 가깝다. 실제 도박 거래 기능은 확인되지 않아 금융·베팅 거래 도메인으로 분류하지 않았다."
+    },
+    {
+      "catalogNumber": 175,
+      "domain": "스포츠 뉴스 (sports news)",
+      "role": "secondary",
+      "fit": { "problem": 28, "userBuyer": 14, "coreFlow": 14, "revenue": 3, "platform": 8, "total": 67 },
+      "confidence": "중간",
+      "reason": "경마 정보의 탐색·비교 맥락은 가깝지만, 현재 확인된 제품의 핵심은 일반 뉴스 발행이 아니다."
+    },
+    {
+      "catalogNumber": 417,
+      "domain": "디지털 웰빙 (digital wellbeing)",
+      "role": "secondary",
+      "fit": { "problem": 22, "userBuyer": 11, "coreFlow": 9, "revenue": 2, "platform": 8, "total": 52 },
+      "confidence": "중간",
+      "reason": "손실 추격을 부추기지 않고 판단을 점검하게 하는 안전 설계가 필요한 인접 맥락이다. 웰빙 전용 기능의 현재 제공은 미확인이다."
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Racing Post",
+      "roles": ["direct", "leader"],
+      "similarity": { "problem": 5, "user": 4, "flow": 4, "revenue": 2, "platform": 5 },
+      "why": "경마 팬에게 레이스카드, 폼, 팁, 배당 정보를 제공하는 공개 흐름이 UMAMETRY의 정보·예측 보조 맥락과 직접 겹친다.",
+      "publicEvidence": [
+        { "url": "https://www.racingpost.com/racecards/", "fact": "공식 레이스카드 페이지가 영국·아일랜드·국제 경주, 팁, 폼, 베팅 정보를 안내한다." },
+        { "url": "https://help.racingpost.com/hc/en-us/sections/4414177987089-Racecards", "fact": "공식 도움말에서 레이스카드 기능을 별도 지원 범위로 공개한다." }
+      ],
+      "confidence": "높음"
+    },
+    {
+      "name": "Timeform",
+      "roles": ["direct"],
+      "similarity": { "problem": 4, "user": 3, "flow": 4, "revenue": 3, "platform": 4 },
+      "why": "레이스카드에서 말별 평가와 코멘터리를 제공해, 근거를 붙인 판단 보조 경험의 비교 대상으로 적합하다.",
+      "publicEvidence": [
+        { "url": "https://www.timeform.com/horse-racing/race-cards", "fact": "공식 레이스카드 페이지가 말별 평가·코멘터리와 평가 요약을 안내한다." },
+        { "url": "https://www.timeform.com/horse-racing/shop/racecards", "fact": "공식 판매 페이지가 데이터·레이스카드 상품을 공개한다." }
+      ],
+      "confidence": "높음"
+    },
+    {
+      "name": "At The Races",
+      "roles": ["direct"],
+      "similarity": { "problem": 5, "user": 4, "flow": 4, "revenue": 2, "platform": 5 },
+      "why": "폼, 팁, 통계, 혈통, 배당을 한 레이스카드 흐름에 모아 보여 주므로 비교·판단 흐름의 직접 사례다.",
+      "publicEvidence": [
+        { "url": "https://m.attheraces.com/racecards", "fact": "공식 레이스카드가 영국·아일랜드·해외 경주와 폼·팁·통계·혈통·배당 정보를 안내한다." },
+        { "url": "https://www.attheraces.com/atrapp", "fact": "공식 앱 페이지가 상세 레이스카드와 폼을 모바일 앱의 핵심으로 설명한다." }
+      ],
+      "confidence": "높음"
+    },
+    {
+      "name": "JRA",
+      "roles": ["leader", "adjacent"],
+      "similarity": { "problem": 3, "user": 4, "flow": 3, "revenue": 0, "platform": 5 },
+      "why": "일본 경마의 공식 정보원으로서 레이스카드·배당·결과·말·기수·조교사 데이터를 제공하는 데이터 신뢰 기준 사례다. 서비스 성격은 운영 주체가 달라 직접 경쟁으로 계산하지 않는다.",
+      "publicEvidence": [
+        { "url": "https://www.jra.go.jp/index.html", "fact": "공식 홈페이지에 출마표, 배당, 결과, 말·기수·조교사 정보와 책임 있는 이용 안내가 노출된다." }
+      ],
+      "confidence": "높음"
+    }
+  ],
+  "benchmarkUse": {
+    "directComparatorCount": 3,
+    "engineComparators": ["Racing Post", "Timeform", "At The Races"],
+    "method": "공식 공개 화면에서 확인 가능한 기능·흐름만 0~5 정규화해 엔진에 넣었다. 품질·시장 규모·평점·가격의 전체 비교나 시장 순위가 아니다.",
+    "limits": ["실시간 가격·유료 범위·사용자 수는 이번 분석 범위에서 수집하지 않음", "JRA는 직접 경쟁 계산에서 제외"]
+  }
+}

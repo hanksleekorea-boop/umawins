@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-05T11:22:06.827Z",
+  "result": "PASS",
+  "meaning": "Report structure, cited file existence, generated counts and audit-data consistency only. Not product/browser validation.",
+  "issueCount": 64,
+  "publicRoutes": 37,
+  "publicHTTP200": 36,
+  "initialServerButtons": 20,
+  "missingFragmentLinks": 28,
+  "syntheticProbes": 7,
+  "localDocumentLinksChecked": 18,
+  "sourceEvidenceFilesExist": true,
+  "collaborationLocksFound": 0,
+  "lockScanScope": "Nonrecursive workspace root, .project-continuity, its runtime, and site root. Symlinks skipped; no B drive access. Prior broader scan stopped without a completed result.",
+  "browserTasksPassed": 0,
+  "androidTasksPassed": 0,
+  "productModifiedDuringAudit": false
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "E-001",
+    "kind": "A",
+    "source": "C:\\Users\\Admin\\.codex\\attachments\\182d7001-b8a2-456c-825b-a6d432785245\\pasted-text.txt",
+    "checked": "2026-09-09",
+    "claim": "마스터 v3.3 분석 전용·정확히 5단계·96필드·필수 결과물 계약"
+  },
+  {
+    "id": "E-002",
+    "kind": "F",
+    "source": "site/release.json",
+    "checked": "2026-09-09",
+    "claim": "release_id와 공개 URL"
+  },
+  {
+    "id": "E-003",
+    "kind": "F",
+    "source": "site/release-gates.json",
+    "checked": "2026-09-09",
+    "claim": "launchable=false와 partial/unknown 게이트"
+  },
+  {
+    "id": "E-004",
+    "kind": "F",
+    "source": "DEVELOPMENT_EXECUTION_PLAN.md",
+    "checked": "2026-09-09",
+    "claim": "기존 계획·상태·근거 분리"
+  },
+  {
+    "id": "E-005",
+    "kind": "F",
+    "source": "PRODUCT_PLAN.md",
+    "checked": "2026-09-09",
+    "claim": "제품 원칙·권리·보존·접근성"
+  },
+  {
+    "id": "E-006",
+    "kind": "F",
+    "source": "docs/PROGRESS_DASHBOARD.md",
+    "checked": "2026-09-09",
+    "claim": "공개판·대시보드·QR·Android 상태"
+  },
+  {
+    "id": "E-007",
+    "kind": "F",
+    "source": ".world-class-analysis/20260824T070138Z/run-manifest.json",
+    "checked": "2026-09-09",
+    "claim": "60 후보·30 선정·25 분야·775 비교 행"
+  },
+  {
+    "id": "E-008",
+    "kind": "F",
+    "source": ".readiness-analysis/20260820T043750Z/readiness-analysis.json",
+    "checked": "2026-09-09",
+    "claim": "기존 준비도 감사"
+  },
+  {
+    "id": "E-009",
+    "kind": "F",
+    "source": "site/package.json 및 site/tests/",
+    "checked": "2026-09-09",
+    "claim": "build/test/lint 계약"
+  },
+  {
+    "id": "E-010",
+    "kind": "F",
+    "source": ".project-continuity/STATE.md, HISTORY.md, TEST_EVIDENCE.md",
+    "checked": "2026-09-09",
+    "claim": "연속성·LinkMax 장부"
+  },
+  {
+    "id": "E-011",
+    "kind": "A",
+    "source": "https://help.racingpost.com/hc/en-us/articles/208200769-Cards",
+    "checked": "2026-09-09",
+    "claim": "공식 카드·팁·가격 변화·라이브·설정"
+  },
+  {
+    "id": "E-012",
+    "kind": "A",
+    "source": "https://www.timeform.com/horse-racing",
+    "checked": "2026-09-09",
+    "claim": "공식 경주·카드·결과·팁·통계"
+  },
+  {
+    "id": "E-013",
+    "kind": "A",
+    "source": "https://race.netkeiba.com/top/",
+    "checked": "2026-09-09",
+    "claim": "공식 일본 경주 정보"
+  },
+  {
+    "id": "E-014",
+    "kind": "A",
+    "source": "https://jra-van.jp/dlb/",
+    "checked": "2026-09-09",
+    "claim": "공식 JRA-VAN Data Lab"
+  },
+  {
+    "id": "E-015",
+    "kind": "F",
+    "source": ".project-continuity/STATE.md#2026-09-09",
+    "checked": "2026-09-09",
+    "claim": "LinkMax 201·pending·401·429·열쇠 미보존"
+  }
+]

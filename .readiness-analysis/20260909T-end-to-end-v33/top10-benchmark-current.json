@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-09-09",
+  "status": "PARTIAL_CURRENT_RECHECK",
+  "fixed_set": [
+    {
+      "prior_rank": 1,
+      "name": "netkeiba",
+      "group": "A",
+      "prior_score": 88,
+      "official_url": "https://race.netkeiba.com/top/",
+      "prior_checked": "2026-08-24",
+      "current_recheck": "2026-09-09",
+      "evidence_id": "E-013",
+      "status": "CURRENT_OFFICIAL_RECHECK"
+    },
+    {
+      "prior_rank": 2,
+      "name": "Racing Post",
+      "group": "A",
+      "prior_score": 86,
+      "official_url": "https://help.racingpost.com/hc/en-us/articles/208200769-Cards",
+      "prior_checked": "2026-08-24",
+      "current_recheck": "2026-09-09",
+      "evidence_id": "E-011",
+      "status": "CURRENT_OFFICIAL_RECHECK"
+    },
+    {
+      "prior_rank": 3,
+      "name": "JRA-VAN Data Lab",
+      "group": "A",
+      "prior_score": 85,
+      "official_url": "https://jra-van.jp/dlb/",
+      "prior_checked": "2026-08-24",
+      "current_recheck": "2026-09-09",
+      "evidence_id": "E-014",
+      "status": "CURRENT_OFFICIAL_RECHECK"
+    },
+    {
+      "prior_rank": 4,
+      "name": "Timeform",
+      "group": "A",
+      "prior_score": 84,
+      "official_url": "https://www.timeform.com/horse-racing",
+      "prior_checked": "2026-08-24",
+      "current_recheck": "2026-09-09",
+      "evidence_id": "E-012",
+      "status": "CURRENT_OFFICIAL_RECHECK"
+    },
+    {
+      "prior_rank": 5,
+      "name": "At The Races",
+      "group": "A",
+      "prior_score": 82,
+      "official_url": "https://www.attheraces.com/racecards",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    },
+    {
+      "prior_rank": 6,
+      "name": "Equibase",
+      "group": "A",
+      "prior_score": 80,
+      "official_url": "https://www.equibase.com/premium/pubentriesfullindex.cfm",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    },
+    {
+      "prior_rank": 7,
+      "name": "Daily Racing Form",
+      "group": "A",
+      "prior_score": 79,
+      "official_url": "https://apps.apple.com/us/app/drf-horse-racing-news-data/id915817054",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    },
+    {
+      "prior_rank": 8,
+      "name": "Racing and Sports",
+      "group": "A",
+      "prior_score": 78,
+      "official_url": "https://lb-oci.racingandsports.com/form-guide",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    },
+    {
+      "prior_rank": 9,
+      "name": "Umanity",
+      "group": "A",
+      "prior_score": 76,
+      "official_url": "https://umanity.jp/coliseum/howto.php",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    },
+    {
+      "prior_rank": 10,
+      "name": "Keiba Lab",
+      "group": "A",
+      "prior_score": 72,
+      "official_url": "https://keibalab.jp/",
+      "prior_checked": "2026-08-24",
+      "current_recheck": null,
+      "evidence_id": "E-007",
+      "status": "PRIOR_SET_REQUIRES_CURRENT_RECHECK"
+    }
+  ],
+  "closest_three": [
+    "Racing Post",
+    "Timeform",
+    "netkeiba"
+  ],
+  "caution": "기존 비교군을 재사용했고 4개 공식 페이지의 현재 존재만 다시 확인함"
+}

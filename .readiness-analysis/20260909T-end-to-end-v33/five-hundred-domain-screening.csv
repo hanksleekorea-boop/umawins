@@ -1,0 +1,501 @@
+﻿domain_id,rank,domain,search_term,umametry_relevance,screening_status,evidence_id,next_action,note
+DOM-001,1,전자상거래 종합몰,online marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-002,2,식료품 배달,grocery delivery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-003,3,음식 배달,food delivery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-004,4,패션 쇼핑,fashion commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-005,5,뷰티 쇼핑,beauty commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-006,6,생활용품 쇼핑,home goods commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-007,7,중고 거래,peer-to-peer resale,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-008,8,리셀·한정판,resale marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-009,9,가격 비교,price comparison,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-010,10,구독 상거래,subscription commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-011,11,온라인 결제,payment gateway,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-012,12,디지털 지갑,digital wallet,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-013,13,개인 송금,P2P transfer,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-014,14,해외 송금,remittance,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-015,15,개인 자산관리,personal finance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-016,16,예산 관리,budgeting app,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-017,17,신용 관리,credit monitoring,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-018,18,대출 비교,loan marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-019,19,보험 비교,insurance marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-020,20,세금 신고,tax filing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-021,21,주식 투자,stock investing,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-022,22,암호자산 거래,crypto exchange,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-023,23,로보어드바이저,robo advisor,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-024,24,부동산 투자,real estate investing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-025,25,기업 자금관리,treasury management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-026,26,회계 SaaS,accounting software,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-027,27,청구·인보이스,invoicing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-028,28,급여 관리,payroll,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-029,29,경비 관리,expense management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-030,30,매장 결제,POS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-031,31,소셜 네트워크,social network,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-032,32,메신저,messaging,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-033,33,커뮤니티 포럼,online community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-034,34,크리에이터 플랫폼,creator platform,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-035,35,라이브 스트리밍,live streaming,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-036,36,짧은 영상,short video,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-037,37,사진 공유,photo sharing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-038,38,블로그·뉴스레터,blog newsletter,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-039,39,팬 커뮤니티,fan community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-040,40,데이팅,dating,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-041,41,동영상 스트리밍,video streaming,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-042,42,음악 스트리밍,music streaming,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-043,43,팟캐스트,podcast,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-044,44,오디오북,audiobook,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-045,45,디지털 만화,webtoon comics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-046,46,전자책,e-book,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-047,47,게임 스트리밍,game streaming,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-048,48,티켓 예매,ticketing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-049,49,이벤트 발견,event discovery,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-050,50,팬덤 멤버십,fan membership,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-051,51,온라인 강의,online learning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-052,52,언어 학습,language learning,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-053,53,시험 대비,test prep,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-054,54,직무 교육,career learning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-055,55,코딩 교육,coding education,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-056,56,어린이 교육,kids learning,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-057,57,대학 학습관리,LMS,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-058,58,튜터 매칭,tutoring marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-059,59,학습 노트,note learning,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-060,60,자격증 교육,certification learning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-061,61,생성형 AI 도우미,generative AI assistant,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-062,62,AI 글쓰기,AI writing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-063,63,AI 이미지,AI image creation,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-064,64,AI 영상,AI video creation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-065,65,AI 음성,AI voice,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-066,66,AI 코드,AI coding,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-067,67,AI 고객지원,AI support,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-068,68,AI 검색,AI search,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-069,69,AI 자동화,AI automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-070,70,프롬프트 학습,prompt learning,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-071,71,생산성 통합 작업공간,productivity workspace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-072,72,할 일 관리,task management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-073,73,프로젝트 관리,project management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-074,74,문서 협업,document collaboration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-075,75,지식관리,knowledge management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-076,76,일정·캘린더,calendar,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-077,77,이메일 생산성,email productivity,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-078,78,전자서명,e-signature,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-079,79,양식·설문,form builder,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-080,80,회의 기록,meeting notes,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-081,81,팀 메신저,team chat,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-082,82,화상회의,video conferencing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-083,83,원격 협업,remote collaboration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-084,84,화이트보드,online whiteboard,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-085,85,디자인 협업,design collaboration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-086,86,개발자 협업,developer collaboration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-087,87,워크플로 자동화,workflow automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-088,88,업무 통합,iPaaS integration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-089,89,사내 포털,employee portal,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-090,90,전자결재,approval workflow,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-091,91,CRM,customer relationship management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-092,92,영업 자동화,sales automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-093,93,마케팅 자동화,marketing automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-094,94,이메일 마케팅,email marketing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-095,95,고객 데이터 플랫폼,CDP,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-096,96,광고 관리,ad management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-097,97,검색엔진 최적화,SEO,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-098,98,웹 분석,web analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-099,99,전환율 최적화,CRO,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-100,100,제휴 마케팅,affiliate marketing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-101,101,고객지원 헬프데스크,help desk,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-102,102,라이브 채팅,live chat,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-103,103,고객 피드백,customer feedback,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-104,104,리뷰 관리,review management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-105,105,고객 성공,customer success,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-106,106,콜센터,contact center,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-107,107,예약 관리,appointment scheduling,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-108,108,대기열 관리,queue management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-109,109,현장 서비스,field service,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-110,110,멤버십·로열티,loyalty,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-111,111,병원 예약,healthcare booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-112,112,원격 진료,telehealth,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-113,113,건강 기록,personal health record,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-114,114,정신건강,mental wellness,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-115,115,명상·수면,meditation sleep,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-116,116,운동 추적,fitness tracking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-117,117,식단 관리,nutrition tracking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-118,118,여성 건강,women's health,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-119,119,노인 돌봄,elder care,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-120,120,약국·처방,pharmacy,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-121,121,부동산 검색,property search,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-122,122,임대 관리,property management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-123,123,단기 숙박,vacation rental,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-124,124,호텔 예약,hotel booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-125,125,항공 예약,flight booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-126,126,여행 일정,trip planning,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-127,127,렌터카,car rental,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-128,128,지역 체험,local experiences,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-129,129,비자·이민 지원,visa support,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-130,130,출장 관리,business travel,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-131,131,차량 호출,ride hailing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-132,132,택시 호출,taxi booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-133,133,대중교통 안내,transit navigation,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-134,134,지도·내비게이션,maps navigation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-135,135,주차,parking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-136,136,전기차 충전,EV charging,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-137,137,차량 공유,car sharing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-138,138,자전거·킥보드,micromobility,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-139,139,물류 추적,parcel tracking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-140,140,화물 운송,freight logistics,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-141,141,구직,job search,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-142,142,채용 관리,ATS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-143,143,프리랜서 마켓,freelance marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-144,144,전문 서비스 마켓,professional services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-145,145,직원 교육,employee training,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-146,146,인사 관리,HRMS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-147,147,근태 관리,time attendance,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-148,148,복지 관리,employee benefits,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-149,149,조직문화,employee engagement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-150,150,인력 분석,people analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-151,151,식당 예약,restaurant reservation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-152,152,레시피·요리,recipe cooking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-153,153,식단 배달,meal kit,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-154,154,농산물 직거래,farm-to-table,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-155,155,카페 주문,coffee ordering,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-156,156,주류 배달,alcohol delivery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-157,157,반려동물 쇼핑,pet commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-158,158,반려동물 돌봄,pet care,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-159,159,반려동물 건강,pet health,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-160,160,반려동물 커뮤니티,pet community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-161,161,게임 유통,game distribution,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-162,162,모바일 게임,mobile gaming,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-163,163,e스포츠,esports,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-164,164,게임 길드,gaming community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-165,165,게임 제작 도구,game creation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-166,166,AR 경험,augmented reality,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-167,167,VR 경험,virtual reality,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-168,168,교육 게임,educational games,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-169,169,퍼즐·두뇌훈련,brain training,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-170,170,보드게임 디지털,board games,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-171,171,뉴스,news,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-172,172,금융 뉴스,financial news,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-173,173,지역 뉴스,local news,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-174,174,날씨,weather,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-175,175,스포츠 뉴스,sports news,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-176,176,스포츠 점수,sports scores,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-177,177,판타지 스포츠,fantasy sports,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-178,178,스포츠 티켓,sports ticketing,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-179,179,스포츠 코칭,sports coaching,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-180,180,팬 예측,sports prediction,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-181,181,정부 민원,digital government,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-182,182,세무 행정,public tax service,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-183,183,법률 정보,legal information,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-184,184,계약 관리,contract management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-185,185,법률 상담,legal services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-186,186,컴플라이언스,compliance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-187,187,신원 확인,identity verification,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-188,188,사기 탐지,fraud detection,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-189,189,보안 교육,security awareness,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-190,190,비상 알림,emergency alert,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-191,191,기부,donations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-192,192,자원봉사,volunteering,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-193,193,비영리 관리,nonprofit management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-194,194,크라우드펀딩,crowdfunding,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-195,195,지역 모금,community fundraising,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-196,196,사회 캠페인,civic campaigning,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-197,197,재난 지원,disaster relief,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-198,198,접근성 지원,accessibility tools,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-199,199,번역·통역,translation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-200,200,이민자 지원,immigrant services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-201,201,클라우드 호스팅,cloud hosting,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-202,202,앱 배포,app deployment,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-203,203,개발자 플랫폼,developer platform,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-204,204,코드 저장소,code repository,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-205,205,지속적 통합,CI,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-206,206,오류 추적,error monitoring,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-207,207,성능 관찰,observability,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-208,208,API 관리,API management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-209,209,데이터베이스 관리,database management,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-210,210,보안 운영,SecOps,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-211,211,데이터 분석,BI analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-212,212,데이터 시각화,data visualization,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-213,213,데이터 통합,ETL,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-214,214,데이터 품질,data quality,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-215,215,데이터 카탈로그,data catalog,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-216,216,고객 조사,survey research,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-217,217,제품 분석,product analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-218,218,A/B 시험,experimentation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-219,219,사용자 행동 분석,session replay,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-220,220,데이터 개인정보,data privacy,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-221,221,제조 실행,MES,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-222,222,공장 자동화,factory automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-223,223,공급망 관리,supply chain,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-224,224,조달 관리,procurement,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-225,225,재고 관리,inventory,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-226,226,창고 관리,WMS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-227,227,품질 관리,QMS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-228,228,설비 유지보수,CMMS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-229,229,산업 IoT,industrial IoT,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-230,230,제품 수명관리,PLM,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-231,231,농장 관리,farm management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-232,232,정밀 농업,precision agriculture,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-233,233,농산물 물류,agri logistics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-234,234,수산 관리,aquaculture,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-235,235,기상 농업,agri weather,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-236,236,탄소 농업,carbon farming,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-237,237,건설 관리,construction management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-238,238,건축 설계,BIM,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-239,239,현장 안전,construction safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-240,240,부동산 시공,proptech construction,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-241,241,에너지 관리,energy management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-242,242,태양광 관리,solar management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-243,243,전력 거래,energy trading,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-244,244,탄소 회계,carbon accounting,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-245,245,ESG 관리,ESG reporting,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-246,246,폐기물 관리,waste management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-247,247,물 관리,water management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-248,248,기후 위험,climate risk,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-249,249,재생에너지 인증,renewable certificates,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-250,250,지속가능성 공급망,sustainable supply chain,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-251,251,은행 코어 시스템,core banking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-252,252,오픈뱅킹,open banking,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-253,253,기업 대출,B2B lending,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-254,254,가맹점 금융,merchant finance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-255,255,보험 운영,insurance operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-256,256,보험 청구,insurance claims,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-257,257,보험 기술,insurtech,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-258,258,부채 관리,debt management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-259,259,자산운용,asset management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-260,260,금융 컴플라이언스,financial compliance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-261,261,학교 행정,school administration,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-262,262,학부모 소통,parent communication,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-263,263,학습 평가,assessment,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-264,264,교육 콘텐츠,education content,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-265,265,교사 도구,teacher tools,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-266,266,도서관 서비스,library systems,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-267,267,연구 관리,research management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-268,268,학술 출판,scholarly publishing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-269,269,논문 발견,research discovery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-270,270,동문 관리,alumni management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-271,271,진료 운영,clinic operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-272,272,전자의무기록,EHR,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-273,273,의료 청구,medical billing,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-274,274,의료 영상,medical imaging,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-275,275,임상시험,clinical trials,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-276,276,환자 참여,patient engagement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-277,277,건강보험 관리,health insurance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-278,278,디지털 치료,digital therapeutics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-279,279,재활 관리,rehabilitation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-280,280,의료 인력,healthcare staffing,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-281,281,호텔 운영,hotel operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-282,282,여행사 운영,travel agency,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-283,283,관광 CRM,travel CRM,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-284,284,항공 운영,airline operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-285,285,해운 운영,maritime operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-286,286,차량 관리,fleet management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-287,287,라스트마일 배송,last-mile delivery,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-288,288,통관 관리,customs management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-289,289,여행 안전,travel safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-290,290,관광 콘텐츠,tourism content,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-291,291,광고 소재 제작,ad creative,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-292,292,브랜드 관리,brand management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-293,293,소셜 미디어 관리,social media management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-294,294,인플루언서 마케팅,influencer marketing,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-295,295,홍보 관리,PR management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-296,296,콘텐츠 관리,CMS,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-297,297,디지털 자산관리,DAM,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-298,298,전자상거래 운영,e-commerce operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-299,299,리테일 분석,retail analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-300,300,매장 운영,store operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-301,301,디자인 도구,design tools,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-302,302,사진 편집,photo editing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-303,303,영상 편집,video editing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-304,304,3D 제작,3D creation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-305,305,웹사이트 제작,website builder,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-306,306,노코드 앱 제작,no-code app builder,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-307,307,프레젠테이션,presentation tools,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-308,308,다이어그램,diagramming,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-309,309,설문 디자인,survey design,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-310,310,템플릿 마켓,template marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-311,311,사이버보안,cybersecurity,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-312,312,비밀번호 관리,password manager,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-313,313,엔드포인트 보안,endpoint security,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-314,314,클라우드 보안,cloud security,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-315,315,애플리케이션 보안,AppSec,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-316,316,개인정보 보호,privacy management,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-317,317,권한 관리,IAM,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-318,318,백업·복구,backup recovery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-319,319,재해복구,disaster recovery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-320,320,디지털 포렌식,digital forensics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-321,321,부동산 중개,realty brokerage,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-322,322,주택담보대출,mortgage,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-323,323,주택 리모델링,home improvement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-324,324,인테리어 디자인,interior design,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-325,325,가정 수리,home services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-326,326,청소 서비스,cleaning services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-327,327,이사 서비스,moving services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-328,328,보안·스마트홈,smart home security,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-329,329,임차인 서비스,renter services,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-330,330,부동산 데이터,real estate data,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-331,331,육아 지원,parenting,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-332,332,베이비시팅,childcare,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-333,333,가족 일정,family calendar,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-334,334,결혼 준비,wedding planning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-335,335,선물 추천,gift discovery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-336,336,장례 지원,funeral services,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-337,337,종교 커뮤니티,faith community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-338,338,취미 모임,hobby community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-339,339,지역 이웃,neighborhood network,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-340,340,생활 기록,life logging,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-341,341,뉴스레터 제작,newsletter platform,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-342,342,팟캐스트 제작,podcast creation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-343,343,크리에이터 수익화,creator monetization,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-344,344,온라인 강연,webinar,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-345,345,온라인 코스 제작,course creator,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-346,346,멤버십 커뮤니티,membership community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-347,347,디지털 상품 판매,digital goods,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-348,348,굿즈 판매,merchandise,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-349,349,팬 후원,creator tipping,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-350,350,라이브 커머스,live commerce,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-351,351,자동차 판매,auto marketplace,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-352,352,차량 정비,auto repair,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-353,353,자동차 보험,auto insurance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-354,354,운전 교육,driver education,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-355,355,차량 진단,vehicle diagnostics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-356,356,중고차 이력,vehicle history,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-357,357,모터사이클,motorcycle services,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-358,358,캠핑카·레저차,RV services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-359,359,항공 개인 이동,aviation services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-360,360,드론 서비스,drone services,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-361,361,화장품 예약,beauty booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-362,362,미용실 예약,salon booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-363,363,웰니스 예약,wellness booking,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-364,364,개인 트레이닝,personal training,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-365,365,스포츠 시설 예약,sports booking,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-366,366,요가·필라테스,yoga pilates,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-367,367,아웃도어 활동,outdoor recreation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-368,368,여행 사진,travel photography,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-369,369,취미 교육,hobby learning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-370,370,취미 장비 대여,equipment rental,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-371,371,통신 요금제,telecom plans,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-372,372,인터넷 서비스,ISP,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-373,373,모바일 기기 관리,MDM,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-374,374,기기 수리,device repair,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-375,375,디지털 신분증,digital identity,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-376,376,전자 문서 보관,digital archive,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-377,377,파일 저장,file storage,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-378,378,파일 전송,file transfer,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-379,379,개인 백업,personal backup,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-380,380,인터넷 안전,parental control,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-381,381,블록체인 지갑,blockchain wallet,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-382,382,NFT·디지털 수집품,digital collectibles,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-383,383,DAO 커뮤니티,DAO tools,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-384,384,Web3 개발,Web3 developer tools,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-385,385,게임 경제,game economy,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-386,386,크라우드 대출,peer lending,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-387,387,대안 신용,alternative credit,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-388,388,급여 선지급,earned wage access,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-389,389,기부 결제,giving payments,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-390,390,금융 교육,financial education,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-391,391,공공 안전,public safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-392,392,경찰·소방 운영,emergency operations,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-393,393,도시 운영,smart city,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-394,394,선거 정보,election information,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-395,395,공공 참여,civic engagement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-396,396,공공 기록,public records,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-397,397,공공 조달,public procurement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-398,398,학교 안전,school safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-399,399,재난 경보,disaster alerts,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-400,400,국제 개발,aid management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-401,401,번역 관리,localization management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-402,402,국제 전자상거래,cross-border commerce,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-403,403,다국가 급여,global payroll,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-404,404,해외 채용,global hiring,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-405,405,해외 법인 관리,entity management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-406,406,수출입 무역,trade management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-407,407,관세 계산,duty calculation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-408,408,국제 배송,cross-border shipping,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-409,409,환율·외환,FX management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-410,410,글로벌 컴플라이언스,global compliance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-411,411,웹 접근성,web accessibility,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-412,412,보조기술,assistive technology,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-413,413,난독 지원,dyslexia support,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-414,414,청각 지원,hearing accessibility,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-415,415,시각 지원,vision accessibility,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-416,416,고령자 디지털 지원,senior tech,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-417,417,디지털 웰빙,digital wellbeing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-418,418,화면 시간,screen time,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-419,419,온라인 안전,online safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-420,420,가족 안전,family safety,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-421,421,식당 운영,restaurant operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-422,422,배달 매장 운영,delivery operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-423,423,식품 안전,food safety,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-424,424,메뉴 관리,menu management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-425,425,예약 판매,pre-ordering,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-426,426,식자재 조달,food procurement,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-427,427,주방 관리,kitchen management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-428,428,프랜차이즈 운영,franchise management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-429,429,호텔 식음료,hospitality F&B,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-430,430,케이터링,catering,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-431,431,세일즈 교육,sales training,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-432,432,리더십 교육,leadership training,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-433,433,규정 교육,compliance training,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-434,434,안전 교육,safety training,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-435,435,온보딩,employee onboarding,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-436,436,내부 이동,internal mobility,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-437,437,성과 관리,performance management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-438,438,보상 관리,compensation management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-439,439,인력 계획,workforce planning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-440,440,채용 브랜딩,employer branding,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-441,441,과학 실험실 관리,lab management,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-442,442,생명과학 데이터,bioinformatics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-443,443,의료 연구,health research,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-444,444,특허 관리,IP management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-445,445,지식재산 검색,patent search,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-446,446,규제 정보,regulatory intelligence,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-447,447,임상 데이터,clinical data,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-448,448,연구 협업,research collaboration,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-449,449,학술 네트워크,academic network,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-450,450,과학 교육,science education,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-451,451,반도체 설계,semiconductor design,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-452,452,전자 설계,EDA,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-453,453,로봇 운영,robotics,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-454,454,자율주행,autonomous driving,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-455,455,우주 데이터,space data,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-456,456,위성 분석,satellite analytics,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-457,457,디지털 트윈,digital twin,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-458,458,IoT 플랫폼,IoT platform,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-459,459,엣지 컴퓨팅,edge computing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-460,460,양자 컴퓨팅,quantum computing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-461,461,법률 사무 운영,law firm management,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-462,462,계약 전자서명,contract e-signing,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-463,463,소송 지원,litigation support,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-464,464,법률 문서 자동화,legal document automation,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-465,465,지식재산 운영,IP operations,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-466,466,규제 신고,regulatory filing,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-467,467,기업 거버넌스,corporate governance,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-468,468,내부감사,internal audit,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-469,469,위험 관리,enterprise risk,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-470,470,윤리 신고,ethics hotline,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-471,471,청소년 커뮤니티,youth community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-472,472,대학 진학,college admissions,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-473,473,장학금,scholarships,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-474,474,직업 전환,career transition,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-475,475,은퇴 계획,retirement planning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-476,476,생활 습관,habit building,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-477,477,목표 관리,goal tracking,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-478,478,개인 일기,journaling,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-479,479,디지털 유산,digital legacy,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-480,480,가족 역사,family history,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-481,481,카운터·집계,counter tally,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-482,482,알람·기상,alarm clock,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-483,483,시간 추적,time tracking,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-484,484,습관·루틴,habit tracker,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-485,485,체크리스트,checklist,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-486,486,스캔·문서화,document scanning,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-487,487,QR·바코드,QR barcode,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-488,488,비밀번호 생성,password generator,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-489,489,파일 변환,file conversion,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-490,490,단위·환율 계산,converter calculator,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-491,491,날씨 위험,weather alerts,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-492,492,식물 관리,plant care,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-493,493,반려식물 커뮤니티,plant community,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-494,494,폐기물 분리배출,recycling guide,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-495,495,지역 상점 발견,local discovery,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-496,496,쿠폰·절약,coupons savings,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-497,497,기부 물품,giving marketplace,MEDIUM,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-498,498,소규모 모임,micro-events,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-499,499,생활 문제 해결,local problem solving,LOW,SCREENED_FROM_CATALOG,E-001,boundary_reference,카탈로그 매칭은 실제 기능·시장 검증이 아님
+DOM-500,500,범용 유틸리티,multi-purpose utility,HIGH,SCREENED_FROM_CATALOG,E-001,official_candidate_discovery,카탈로그 매칭은 실제 기능·시장 검증이 아님

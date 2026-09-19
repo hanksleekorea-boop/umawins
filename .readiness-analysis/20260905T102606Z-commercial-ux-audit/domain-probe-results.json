@@ -1,0 +1,48 @@
+{
+  "observedAt": "2026-09-05T10:50:15.047Z",
+  "evidenceKind": "AUTOMATED_SYNTHETIC_MODULE_PROBES_NOT_BROWSER",
+  "productMutations": 0,
+  "probes": [
+    {
+      "id": "P01_CORRECTION_LICENSE_WITHOUT_GRANT",
+      "accepted": true,
+      "meaning": "Domain correction validates the label but does not require rights evidence. No real record was changed."
+    },
+    {
+      "id": "P02_IMPOSSIBLE_CALENDAR_DATE",
+      "accepted": true,
+      "meaning": "Impossible calendar date accepted by domain API; HTML date control may constrain direct entry, but import/correction paths also need validation."
+    },
+    {
+      "id": "P03_FUTURE_OBSERVATION_DATE",
+      "accepted": true,
+      "meaning": "No observation-versus-record-time constraint at this layer. Decide a documented future-date policy."
+    },
+    {
+      "id": "P04_PREVIEW_TIMESTAMP_CONTRACT",
+      "sealedAt": "2026-09-05T10:00:00.000Z",
+      "fields": [],
+      "meaning": "Creation already sets sealedAt. records/page.tsx calls creation at preview and appends same object at confirmation. No independent race cutoff field."
+    },
+    {
+      "id": "P05_SETTINGS_DELETION_COVERAGE",
+      "omittedKeys": [
+        "umametry.onboarding.preferences.v1",
+        "umametry.onboarding.dismissed.v1"
+      ],
+      "meaning": "General local settings deletion inventory omits both onboarding storage keys. No actual deletion was performed."
+    },
+    {
+      "id": "P06_ONBOARDING_ROUTE_VARIATION",
+      "sameDestination": true,
+      "sameTitle": true,
+      "explanationChanges": true,
+      "meaning": "Experience/density change explanatory copy, not destination; source search additionally finds no downstream preference consumer."
+    },
+    {
+      "id": "P07_FUTURE_RECENT_PERIOD",
+      "futureIncluded": true,
+      "meaning": "Reproduces pro-tools recent-count expression, which lacks a lower bound; this is a formula probe, not a browser test."
+    }
+  ]
+}

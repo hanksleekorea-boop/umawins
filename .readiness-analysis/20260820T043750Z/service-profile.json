@@ -1,0 +1,58 @@
+{
+  "schema": "service-profile/v1",
+  "assessedAt": "2026-08-20",
+  "service": {
+    "name": "UMAMETRY",
+    "description": "일본어 공개 웹 서비스로, 경마 관련 정보를 바탕으로 이용자가 예측을 기록·비교하고 자신의 판단을 점검하도록 돕는 정보·예측 보조 제품이다. 현재 공개 버전은 v16이며, 실제 베팅·주문·보관·거래 기능은 확인되지 않았다.",
+    "factEvidence": [
+      "site/README.md",
+      "site/release.json",
+      "https://umametry-jp.koreabike1234.chatgpt.site/?v=16",
+      "https://umametry-jp.koreabike1234.chatgpt.site/dashboard?v=16"
+    ]
+  },
+  "users": {
+    "primary": "일본어로 경마 정보를 살피고 자신의 예측 판단을 정리하려는 이용자",
+    "buyer": "미확인",
+    "problem": "예측·비교·점검 흐름을 한 곳에서 제공하되, 실제 베팅을 유도하거나 처리하지 않는 정보 중심 경험이 필요하다.",
+    "status": "파일·공개 페이지 근거와 제품 문서의 합성; 실제 사용자 조사 결과는 미확인"
+  },
+  "coreFlow": [
+    "공개 홈 진입",
+    "경마 관련 정보와 예측 보조 흐름 탐색",
+    "진단·기록 또는 비교 결과 확인",
+    "대시보드에서 진행·준비도 확인",
+    "저장·공유·결제·고객지원의 실제 운영 흐름은 일부 또는 미확인"
+  ],
+  "platforms": {
+    "pcWeb": { "status": "공개", "url": "https://umametry-jp.koreabike1234.chatgpt.site/?v=16" },
+    "mobileWeb": { "status": "반응형 공개", "url": "https://umametry-jp.koreabike1234.chatgpt.site/?v=16" },
+    "pwa": { "status": "매니페스트 확인, 서비스 워커·오프라인 저장은 미확인/미구현 근거", "manifest": "site/manifest.json" },
+    "nativeApp": { "status": "미확인" }
+  },
+  "verifiedFeatures": [
+    { "name": "공개 홈과 대시보드", "evidence": "site/release.json 및 공개 URL HTTP 200 확인", "verification": "공개 브라우저·HTTP 확인" },
+    { "name": "상용화 준비도·운영·신뢰·접근성 안내 화면", "evidence": "site/app/{commercial-readiness,operations,trust,accessibility}/", "verification": "파일 구조 확인" },
+    { "name": "PWA 설치 메타데이터", "evidence": "site/manifest.json 및 site/public 아이콘 3종", "verification": "파일 확인" },
+    { "name": "기본 접근성 정적 계약", "evidence": "site/tests/umametry-contract.test.mjs 10/10 통과(기존 증거)", "verification": "자동 검사" },
+    { "name": "Android 화면 표시", "evidence": "docs/android-evidence/20260819T194807Z/metadata.json", "verification": "과거 실기기 부분 확인; 설치·스크린리더·키보드 시험은 미실시" }
+  ],
+  "commercial": {
+    "revenueModel": "현재 실결제·구독은 미확인; checkout_live=false가 상용화 준비 파일에 기록됨",
+    "targetCountry": "일본어 공개 경험은 확인됨; 법적·사업상 대상 국가의 확정은 미확인",
+    "language": "일본어",
+    "releaseStage": "공개 후보/초기 운영 단계로 추정; 정식 상용 출시 선언은 미확인"
+  },
+  "technologyAndReadiness": {
+    "stack": "Next.js 계열 웹 프로젝트로 보이며, 정확한 런타임·호스팅 세부는 본 분석에서 미확인",
+    "tests": "정적 계약 10/10, Python 계약 25/25, lint 오류 0·경고 3, production npm audit 알려진 취약점 0이라는 기존 증거가 있음",
+    "deployment": "공개 HTTPS URL과 release.json 확인",
+    "security": "HTTPS는 확인. 이번 공개 응답에서 HSTS·CSP·X-Content-Type-Options·X-Frame-Options·Referrer-Policy 헤더는 확인되지 않음",
+    "policySurface": "trust·data-policy 화면과 초안 성격의 준비도 파일은 있으나, 독립 법률 검토·운영자 신원·권리행사 운영은 미확인"
+  },
+  "limits": [
+    "이 프로필은 코드·공개 URL·기존 검증 기록만 사용한다.",
+    "실제 사용자 수, 매출, 가격, 만족도, 법률 준수 인증은 확인하지 못했다.",
+    "비밀값·개인정보는 기록하지 않았다."
+  ]
+}

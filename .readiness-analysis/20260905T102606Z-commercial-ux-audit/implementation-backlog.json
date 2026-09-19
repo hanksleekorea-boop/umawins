@@ -1,0 +1,1327 @@
+{
+  "schema": "umametry-commercial-ux-backlog/v1",
+  "createdAt": "2026-09-05T11:00:40.414Z",
+  "scope": "Audit proposals only; no product implementation or deployment",
+  "issueCount": 64,
+  "priorityMeaning": {
+    "P0": "신뢰·자료·운영 약속 관련 출시 통과 조건. 실제 사고 발생 또는 보안 취약점 등급을 뜻하지 않음",
+    "P1": "핵심 과업·정확성·품질 필수",
+    "P2": "완성도·반복 사용 개선"
+  },
+  "estimateMeaning": "숙련 작업자의 설계·구현·검사 인일 추정. 중복·병행·외부 대기 때문에 합계=달력 일정 아님",
+  "issues": [
+    {
+      "id": "CM-01",
+      "priority": "P0",
+      "area": "제품",
+      "title": "실제 기록을 학습 예시로 오분류",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/records/page.tsx:174",
+      "problem": "사용자 본인의 실제 기록을 입력해도 개발 예시/합성 자료 중 하나만 고를 수 있다. 기획서의 사용자 판단 분리와 맞지 않는다.",
+      "change": "사용자 직접 입력(user_input), 교육용 합성, 권리 확인 자료를 구분한다. 경주 식별·예측 명제·결과 기준을 입력하고 합성 연습은 별도 공간으로 분리한다. 기존 값은 추정 재분류하지 않는다.",
+      "acceptance": "실제 직접 입력은 user_input으로 저장·복원·정정·통계에서 유지된다. 기존 v2 왕복 손실0. 연습과 실제 집계가 섞이지 않는다.",
+      "estimatedPersonDays": [
+        4,
+        7
+      ],
+      "plan": "S1-003/006/007",
+      "dependencies": [
+        "운영자: 직접 기록형과 공식 자료 제공형 범위 선택"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-02",
+      "priority": "P0",
+      "area": "기록 신뢰",
+      "title": "봉인 시점이 최종 확인보다 빠름",
+      "evidenceKind": "F+A",
+      "evidence": "site/app/records/page.tsx:121; site/lib/domain/record-ledger.mjs:98; domain-probe-results.json:P04",
+      "problem": "미리보기 생성 시 sealedAt을 넣고 나중에 확인한 같은 객체를 저장한다. 경주 시작/마감 필드도 없어 결과 전 기록이라는 약속의 검증 범위가 약하다.",
+      "change": "미리보기는 초안으로 유지하고 확정 시각에 봉인 사건을 만든다. raceRef, proposition, deadlineAt, timeZone, timeEvidence를 별도 설계한다. 서버 검증이 없으면 기기 시각·본인 기록으로 명시한다.",
+      "acceptance": "10분 미리보기 대기 뒤 확정하면 확정 시각으로 저장. 마감 전/후·오프라인·시계 역전·중복 클릭을 구분. 신뢰 가능한 시각 없이 사전 봉인 인증 표시0.",
+      "estimatedPersonDays": [
+        4,
+        8
+      ],
+      "plan": "S1-003/006/008",
+      "dependencies": [
+        "CM-01"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-03",
+      "priority": "P0",
+      "area": "자료 권리",
+      "title": "허가 확인 라벨의 우회 정정",
+      "evidenceKind": "F+A",
+      "evidence": "site/app/records/page.tsx:193; site/lib/domain/record-ledger.mjs:153; domain-probe-results.json:P01",
+      "problem": "일반 정정 입력에서 licensed 값을 권리 근거 없이 받아들인다. 화면의 허가 확인 표시는 실제 계약 증명이 아니다.",
+      "change": "권리 상태는 자유문자 정정에서 제거하고 유효한 sourceGrant/observation 참조로만 도출한다. 본인 입력의 출처 진술과 서비스의 검증 결과를 분리한다.",
+      "acceptance": "UI·JSON 가져오기·정정·동기화 모두 근거 없는 허가 확인 라벨 생성 거부. 만료·철회된 권리 상태 표시. 원본 기록은 보존.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-007/014",
+      "dependencies": [
+        "CM-01"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-04",
+      "priority": "P1",
+      "area": "자료 품질",
+      "title": "존재하지 않는 날짜와 미래 확인일",
+      "evidenceKind": "F+A",
+      "evidence": "site/lib/domain/record-ledger.mjs:34; domain-probe-results.json:P02/P03",
+      "problem": "2026-02-31과 2099-01-01을 확인일로 받아들인다. 일반 날짜 입력창 제약만으로 가져오기·정정 경로까지 보호되지 않는다.",
+      "change": "연월일 실제 존재 여부를 왕복 검증하고 사용자 시간대 기준 미래 확인일을 거부한다. 경주 예정일은 확인일과 다른 필드로 둔다.",
+      "acceptance": "윤년2/29 통과, 비윤년2/29·2/31 거부, 자정/시간대 경계 테스트. 모든 입력·복원 경로 같은 규칙.",
+      "estimatedPersonDays": [
+        1,
+        2
+      ],
+      "plan": "S1-003/005",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-05",
+      "priority": "P0",
+      "area": "자료 보호",
+      "title": "손상·접근 실패를 빈 기록으로 위장",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:32; site/app/data-transfer/page.tsx",
+      "problem": "기록 읽기 예외를 EMPTY로 돌려주므로 사용자는 자료가 없는 것으로 오해한다. 임시 저장 키 갱신이 검증보다 앞서 이전 스냅샷과 불일치할 위험도 있다. 실제 자료 손실 발생은 미확인이다.",
+      "change": "empty/ready/corrupt/storage-denied를 구별한 공통 읽기 결과를 만든다. 실패 때 원문을 덮어쓰지 않고 안전 백업·재시도·복구 안내를 제공한다. 검증 성공 뒤에만 스냅샷 갱신.",
+      "acceptance": "손상 JSON·읽기 거부·용량 부족·구판으로 각 경로 재열기. 빈 기록으로 오인시키거나 원문을 덮어쓰는 경로0. 화면별 동일 복구 상태.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-004/005/010",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-06",
+      "priority": "P0",
+      "area": "자료 보호",
+      "title": "저장 성공 후 초안 정리 실패가 전체 실패처럼 표시",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:131",
+      "problem": "실제 저장과 초안 removeItem이 같은 try에 있다. 뒤 정리에서 예외가 나면 이미 저장한 사실과 다른 실패 안내가 가능하다.",
+      "change": "저장 결과와 후처리 결과를 분리한다. 저장 사건 ID와 영수증을 먼저 확정하고 초안 정리 실패는 재시도 가능한 경고로 처리한다.",
+      "acceptance": "setItem 성공/removeItem 실패를 주입했을 때 기록1건·저장 성공 안내·정리 경고. 반복 확인 후에도 같은 사건1건.",
+      "estimatedPersonDays": [
+        1,
+        3
+      ],
+      "plan": "S1-006/010",
+      "dependencies": [
+        "CM-05"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-07",
+      "priority": "P0",
+      "area": "입력 보존",
+      "title": "다른 경주의 초안 근거가 섞일 위험",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:73; site/app/records/page.tsx:87",
+      "problem": "초안 키는 하나인데 새 분석 카드의 대상 정보와 이전 초안의 찬반 근거를 함께 복원할 수 있다.",
+      "change": "초안에 대상 식별·sourceObservation·draftId를 보관한다. 다른 대상 진입은 기존 초안 재개/별도 새 초안 선택을 묻고 자동 혼합하지 않는다.",
+      "acceptance": "A근거 작성 후 B카드 진입·뒤로가기·새로고침에서 대상과 근거가 섞이지 않는다. 두 초안 모두 회수 가능.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-010",
+      "dependencies": [
+        "CM-01"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-08",
+      "priority": "P0",
+      "area": "입력 보존",
+      "title": "복기·정정은 초안 보호에서 제외",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:199; site/app/pwa-registration.tsx",
+      "problem": "봉인 전 입력만 초안 저장 대상으로 보인다. 복기/정정 작성 중 대상 전환·새로고침·새 판 적용 시 유실 위험이 남는다.",
+      "change": "모든 편집기별 초안 관리, 미저장 변경 경고, 대상별 복원, 새 판 적용 전 전체 편집기 저장 절차를 공유한다. 민감한 자유문자 보유기간을 표시한다.",
+      "acceptance": "복기·정정 각 입력 후 대상 전환/재실행/업데이트에도 합의된 보존기간 내 복원. 저장소 거부 시 현재 입력 유지와 대체 백업.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-010/015",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-09",
+      "priority": "P1",
+      "area": "기록 화면",
+      "title": "단계형처럼 보이지만 한 번에 모든 필드를 요구",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/records/page.tsx:166",
+      "problem": "8개 필드가 한 화면에 있고 단계 표시는 진행 계산이다. 초보자가 무엇을 어떻게 적을지 배우기 전에 부담을 받는다.",
+      "change": "실제 3단계: 대상·판정 기준 → 근거·확신 → 최종 확인. 예시 삽입은 별도 동의. 상세 출처는 접되 필수 검증은 유지. 돌아가도 입력 보존.",
+      "acceptance": "모바일에서 단계별 필수 항목·다음 버튼·이전 버튼 작동. 잘못된 필드에 초점·쉬운 오류문구. 첫 기록 과업의 소요시간과 이탈 원인 실측.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-010; CUX-M07",
+      "dependencies": [
+        "CM-01",
+        "CM-07"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-10",
+      "priority": "P1",
+      "area": "기록 화면",
+      "title": "복기 버튼과 저장 결과가 멀리 떨어짐",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:182",
+      "problem": "복기 버튼은 선택 상태만 바꾸고 긴 목록 아래 편집기로 이동시키지 않는다. 성공 메시지도 하단이라 무반응으로 느낄 수 있다.",
+      "change": "기록별 상세 경로에서 복기를 연다. 또는 선택 즉시 편집 제목으로 초점 이동하고 모바일 고정 작성 영역을 제공한다. 저장 결과는 조작 근처에 표시.",
+      "acceptance": "100개 기록 중 마지막/첫 기록 복기 시 대상 제목과 입력란 즉시 확인. 키보드 초점·화면읽기 알림·뒤로가기 후 선택 보존.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-006/011/016",
+      "dependencies": [
+        "CM-09"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-11",
+      "priority": "P1",
+      "area": "이동",
+      "title": "입력란으로 가는 링크 28곳의 대상 없음",
+      "evidenceKind": "H+F",
+      "evidence": "public-http-inventory.json:sameOriginFragments; site/app/records/page.tsx:166",
+      "problem": "분석20·학습8 링크가 #record-form을 요청하지만 HTML과 form에 해당 id가 없다. 페이지는 열리지만 의도한 입력 위치 이동은 실패한다.",
+      "change": "정확한 앵커·초점 대상과 명확한 새 기록 경로를 제공한다. 학습별 목적에 맞는 경로로 나누고 쿼리 상태 검증을 유지한다.",
+      "acceptance": "28링크의 대상이 존재. 실제 클릭 뒤 목적 입력/연습이 보이고 키보드 초점 도달. 이전 초안 덮어쓰기0.",
+      "estimatedPersonDays": [
+        1,
+        2
+      ],
+      "plan": "S1-010/011; CUX-M03",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-12",
+      "priority": "P1",
+      "area": "길찾기",
+      "title": "복기 메뉴가 복기 작성이 아닌 보정 화면으로 연결",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/site-navigation.tsx; site/app/product-shell.css",
+      "problem": "상단·모바일의 振り返り는 /calibration이다. 별도 /review 및 맥락 메뉴는 공통 CSS로 숨겨져 주요 기능 발견성이 떨어진다.",
+      "change": "기록/복기/통계 용어를 분리하고 주 메뉴 목적지를 맞춘다. 맥락 메뉴를 숨기기 전에 동등한 행동을 공통 구조로 이전. aria-current와 페이지 제목 동기화.",
+      "acceptance": "모든 주요 경로가 PC·모바일 메뉴에서 예측 가능한 2회 내 도달. 현재 위치 표시. 복기 메뉴로 결과 입력/대상 목록 접근.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-011; CUX-M03",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-13",
+      "priority": "P1",
+      "area": "모바일 길찾기",
+      "title": "더보기에 완전한 기능 목록이 없음",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/site-navigation.tsx; site/app/account/account-client.tsx",
+      "problem": "폭에 따라 학습·고급 메뉴가 사라지고 기타는 계정 설정으로 간다. 화면은 많지만 기능 지도가 없다.",
+      "change": "더보기를 학습/분석/백업/지원/설정/설치로 묶는다. 개발 상태와 상용 준비는 별도 정보 영역으로 분리한다.",
+      "acceptance": "360/390px에서 학습·고급·백업·고객지원·개인정보를 직접 찾을 수 있다. 광고·하단바가 가리지 않는다.",
+      "estimatedPersonDays": [
+        2,
+        3
+      ],
+      "plan": "CUX-M03/M10",
+      "dependencies": [
+        "CM-12"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-14",
+      "priority": "P1",
+      "area": "홈",
+      "title": "개발 실적과 약속이 실제 할 일보다 큼",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/page.tsx; public-http-inventory.json:/",
+      "problem": "공개 홈은 큰 표어·여러 시작 버튼·개발200/200을 강조한다. 미공개 새 홈도 기술 지표와 큰 영역을 남겨 핵심 문제 해결이 부족하다.",
+      "change": "방문자 홈은 짧은 가치 설명+연습/내 기록 시작. 재방문 홈은 초안 재개·복기 대기·다음 규칙 중심. 개발 지표는 개발 현황으로 이동한다.",
+      "acceptance": "첫 화면에서 무엇을 할 서비스인지와 첫 행동1개가 이해된다. 기록0/1/100건 상태에 따라 정확한 내용. 준비도 수치를 사용 성과처럼 노출0.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "CUX-M04",
+      "dependencies": [
+        "CM-12"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-15",
+      "priority": "P1",
+      "area": "문구",
+      "title": "일본어·한국어·내부 영문이 혼재",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/page.tsx; site/app/dashboard/page.tsx; site/app/pro-tools/pro-tools-client.tsx:38",
+      "problem": "일본어 중심 제품인데 공개 개발 화면과 미공개 홈에 한일 혼합, 일부 결과/정정에 내부 코드명이 남는다.",
+      "change": "일본어 용어집·문구 사전으로 화면 전체를 교정한다. 오류·빈 상태·버튼까지 같은 존댓말/동사. 한국어/영어는 검수된 완성 언어만 선택 가능.",
+      "acceptance": "사용자 노출 코드명·문장 내 언어 혼합0(고유명/기술 설명 제외). 일본어 검수자 과업 이해 통과.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S2-005; CUX-A10",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-16",
+      "priority": "P1",
+      "area": "개인화",
+      "title": "숙련도·정보밀도 선택의 실제 효과 부족",
+      "evidenceKind": "F+A",
+      "evidence": "site/lib/onboarding/preferences.mjs:43; domain-probe-results.json:P06",
+      "problem": "선택은 추천 설명 문구를 바꾸지만 기록/분석의 밀도를 바꾸는 소비 경로가 확인되지 않았다.",
+      "change": "초보는 필드별 예시와 다음 행동, 숙련자는 접힌 안내와 빠른 입력을 실제 적용한다. 기능을 제공하지 않을 설정은 요구하지 않는다.",
+      "acceptance": "같은 목표·다른 숙련도/밀도로 목적 화면의 차이가 명세와 일치. 설정 변경/초기화·다음 방문 유지 검사.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S2-001; CUX-A01",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-17",
+      "priority": "P1",
+      "area": "설정",
+      "title": "저장 불가 환경에서 설정 접근·건너뛰기 취약",
+      "evidenceKind": "F",
+      "evidence": "site/app/onboarding/onboarding-client.tsx; site/app/account/account-client.tsx",
+      "problem": "초기 getItem과 일부 skip/reset은 예외 경계가 없다. 저장소 차단 시 오류 화면 위험. 건너뛰기 값도 재방문 흐름에서 소비가 불명확하다.",
+      "change": "공통 안전 저장소와 메모리 대체, 저장 여부 표시, skip 재방문 규칙을 구현한다. 저장 실패를 성공으로 표시하지 않는다.",
+      "acceptance": "getItem/setItem/removeItem 각각 실패 주입해 흰 화면0. 지금 사용 가능/재시작하면 잊음 안내. skip 동작이 다음 진입 규칙과 일치.",
+      "estimatedPersonDays": [
+        2,
+        3
+      ],
+      "plan": "S2-001; CUX-M09",
+      "dependencies": [
+        "CM-05"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-18",
+      "priority": "P1",
+      "area": "설정",
+      "title": "언어·일일 목표가 실제 서비스 변화와 단절",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/account/account-client.tsx; site/lib/domain/account-preferences.mjs",
+      "problem": "언어는 선호만 저장한다고 명시하지만 선택창은 언어 전환처럼 보인다. 일일 목표와 휴식 제한이 별도다.",
+      "change": "미제공 언어 선택을 피드백 요청으로 분리하거나 완전 번역한다. 자율 목표와 강제 휴식 제한을 구별하고 실제 오늘 사용량과 연결한다.",
+      "acceptance": "목표 변경 뒤 홈/휴식 화면 일관. ja/ko/en 전환 제공 시 전체 핵심 문구 변경. 적용되지 않는 설정은 비활성 설명으로 이동.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S2-001/005; S1-018",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-19",
+      "priority": "P1",
+      "area": "계정",
+      "title": "Google 로그인은 영구 비활성",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/account/account-client.tsx",
+      "problem": "Googleで続ける가 disabled이며 원시 구성 오류를 보여준다. 동기화는 별도 ChatGPT 인증 경로라 계정 경험이 분리된다.",
+      "change": "계정 없이 사용을 주 경로로 둔다. 실제 지원 인증 하나로 명칭/상태/복구 통일. 미구현 Google 로그인은 주 행동에서 제외하고 준비중을 명확히 표시.",
+      "acceptance": "지원 인증에서 로그인/취소/만료/로그아웃/다른 계정 전환 완료. 비활성 Google을 사용 가능한 기능처럼 홍보0.",
+      "estimatedPersonDays": [
+        2,
+        5
+      ],
+      "plan": "S1-013",
+      "dependencies": [
+        "운영자: 인증 제공자·계정 정책"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-20",
+      "priority": "P1",
+      "area": "기기 연속성",
+      "title": "QR로 열기와 내 기록 이어하기의 혼동",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/account/account-client.tsx; site/app/sync/page.tsx",
+      "problem": "QR/공유는 사이트 주소다. 로컬 기록이 다른 폰에 자동 이동하지 않는다. 실제 동기화는 로그인·동의·운영 증거가 따로 필요하다.",
+      "change": "사이트 열기/내 자료 옮기기/동기화 켜기를 별도 흐름으로 만든다. 동기화 마지막 성공·보류·충돌·계정 상태를 항상 보여준다.",
+      "acceptance": "QR만 열면 자료 이동 없음 명시. JSON 이동 또는 승인된 동기화 후 두 기기 내용 일치. 공유 취소는 오류가 아닌 취소.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-005/013; CUX-A09",
+      "dependencies": [
+        "CM-19"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-21",
+      "priority": "P1",
+      "area": "학습",
+      "title": "8개 강좌가 요약·행동 한 줄 수준",
+      "evidenceKind": "F+H",
+      "evidence": "site/content/learning-content.json; site/app/learn/learning-center.tsx",
+      "problem": "목표·본문·판단 과정·연습·정답 해설·완료 확인 없이 짧은 카드 중심이다. 중급/고급 무료 교육 가치와 차이가 크다.",
+      "change": "각 강좌를 목표→설명→완성 예시→흔한 오류→직접 연습→해설→내 기록 적용으로 확장한다. 본문/근거/검수일/담당·판번호를 분리 저장.",
+      "acceptance": "핵심8강 모두 실제 끝낼 과업과 해설. 초보가 별도 설명 없이 첫 기록·복기·보정 의미를 설명. 글자수만 채워 통과 금지.",
+      "estimatedPersonDays": [
+        8,
+        14
+      ],
+      "plan": "CUX-M05/M06; CUX-A02",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-22",
+      "priority": "P1",
+      "area": "학습",
+      "title": "전체 여정 예시는 카드 데이터일 뿐",
+      "evidenceKind": "F",
+      "evidence": "site/content/learning-content.json:examples",
+      "problem": "예시5개가 결과 전 판단·결과 공개·복기·다음 규칙의 시간 순서와 상호작용을 충분히 보여주지 못한다.",
+      "change": "5개를 완료 가능한 합성 사례로 재구성한다. 성공/실패/보류/자료 정정/사후정보 착각을 다룬다. 사용자가 결과를 보기 전에 자신의 판단을 잠그게 한다.",
+      "acceptance": "연습 저장소는 실제 기록과 분리. 결과 보기 전에 판단 입력. 근거 시점·가정·정답 여러 가능성·되돌리기 정책을 표시.",
+      "estimatedPersonDays": [
+        5,
+        8
+      ],
+      "plan": "CUX-M06; CF-001",
+      "dependencies": [
+        "CM-21"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-23",
+      "priority": "P1",
+      "area": "학습 검색",
+      "title": "검색 범위와 결과가 일치하지 않음",
+      "evidenceKind": "F",
+      "evidence": "site/app/learn/learning-center.tsx",
+      "problem": "강좌/용어/FAQ 검색과 달리 예시는 항상 표시된다. 수준 필터는 강좌만 바꾸고 필터 뒤 강좌 번호도 바뀐다.",
+      "change": "검색 범위 선택·묶음별 결과수·일관 필터·고정 강좌 번호·0건 단일 복구 안내를 제공한다. 새로고침 대신 상태 초기화.",
+      "acceptance": "검색어가 없는 예시 미노출 또는 범위 밖 명시. 한글/일본어·공백·동의어·0건·수준 조합과 뒤로가기 검사.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "CUX-A03",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-24",
+      "priority": "P1",
+      "area": "콘텐츠 정확성",
+      "title": "50%·80% 수치를 보편 규칙처럼 제시",
+      "evidenceKind": "F",
+      "evidence": "site/content/learning-content.json:examples",
+      "problem": "오래된 자료는50% 근처, 최근 결과 하나면80% 넘지 말라는 문구는 사건의 기본 확률과 검증 근거를 생략한다.",
+      "change": "교육 예시에 한정한 가정임을 표시하고 보편 임계값 문구를 제거한다. 예측 명제·기본 빈도·정보 부족·보류를 함께 설명한다.",
+      "acceptance": "각 숫자 규칙에 계산/근거 또는 예시 한정 표시. 이항 명제70%의 일치 .09/불일치 .49를 정확히 설명. 적중·수익 개선 보장0.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-009/012; CUX-M08",
+      "dependencies": [
+        "검수자: 통계·도메인 콘텐츠"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-25",
+      "priority": "P1",
+      "area": "학습 전환",
+      "title": "다른 강좌가 모두 같은 빈 기록 화면으로 이동",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/learn/learning-center.tsx; public-http-inventory.json:sameOriginFragments",
+      "problem": "복기·보정 수업까지 동일 /records#record-form으로 연결되어 배운 행동을 실행하기 어렵다.",
+      "change": "강좌별 연습·필요 자료·도착 화면을 명시하고 안전한 예시 초안을 제공한다. 기존 개인 초안 대체는 선택 후에만.",
+      "acceptance": "8강 각각 해당 과업으로 연결. 보정은 설명 가능한 표본, 복기는 대상과 결과를 갖춘 연습. 완료 후 다음 강좌/내 기록에 연결.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "CUX-M05/M06",
+      "dependencies": [
+        "CM-11",
+        "CM-22"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-26",
+      "priority": "P1",
+      "area": "설명",
+      "title": "보정 제외 설명과 내부 코드명 혼동",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/calibration/page.tsx:24; site/app/review/page.tsx; site/app/pro-tools/pro-tools-client.tsx:38",
+      "problem": "不一致를 계산 대상과 제외 대상에 동시에 쓴다. review 상세 일부는 dataStatus·corrected field를 원시값으로 보인다.",
+      "change": "예측 불일치와 공식 자료 정합 불일치를 다른 용어로 구분한다. 모든 열거값·오류를 공통 용어로 변환하고 계산 분모/제외 사유를 노출한다.",
+      "acceptance": "같은 표본에 포함/제외 설명과 실제 수가 일치. correct/incorrect/void 같은 내부값 노출0. 사용자 오해 시험.",
+      "estimatedPersonDays": [
+        2,
+        3
+      ],
+      "plan": "S1-009/012; CUX-M08",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-27",
+      "priority": "P1",
+      "area": "최신성",
+      "title": "자료 신선도 기준 시각이 고정",
+      "evidenceKind": "F",
+      "evidence": "site/app/explanations/page.tsx:18",
+      "problem": "now가 2026-08-31에 고정되어 시간이 지나도 신선도 판단이 실제 날짜를 따르지 않는다.",
+      "change": "실행 시각을 주입 가능한 공통 시계로 바꾸고 관찰일·판정기준일·시간대를 함께 표시한다. 테스트에만 고정 시각 사용.",
+      "acceptance": "30일 경계 전후와 자정/시간대 시험. 미래 확인일은 별도 오류. 같은 기록은 날짜 경과에 따라 상태가 맞게 변경.",
+      "estimatedPersonDays": [
+        1,
+        2
+      ],
+      "plan": "S1-012",
+      "dependencies": [
+        "CM-04"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-28",
+      "priority": "P1",
+      "area": "결과·복기",
+      "title": "경주 결과와 사용자 판정의 의미를 더 분리해야 함",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/records/page.tsx:199; site/app/calibration/page.tsx:22",
+      "problem": "기록 구조는 명시적 경주/예측 명제가 부족하고 결과는 일치/불일치/제외 중심이다. 공식 결과 우선 문구가 실제 공급 계약 없는 상태에서도 보인다.",
+      "change": "pending/confirmed/void/disputed와 판정 출처를 분리한다. 명제 기준으로 결과 판정하고 공식 연결 없으면 본인 입력이라고 표시. 정정 때 계산 영향 추적.",
+      "acceptance": "미확인 결과는 일치0으로 대체되지 않는다. 무승부/취소/정정은 도메인 정책에 맞게 제외/재평가. 공식 자동 확인 오인0.",
+      "estimatedPersonDays": [
+        4,
+        7
+      ],
+      "plan": "S1-008/009; CF-001",
+      "dependencies": [
+        "CM-01",
+        "운영자: 결과 공급·판정 기준"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-29",
+      "priority": "P1",
+      "area": "목록",
+      "title": "많은 기록에서 기록 화면이 길어짐",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:182; site/app/review/page.tsx:326",
+      "problem": "기록과 복기 표가 모든 행을 그린다. 1만건 자료 검사 통과는 긴 실제 화면의 사용성 증거가 아니다.",
+      "change": "공통 검색·기간·복기 대기 필터, 페이지 단위 로딩 또는 접근 가능한 가상 목록, 기록 상세 경로를 구현한다.",
+      "acceptance": "0/1/51/10000건으로 찾기·다음 페이지·선택·뒤로가기 검사. 전체 건수와 화면 표시 범위를 구분. 기록 누락0.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-011; S2-003",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-30",
+      "priority": "P1",
+      "area": "고급 검색",
+      "title": "검색 결과는50개까지만 표시",
+      "evidenceKind": "F",
+      "evidence": "site/app/pro-tools/pro-tools-client.tsx:38",
+      "problem": "filtered.slice(0,50) 뒤 다음 페이지가 없다. 전체 건수는 더 클 수 있어 일부 기록이 보이지 않는 이유를 알 수 없다.",
+      "change": "공통 목록에 합치거나 50개 단위 다음/이전과 전체 중 범위를 표시한다. 내보내기 범위도 명시한다.",
+      "acceptance": "51/101건 검색에서 모두 도달. 표시 범위/전체 건수/내보내기 건수가 각각 정확. 조건 초기화·공유·뒤로가기 유지.",
+      "estimatedPersonDays": [
+        1,
+        3
+      ],
+      "plan": "S2-003",
+      "dependencies": [
+        "CM-29"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-31",
+      "priority": "P1",
+      "area": "통계",
+      "title": "최근 기간 계산에 미래 기록 포함",
+      "evidenceKind": "F+A",
+      "evidence": "site/app/pro-tools/pro-tools-client.tsx:13; site/app/pro-tools/pro-tools-client.tsx:28; domain-probe-results.json:P07",
+      "problem": "기간식이 now-sealedAt <= 기간만 검사하여 미래 날짜도 포함한다. 모듈 초기 시각은 장시간 화면에서 늙는다.",
+      "change": "0<=age<=기간과 명시적 기준일을 적용하고 화면 활성화/날짜 변경에 갱신한다. 미래 시각 기록은 별도 경고.",
+      "acceptance": "7/30일 경계·미래1일·장시간 켜기·시간대별 기대 건수. 복원된 미래 자료가 최근 활동으로 집계되지 않는다.",
+      "estimatedPersonDays": [
+        1,
+        2
+      ],
+      "plan": "S2-002",
+      "dependencies": [
+        "CM-04"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-32",
+      "priority": "P1",
+      "area": "통계",
+      "title": "0건에서 편향 없음처럼 읽히는 안내",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/pro-tools/pro-tools-client.tsx:30; site/app/calibration/page.tsx:25",
+      "problem": "기록0건이면 강한 편향 후보가 없다는 문구가 나온다. 20건 경계도 충분히 검증된 상태처럼 오인할 여지가 있다.",
+      "change": "자료 부족/패턴 탐색/확인 필요를 구별한다. 단일 횟수로 신뢰 보장하지 않고 표본·기간·선택 편향·불확실 구간과 다음 한 행동을 표시.",
+      "acceptance": "0/1/19/20/21건 모두 과잉 해석0. 가상 Brier와 실제 성과는 시각적으로 분리. 사용자 설명 이해 시험.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-009/012; S2-002",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-33",
+      "priority": "P1",
+      "area": "내보내기",
+      "title": "비밀 없음·편집 불가라는 과한 약속",
+      "evidenceKind": "F+H",
+      "evidence": "site/app/data-transfer/page.tsx; site/app/pro-tools/pro-tools-client.tsx:38",
+      "problem": "내보낸 자유문자에는 사용자가 적은 개인정보가 있을 수 있다. 다운로드 JSON은 받는 사람이 편집할 수 있으며 원본 불변과 다르다.",
+      "change": "본인 입력 포함/외부 공유 전 검토 안내, 필드 선택·익명화 미리보기. 원본은 안 바뀌지만 받은 파일은 수정 가능하다고 설명.",
+      "acceptance": "합성 민감문구를 넣은 자료가 공유 미리보기에 드러나고 제외 가능. 원문 없는 요약 모드. JSON전체 백업과 공유본을 혼동0.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-005/014; S3-005",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-34",
+      "priority": "P1",
+      "area": "가져오기",
+      "title": "큰 파일·빠른 재선택의 경합 위험",
+      "evidenceKind": "F",
+      "evidence": "site/app/data-transfer/page.tsx",
+      "problem": "file.text() 이후 크기 검사로 가면 큰 파일을 먼저 읽게 된다. 비동기 파일A/B 처리에 세대 식별이 없어 이전 결과가 새 선택을 덮을 위험이 있다.",
+      "change": "읽기 전 크기/형식 검사, 선택 ID와 취소 신호, 오래된 결과 무시, 진행/취소/오류 상태를 구현한다.",
+      "acceptance": "한도 초과는 읽기 전 거부. 느린A→빠른B→취소에서도 B 또는 취소 상태만 남음. 모든 실패에서 기존 기록 원문 불변.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-005",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-35",
+      "priority": "P1",
+      "area": "백업",
+      "title": "파일 저장·복원 결과를 사용자에게 확실히 설명",
+      "evidenceKind": "F; B미확인",
+      "evidence": "site/app/data-transfer/page.tsx; site/app/review/page.tsx:372",
+      "problem": "JSON/CSV 생성 경로는 있으나 실제 브라우저 다운로드·재선택·인쇄 잘림을 이번에 확인하지 못했다. 저장 실패·취소와 성공 구분 증거가 부족하다.",
+      "change": "형식별 포함범위·건수·최근 백업을 제공한다. 브라우저가 파일 생성 요청만 확인하면 디스크 저장 확정이라고 말하지 않는다. 복원 영수증과 합성 왕복 시험 제공.",
+      "acceptance": "Chrome/Edge/Safari·Android 다운로드 후 다시 가져와 동일. 빈자료 내보내기 경고, 팝업/파일 제한/취소 안내. 인쇄 여백·민감정보 범위 확인.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-005/021",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-36",
+      "priority": "P1",
+      "area": "개인정보",
+      "title": "로컬 설정 삭제 목록에 시작 설정2개 누락",
+      "evidenceKind": "F+A",
+      "evidence": "site/lib/privacy/controls.mjs:7; domain-probe-results.json:P05",
+      "problem": "전체 설정 범위가 onboarding.preferences 및 dismissed를 포함하지 않는다. 어떤 설정이 남는지 약속과 맞춰야 한다.",
+      "change": "로컬 저장 키 정본을 만들고 목적·보유·삭제 범위를 연결한다. 모든 시작 설정과 향후 초안/동의 키를 포함하거나 명시적 제외로 표시.",
+      "acceptance": "합성 모든 키를 넣고 선택 범위별 목록·미리보기·삭제 영수증을 검사. 새 키 추가 시 삭제 등록 누락 검사가 실패. 사용자 실제 삭제는 별도 의사 확인.",
+      "estimatedPersonDays": [
+        1,
+        3
+      ],
+      "plan": "S1-014",
+      "dependencies": [
+        "CM-08"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-37",
+      "priority": "P1",
+      "area": "오프라인",
+      "title": "PWA 임시 저장 판과 실패 대체 설계 취약",
+      "evidenceKind": "F; B미확인",
+      "evidence": "site/public/sw.js",
+      "problem": "고정 v12 이름, HTML 중심 일괄 선저장, 실패 경로에 홈 대체, 자기 이름 외 모든 저장소 정리 방식이다. 초기 방문하지 않은 화면의 코드가 없을 위험도 있다.",
+      "change": "판별 자산 목록과 앱 접두사 범위 정리, 필수/선택 자산 분리, 명시적 오프라인 화면, 코드/스타일 함께 버전관리. 인증·API 제외 유지.",
+      "acceptance": "처음 설치·미방문 경로 오프라인·자산1개 실패·vN→vN+1→실패 복구 시험. 남의 저장소 삭제0. /records 주소에 몰래 홈을 표시0.",
+      "estimatedPersonDays": [
+        4,
+        7
+      ],
+      "plan": "S1-015",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-38",
+      "priority": "P1",
+      "area": "설치",
+      "title": "설치 버튼의 기기별 상태가 충분히 분리되지 않음",
+      "evidenceKind": "F+H; B미확인",
+      "evidence": "site/app/install/install-client.tsx",
+      "problem": "초기 버튼 disabled는 관찰되지만 설치 이벤트 발생 전의 정상 상태일 수 있다. 기기/기설치/이벤트 시점에 따른 실제 동작은 미확인이다.",
+      "change": "공통 설치 이벤트 관리와 설치됨/가능/브라우저 메뉴 사용/미지원 상태를 표시한다. iOS·인앱 브라우저·Android 수동 경로를 유지·검증.",
+      "acceptance": "홈 먼저 방문 후 설치 화면, 이미 설치, 이벤트 미지원, 설치 취소, 재실행 각각 정확. disabled만 있고 이유/대안 없는 상태0.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-015",
+      "dependencies": [
+        "CM-37"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-39",
+      "priority": "P1",
+      "area": "접근성",
+      "title": "좁은 화면·확대·고정 영역 실제 검증 부재",
+      "evidenceKind": "F; B/D미확인",
+      "evidence": "site/app/globals.css; site/app/product-shell.css",
+      "problem": "큰 제목·작은 하단 글자·고정 안내가 있다. 360/390px 넘침·키보드 열림·하단 버튼 가림 여부는 실제 화면 증거가 없다.",
+      "change": "본문16px 기준·충분한 줄간격·핵심터치44px 목표·safe-area·동적 키보드/하단영역 여백을 설계. 기능성 표만 적절한 가로 탐색 허용.",
+      "acceptance": "320/360/390/768/1440px 및200/400%에서 핵심 과업. 본문 가로 넘침0, 집중 표시·텍스트 확대·긴 일본어/URL·키보드 상태 검사.",
+      "estimatedPersonDays": [
+        4,
+        7
+      ],
+      "plan": "S1-016/021; S2-005",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-40",
+      "priority": "P1",
+      "area": "휴식·접근성",
+      "title": "휴식 대화창과 경로 전환의 실효성 미확인",
+      "evidenceKind": "F; B미확인",
+      "evidence": "site/app/wellbeing-guard.tsx",
+      "problem": "aria-modal 표시만으로 초점 가두기/배경 비활성은 보장되지 않는다. popstate 중심 경로 감지가 앱 내부 이동을 놓칠 위험이 있다.",
+      "change": "접근 가능한 대화창·초점 복귀·배경 차단, 프레임워크 경로 감지로 통합한다. 사용자가 지정한 휴식은 보존하되 자료 회수 경로를 막지 않는다.",
+      "acceptance": "키보드/TalkBack에서 배경 조작 불가. 내부 메뉴 이동·뒤로가기·새탭·재실행 시 설정 준수. 백업/지원은 접근 가능.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-018/016",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-41",
+      "priority": "P1",
+      "area": "복기",
+      "title": "모든 복기에 긴 반사실 입력을 강제",
+      "evidenceKind": "F",
+      "evidence": "site/app/records/page.tsx:199",
+      "problem": "결과·메모·바꿀 행동·근거 시점·다음 규칙을 한 번에 요구한다. 결과만 먼저 남기거나 바꿀 점 없음 처리의 부담이 크다.",
+      "change": "빠른 결과 기록과 깊은 복기를 단계적으로 나눈다. 변경 없음/확인 대기/판정 제외를 명시. 결과 뒤 정보로 과거를 비난하지 않는 안내 유지.",
+      "acceptance": "결과 먼저 저장 후 깊은 복기 재개 가능. 기존 CF 필드 호환. 변경 없음에 가짜 반성 강요0, 판단 전 정보와 사후정보 구분.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "CF-001; S1-006",
+      "dependencies": [
+        "CM-08",
+        "CM-28"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-42",
+      "priority": "P1",
+      "area": "재사용 가치",
+      "title": "다음 규칙이 텍스트로 남고 다음 판단과 연결 부족",
+      "evidenceKind": "F",
+      "evidence": "site/app/review/page.tsx:434; site/app/records/page.tsx",
+      "problem": "복기 learning을 다음 규칙으로 보여주지만 새 기록 시작에서 규칙 적용/보류 결과를 추적하는 흐름이 없다.",
+      "change": "규칙을 채택/보류/폐기하고 다음 기록에서 제안한다. 강제 수치 제한이 아니라 사용자 확인 체크로 사용. 적용 결과는 후속 복기와 연결.",
+      "acceptance": "복기 규칙→다음 기록 적용→결과 복기에서 재열기. 원문 보존, 끄기 가능, 작은 표본에서 효과 단정0.",
+      "estimatedPersonDays": [
+        4,
+        7
+      ],
+      "plan": "S2-002; CUX-A04/A05",
+      "dependencies": [
+        "CM-41"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-43",
+      "priority": "P0",
+      "area": "운영 신뢰",
+      "title": "운영자·지원 책임이 실제로 완성되지 않음",
+      "evidenceKind": "H+F; O미확인",
+      "evidence": "site/app/terms/page.tsx; site/app/privacy/page.tsx; site/app/help/page.tsx",
+      "problem": "공개 정책은 초안·미확정 운영자/채널을 포함한다. 이용자가 장애·권리·삭제 문제를 실제 해결받을 책임 경로가 없다.",
+      "change": "운영자 식별·공개 가능한 주소/연락·지원 시간·보유기간·관할/대상국 결정과 실제 정책을 일치시킨다. 법률 자문·준수 인증으로 포장하지 않는다.",
+      "acceptance": "운영자 승인본·효력일·변경 이력. 실제 개인정보 문의/삭제 요청이 접수·처리되는 리허설 증거. 확인 전 정식 운영 완료 표시 금지.",
+      "estimatedPersonDays": [
+        2,
+        5
+      ],
+      "plan": "S1-002/014/018",
+      "dependencies": [
+        "운영자·필요 전문 검토"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-44",
+      "priority": "P0",
+      "area": "고객지원",
+      "title": "문의 준비 파일은 실제 문의 접수가 아님",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/support/support-client.tsx; site/app/help/page.tsx",
+      "problem": "자료 작성/다운로드 기능은 있지만 전송·접수·답변 경로는 아직 없다. 사용자에게 문제 해결 수단으로 충분하지 않다.",
+      "change": "실제 비공개 지원 채널·접수번호·접수 확인·응답 목표·미응답 대안 마련. 준비 파일 기능은 진단 첨부로 명명하고 개인정보 최소화.",
+      "acceptance": "운영자가 승인한 시험 문의1건을 접수→답변→종료. 원문 자동 전송0, 첨부 미리보기/동의. 비공개 연락·장애 시 대안 경로 확인.",
+      "estimatedPersonDays": [
+        2,
+        5
+      ],
+      "plan": "S1-018",
+      "dependencies": [
+        "CM-43"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-45",
+      "priority": "P1",
+      "area": "공개 구조",
+      "title": "준비중 사업·가격·개발 문서가 고객 화면을 압도",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/offer/page.tsx; site/app/monetization/page.tsx; site/app/commercial-readiness/page.tsx",
+      "problem": "가격은 가설인데 서비스 안내 경로에 있고 수많은 준비도·운영 설계가 제품 기능과 섞인다.",
+      "change": "고객에게 지금 제공되는 무료 범위·데이터 한계·지원만 간결히 보여준다. 가설 가격과 개발 문서는 명시적 실험/개발 현황에 보존하고 판매 페이지처럼 노출하지 않는다.",
+      "acceptance": "무료 핵심 메뉴에서 미제공 결제/권한/설계 절차로 길을 잃지 않음. 가격 가설에 구매 가능 오인0. 역사 문서는 삭제하지 않음.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "CUX-M03/M04; S1-019",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-46",
+      "priority": "P1",
+      "area": "상태 정확성",
+      "title": "버전·통과 수·완료 표현이 서로 모순",
+      "evidenceKind": "H+F",
+      "evidence": "site/app/dashboard/page.tsx; site/app/commercial-readiness/page.tsx; public-http-inventory.json",
+      "problem": "대시보드 v28/오늘v27, 공개 상용 1/10 PASS와 항목 상태, 구버전 근거가 공존한다. 기술 검사에 계약 완료처럼 읽히는 표현도 있다.",
+      "change": "release manifest 하나로 화면·날짜·링크·판별 근거를 생성한다. 자동 검사/브라우저/실기기/운영을 별도 집계. 개발 완료와 고객 사용 가능 분리.",
+      "acceptance": "어떤 화면도 다른 버전/분모를 표시하지 않음. 근거 없는 통과0. 오래된 브라우저 근거는 날짜·대상판·시험범위와 함께만 표시.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-001/022",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-47",
+      "priority": "P1",
+      "area": "검사 품질",
+      "title": "고정 문구 통과 검사가 실사용 문제를 놓침",
+      "evidenceKind": "F",
+      "evidence": "site/tests/umametry-contract.test.mjs; site/tests/rendered-html.test.mjs",
+      "problem": "200/200 문자와 PC20/mobile5 같은 표시를 요구하는 계약은 기능 버튼 완료를 증명하지 않는다. HTML 응답 검사는 브라우저 실행과 다르다.",
+      "change": "구조/도메인 검사는 유지하되 고정 자기평가 문구 검사를 실제 상태 산출 검사로 교체. 핵심 과업의 입력·클릭·결과·재열기 검사를 추가.",
+      "acceptance": "앵커 제거/저장 후오류/자료유형우회/다른 초안 혼합을 일부러 넣으면 검사가 실패. 화면0건/오류/로딩/완료 상태 모두 확인.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-021/022",
+      "dependencies": [
+        "CM-05",
+        "CM-11"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-48",
+      "priority": "P1",
+      "area": "현장 성능",
+      "title": "HTTP200·조립 성공만으로 속도 판정 불가",
+      "evidenceKind": "미확인",
+      "evidence": "site/app/compatibility/page.tsx; site/app/status/page.tsx",
+      "problem": "이번 GET 시간은 브라우저 화면 성능이 아니다. 실제 LCP/INP/CLS·오류율·느린 기기 과업 증거가 없다.",
+      "change": "대표 경로 실험실 측정과 최소수집 현장 집계를 분리한다. 큰 제목/글꼴/긴 목록/코드 분할을 측정 후 최적화.",
+      "acceptance": "현장75백분위 LCP≤2.5s, INP≤200ms, CLS≤0.1 목표. 표본·기간·기기 명시. 표본 부족이면 미확인, 데스크톱 점수를 모바일로 대체0.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-020; S2-006",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-49",
+      "priority": "P0",
+      "area": "계정·동기화",
+      "title": "본번 계정 분리·삭제·충돌 실증이 없음",
+      "evidenceKind": "F; B/O미확인",
+      "evidence": "site/app/sync/page.tsx; site/app/sync/sync-client.tsx",
+      "problem": "선택형 동기화 코드·자동 검사와 실제 인증된 두 계정/기기 운영은 다르다. 접근 불가를 코드 완료로 대체할 수 없다.",
+      "change": "승인된 시험 계정/자료로 소유권·만료·계정 전환·오프라인 중복·양쪽 보존·삭제 범위를 검증한다. 검증 전 자동 켜지 않음.",
+      "acceptance": "다른 계정 자료 노출0, 철회 뒤 새 전송0, 중간 실패 복구, 합성2기기 왕복. 시험 시 실제 사용자 자료·인증정보 노출0.",
+      "estimatedPersonDays": [
+        4,
+        8
+      ],
+      "plan": "S1-013/014/017; S2-004",
+      "dependencies": [
+        "CM-19",
+        "운영자: 시험 계정·본번 저장소"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-50",
+      "priority": "P0",
+      "area": "운영 복구",
+      "title": "실제 백업 복원·장애 대응 책임 미검증",
+      "evidenceKind": "미확인",
+      "evidence": "STAGE_COMPLETION_AUDIT_20260904.md; site/app/operations/page.tsx",
+      "problem": "운영 안내와 코드 검사는 실제 장애에서 돌아온 증거가 아니다.",
+      "change": "백업 대상·보유·복원 목표시간/허용 손실·경보 수신 담당 결정. 운영 데이터와 분리한 복원 훈련, 공개판 되돌리기와 초안 호환 검증.",
+      "acceptance": "시험 장애 탐지→담당 확인→공지→분리환경 복구→무결성 확인 전 과정 기록. B드라이브 사용0. 백업이 없는 로컬 데이터 한계 명시.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-019/022",
+      "dependencies": [
+        "CM-43"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-51",
+      "priority": "P1",
+      "area": "광고",
+      "title": "광고 준비와 실제 광고 운영은 다름",
+      "evidenceKind": "H+F; O미확인",
+      "evidence": "site/app/ads-readiness/page.tsx; public-http-inventory.json:/ads.txt",
+      "problem": "ads.txt404는 승인 게시자 정보 없음에 따른 닫힘 상태다. 무료 사이트라도 광고 계정/권리/동의/레이아웃을 갖췄다고 볼 수 없다.",
+      "change": "광고는 핵심 입력·봉인·복기 조작을 방해하지 않는 보조 지면만 설계. 승인 전 요청0 유지. 게시자·지역동의·정책·루트 도메인 통제는 실제 확인.",
+      "acceptance": "승인 증거 없으면 광고 요청0. 광고 활성 후 CLS·오클릭·거부/철회·오프라인·차단기 검사. 광고 클릭/수익은 시험하지 않음.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-014/020; AdSense",
+      "dependencies": [
+        "운영자: 승인·도메인·지역 정책"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-52",
+      "priority": "P1",
+      "area": "안전·정책",
+      "title": "국가·연령·경마 학습 서비스 범위 검토 필요",
+      "evidenceKind": "H+F; E미확인",
+      "evidence": "site/app/terms/page.tsx; PRODUCT_PLAN.md",
+      "problem": "18+ 안내가 있다고 일본 경마 관련 서비스의 모든 연령·관할 문제가 해결되지는 않는다. 자료 제공/유료화/광고 범위가 바뀌면 검토가 달라진다.",
+      "change": "출시국·학습/정보/광고/유료 범위를 운영자가 확정하고 해당 정책을 전문 검토한다. 베팅/수익 보장 금지와 위해 도움 경로를 맥락에 맞게 제공.",
+      "acceptance": "승인된 국가·연령 정책과 화면·광고·약관 일치. 국가별 법 준수 또는 인증을 코드만으로 주장0.",
+      "estimatedPersonDays": [
+        2,
+        5
+      ],
+      "plan": "S1-002/018; S3-007",
+      "dependencies": [
+        "CM-43"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-53",
+      "priority": "P2",
+      "area": "검색·공유",
+      "title": "많은 화면의 제목이 동일",
+      "evidenceKind": "H",
+      "evidence": "public-http-inventory.json:routes.title",
+      "problem": "기록·복기·설명·보정·대시보드 등 여러 URL이 기본 제목을 공유해 탭·검색·공유 구분이 어렵다.",
+      "change": "페이지별 의미 있는 일본어 제목/설명, 공개 교육 콘텐츠 canonical/공유카드, 개인 기록 및 내부 준비문서의 검색 노출 정책을 정리.",
+      "acceptance": "경로별 고유 제목/설명, 사이트맵은 공개 목표 경로만. 로컬 기록·비공개 데이터가 메타정보/공유 URL에 유출0.",
+      "estimatedPersonDays": [
+        1,
+        3
+      ],
+      "plan": "CUX-M10; S1-014",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-54",
+      "priority": "P1",
+      "area": "콘텐츠 운영",
+      "title": "콘텐츠별 검수·근거·정정 이력이 부족",
+      "evidenceKind": "F",
+      "evidence": "site/content/learning-content.json; site/app/analysis/page.tsx",
+      "problem": "전체 reviewedAt과 짧은 항목만으로 각 주장 출처·검수자·유효기간을 추적하기 어렵다.",
+      "change": "각 콘텐츠에 저자/검수역할/출처/확인일/다음검토/수정사유/연습 연결을 부여한다. 권리 없는 실자료나 타사 문구를 복제하지 않는다.",
+      "acceptance": "각 숫자·사실 주장에서 근거 추적. 기한 경과는 검토대기 표시. 콘텐츠 정정이 학습 진도·원문 기록을 파괴하지 않음.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "CUX-A07/A08",
+      "dependencies": [
+        "CM-21",
+        "CM-24"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-55",
+      "priority": "P2",
+      "area": "디자인 체계",
+      "title": "중복 CSS와 화면별 다른 사용 규칙",
+      "evidenceKind": "F",
+      "evidence": "site/app/globals.css; site/app/product-shell.css",
+      "problem": "미공개 홈 스타일이 기존 위에 추가되어 전역 우선순위가 복잡하다. 기능마다 카드·간격·문구·버튼 구성이 다르다.",
+      "change": "색/크기/간격/상태/버튼을 공통 컴포넌트와 디자인 값으로 정리. 사용 여부 확인 뒤만 중복 제거. 역사·미공개 후보는 보존.",
+      "acceptance": "기록/복기/학습/설정 공통 버튼 상태·초점·오류·간격. 시각 비교로 의도치 않은 변경0. 글꼴/색 대비 실측.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "CUX-M10",
+      "dependencies": [
+        "CM-12",
+        "CM-39"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-56",
+      "priority": "P1",
+      "area": "접근성",
+      "title": "폼 오류와 비활성 이유의 전달 불균일",
+      "evidenceKind": "F+H; B미확인",
+      "evidence": "site/app/records/page.tsx; site/app/onboarding/onboarding-client.tsx; site/app/account/account-client.tsx",
+      "problem": "원시 검증 오류·화면 하단 알림·비활성 버튼이 섞여 어디를 고칠지 명확하지 않을 수 있다.",
+      "change": "필드별 도움과 오류 연결, 상단 오류요약, 첫 오류 초점, 버튼 가까운 비활성 이유, 성공 상태 읽기, 취소와 실패 구분을 공통화.",
+      "acceptance": "키보드/화면읽기로 오류 필드 찾아 수정. 색만으로 상태표현0. 0건 내보내기·미지원 설치·로그인 준비중 각각 대안 제공.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-016; CUX-M09",
+      "dependencies": [
+        "CM-15"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-57",
+      "priority": "P2",
+      "area": "학습 진도",
+      "title": "개별 강좌 주소·완료·다음 경로 없음",
+      "evidenceKind": "F",
+      "evidence": "site/app/learn/learning-center.tsx",
+      "problem": "긴 학습 목록 중심이라 어디까지 읽었는지와 다음 방문의 시작점이 없다.",
+      "change": "강좌별 고정 주소·목차·읽던 위치·연습 완료·다음 추천, 선택적 로컬 진도를 제공. 끝까지 스크롤을 이해 완료로 간주하지 않는다.",
+      "acceptance": "북마크/뒤로가기/재실행으로 맥락 복원. 진도 삭제 범위·백업 정책 명시. 연습 기준 충족해야 완료로 인정.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "CUX-A01/A02",
+      "dependencies": [
+        "CM-21",
+        "CM-36"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-58",
+      "priority": "P2",
+      "area": "상세·인쇄",
+      "title": "복기 상세에서 다시 작성으로 이어지는 흐름 부족",
+      "evidenceKind": "F",
+      "evidence": "site/app/review/page.tsx:367",
+      "problem": "비교·인쇄는 있으나 선택한 기록의 후속 복기/정정으로 직접 이어지는 명확한 행동이 부족하다. /records는 id를 선택 상태로 읽지 않는다.",
+      "change": "기록 고정 상세 URL을 중심으로 보기/복기/정정/이력/내보내기를 연결한다. 인쇄에는 기간·출처·합성/실제·생성일·민감정보 범위를 표시.",
+      "acceptance": "상세→복기 대상 일치, 새로고침/공유주소에서 로컬 자료 없을 때 정확 안내. A4/PDF에서 내용 잘림·하단바 중첩0.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-011; CUX-M11",
+      "dependencies": [
+        "CM-10",
+        "CM-29"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-59",
+      "priority": "P1",
+      "area": "기록 신뢰",
+      "title": "로컬 지문값을 절대 불변 증명으로 오해 가능",
+      "evidenceKind": "F",
+      "evidence": "site/lib/domain/record-ledger.mjs:51; PRODUCT_PLAN.md:결과 전 기록",
+      "problem": "현재 로컬 지문은 fnv1a32이며 본인 기기 데이터/시각에 의존한다. 화면의 원문 보존 정책과 제3자 위변조 불가능 증명은 다르다.",
+      "change": "로컬 변경 탐지·앱 내 원문 보존이라고 정확히 설명. 제3자 검증이 요구되면 암호학적 지문+서버시각/서명/사건 검증을 별도 설계하고 원문 공개는 하지 않는다.",
+      "acceptance": "이 기기의 원문 보존과 외부 인증을 명시적으로 구분. 내부 값 재작성/시계 변경 표본으로 보장 범위 검사. 단순 지문 교체만으로 사전 기록 인증 주장0.",
+      "estimatedPersonDays": [
+        2,
+        5
+      ],
+      "plan": "S1-003/006/017",
+      "dependencies": [
+        "CM-02"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-60",
+      "priority": "P1",
+      "area": "계획·품질",
+      "title": "로컬 완료 후보를 실사용 완료로 승격하지 않기",
+      "evidenceKind": "F",
+      "evidence": "STAGE_COMPLETION_AUDIT_20260904.md; DEVELOPMENT_EXECUTION_PLAN.md",
+      "problem": "기존 단계의 코드 완료 후보 중 이번에 구체적 결함이 재현됐다. 기존 통과 숫자 유지보다 완료 상태 재평가가 먼저다.",
+      "change": "본 목록을 기존 S1/S2/CUX 카드의 재개방 사유로 연결한다. 구현됨/자동검사/브라우저/실기기/운영 승인 상태를 독립 유지.",
+      "acceptance": "CM별 전후 증거·검사·공개판 식별·잔여 위험이 있어야 닫음. 단계 통과는 각 실제 요구 충족으로 계산. 근거 없는99/100% 없음.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-001/022",
+      "dependencies": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-61",
+      "priority": "P1",
+      "area": "실기기",
+      "title": "Android·보조기술 실제 과업 미실시",
+      "evidenceKind": "미확인",
+      "evidence": "STAGE_COMPLETION_AUDIT_20260904.md; .project-continuity/STATE.md",
+      "problem": "최근 기록은 승인 ADB0대. 이번에는 실제 Android 과업을 실행하지 않았다. 과거 기기 화면 표시를 현재 기능 검증으로 쓸 수 없다.",
+      "change": "연결 상태 재확인 후 유휴 Android 한 대만 선택하여 설치/기록/복기/백업/오프라인/업데이트/TalkBack을 시험한다. 개인 자료·설정·다른 기기는 건드리지 않는다.",
+      "acceptance": "기기 모델·OS·브라우저·공개판·날짜·경로별 결과 기록. 미연결·유휴 확인 불가면 미실시. iOS/PC는 별도 시험.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-021; S2-005",
+      "dependencies": [
+        "CM-37",
+        "CM-39"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-62",
+      "priority": "P1",
+      "area": "실사용 가치",
+      "title": "가상 페르소나를 실제 이해 시험으로 대체 불가",
+      "evidenceKind": "미확인",
+      "evidence": "PRODUCT_PLAN.md:2.3; STAGE_COMPLETION_AUDIT_20260904.md",
+      "problem": "합성1,000명 검사나 기능 개수만으로 첫 기록·복기·지속 효용을 판정할 수 없다.",
+      "change": "합성 검사는 경로 조합/문구 누락 탐지에 사용. 실제 초보·숙련 사용자 소수 관찰로 찾기/입력/해석 실패를 수집하고 재시험. 장기 효용은 추후 관찰.",
+      "acceptance": "최소 진단 표본 초보5·숙련5의 과업 실패·도움 요청·오해 기록(통계적 시장 대표성 아님). 심각한 실패 수정 후 재시험. 미참여면 미확인.",
+      "estimatedPersonDays": [
+        3,
+        6
+      ],
+      "plan": "S1-021; CUX-A11",
+      "dependencies": [
+        "CM-09",
+        "CM-21",
+        "사용자: 시험 참여 모집"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-63",
+      "priority": "P1",
+      "area": "공개 절차",
+      "title": "실제 클릭을 검증한 동일 결과물로 공개해야 함",
+      "evidenceKind": "F; B미확인",
+      "evidence": "site/tools/verify-build-wsl.sh; site/tests/rendered-html.test.mjs",
+      "problem": "검사 조립과 공개 소스, 미공개 후보가 다르며 현재 도구로 실제 브라우저 검증이 막혀 있다. 조립 뒤 임시 결과물은 제거된다.",
+      "change": "검사한 판의 소스지문·의존성 잠금·조립 결과·기능 시험을 묶어 추적한다. 공개 전 보호 자료 백업과 되돌리기, 공개 후 핵심 흐름 재검사.",
+      "acceptance": "검사판=공개판 확인. 핵심 과업 실패 시 공개 중단/이전 안정판 유지. 공개 HTTP만 통과한 상태를 UI 검증이라고 부르지 않음.",
+      "estimatedPersonDays": [
+        3,
+        5
+      ],
+      "plan": "S1-022; S2-008",
+      "dependencies": [
+        "CM-47",
+        "CM-50",
+        "CM-61"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    },
+    {
+      "id": "CM-64",
+      "priority": "P1",
+      "area": "운영 개선",
+      "title": "출시 이후에도 콘텐츠·오류를 고치는 주기 필요",
+      "evidenceKind": "미확인",
+      "evidence": "site/app/status/page.tsx; site/app/help/page.tsx",
+      "problem": "현재는 실제 응답/장애/콘텐츠 수정 주기의 운영 증거가 없다. 1년 운영 노하우는 코드만으로 만들 수 없다.",
+      "change": "주간 오류·실패과업 검토, 월간 콘텐츠 검수, 분기 복원 훈련과 공개 변경 이력을 운영한다. 수집은 동의·최소화, 원문 미수집.",
+      "acceptance": "담당·주기·중단 조건·보유기간·접수→수정→재검증 연결을 정의하고 실제 첫 주기를 실행. 기능 채택률/성공률은 분모와 기간 표기.",
+      "estimatedPersonDays": [
+        2,
+        4
+      ],
+      "plan": "S1-019/020; CUX-A07/A11",
+      "dependencies": [
+        "CM-43",
+        "CM-44",
+        "CM-48"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "browserVerified": false
+    }
+  ]
+}

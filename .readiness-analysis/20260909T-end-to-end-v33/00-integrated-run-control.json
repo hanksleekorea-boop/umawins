@@ -1,0 +1,45 @@
+{
+  "schema": "umametry-integrated-run-control/v33",
+  "run_id": "INT-V33-20260909-END-TO-END",
+  "generated_at_utc": "2026-09-09T13:00:02Z",
+  "mode": "END_TO_END",
+  "analysis_only": true,
+  "product_code_modified": false,
+  "public_state_modified": false,
+  "git_modified": false,
+  "target": {
+    "service": "UMAMETRY",
+    "release_id": "20260904-v28",
+    "public_home": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+    "public_dashboard": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/dashboard?v=28",
+    "public_mobile": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/m/?v=28",
+    "public_qr": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/umametry-public-qr.png"
+  },
+  "evidence_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006",
+    "E-007",
+    "E-008",
+    "E-009",
+    "E-010",
+    "E-011",
+    "E-012",
+    "E-013",
+    "E-014",
+    "E-015"
+  ],
+  "external_blocks": [
+    "Android",
+    "실사용자",
+    "실데이터 권리",
+    "법무·운영·지원",
+    "결제·세금·환불",
+    "LinkMax operator approval"
+  ],
+  "resume_at": "stage-01/T1-003 then stage-02/T2-002",
+  "output_index": "D:\\Desktop\\챗지피티프로젝트들\\우마윈즈\\.readiness-analysis\\20260909T-end-to-end-v33\\FIVE_STAGE_DEVELOPMENT_INDEX.md"
+}

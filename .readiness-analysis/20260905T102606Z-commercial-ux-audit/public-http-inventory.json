@@ -1,0 +1,5114 @@
+{
+  "observedAt": "2026-09-05T10:37:49.887Z",
+  "origin": "https://umametry-verified-20260904.hanksleedee.chatgpt.site",
+  "evidenceKind": "HTTP_RENDERED_HTML_NOT_INTERACTIVE_BROWSER",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "elapsedMs": 3536,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "当たると言わない。 判断を確かめられる形にする。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/records",
+          "label": "最初の記録を作る"
+        },
+        {
+          "href": "/onboarding",
+          "label": "使い方を選ぶ"
+        },
+        {
+          "href": "/learn",
+          "label": "3分で使い方を学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な分析を使う"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "休憩時間と休止期間を設定する →"
+        },
+        {
+          "href": "/learn",
+          "label": "無料学習センターを見る →"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "検査証拠と次の作業を見る →"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "公開URLを開く →"
+        },
+        {
+          "href": "/analysis",
+          "label": "開発用の分析カードを見る →"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/account",
+          "label": "アカウント"
+        },
+        {
+          "href": "/onboarding",
+          "label": "使い方の設定"
+        },
+        {
+          "href": "/sync",
+          "label": "選択型同期"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "休憩・利用上限"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/install",
+          "label": "ホーム画面に追加"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "開発進捗"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・返金設計"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データ条件"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "safety-title",
+        "how",
+        "how-title",
+        "qr-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 FREE · DEVICE-FIRST · NO BETTING 当たると言わない。 判断を確かめられる形にする。 UMAMETRYは、地方競馬の判断根拠を締切前に封印し、結果と確信度をあとから振り返る無料の情報サービスです。馬券の購入代行、資金の預かり、利用者間取引は行いません。 最初の記録を作る 使い方を選ぶ 3分で使い方を学ぶ 高度な分析を使う 記録は最初にこの端末へ保存されます。必要な人だけ、アカウント同期を選べます。実データと的中保証は提供していません。 TAKE A BREAK 取り返そうと感じたら、いったん閉じる。 長く見続けているときや、損失を取り返したいと感じたときは休みましょう。利用時間と休止期間は端末内で設定できます。 休憩時間と休止期間を設定する → 使い方 01 根拠を締切前に残す 賛成材料、反対材料、確信度、不確実な点を一緒に記録します。記録後の訂正も元の内容を消さずに追加します。 02 結果を別に記録する 当たり外れだけでなく、その時点の判断手順が妥当だったかを分けて振り返ります。 03 自分の傾向を確かめる 標本数、Brierスコア、確信度別の結果、見送りを含む傾向を同じ画面で確認します。 FREE TOOLKIT 学習から高度な振り返りまで、決済なしで使えます。 8レッスン · 30語 · 15 FAQ 詳細検索、期間比較、偏りの手掛かり、シナリオ試算、レビュー用JSON出力も無料です。 無料学習センターを見る → DEVELOPMENT EVIDENCE · 20260904-v28 公開状況と、まだ証明できていないことを分ける。 公開版 v28 · クリーンWSL検証 200/200 自動検査とビルドの通過は、公開運用・実データ契約・法務確認・実機試験の完了を意味しません。 検査証拠と次の作業を見る → PHONE CONTINUITY スマートフォンで続ける QRコードで現在の公開版を開けます。購入・決済機能はありません。 公開URLを開く → EVIDENCE CARDS 出所と不確かさを見てから記録する。 実データではない20件の例で、更新時刻・資料状態・訂正責任・古い資料の警告を確認できます。 開発用の分析カードを見る → 運用・準備状況の詳細リンク 保存・復元 アカウント 使い方の設定 選択型同期 休憩・利用上限 信頼・運用 アクセシビリティ ホーム画面に追加 開発進捗 商用条件 有料化条件 提供案 権限・返金設計 障害復旧 実データ条件 UMAMETRY · 予測情報のみ · 年齢制限と地域ルールを守って利用してください UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": true
+    },
+    {
+      "route": "/m/",
+      "status": 200,
+      "elapsedMs": 6582,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY モバイル | 判断を記録して振り返る",
+      "h1": [
+        "当たると言わない。 判断を確かめられる形にする。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/records",
+          "label": "最初の記録を作る"
+        },
+        {
+          "href": "/onboarding",
+          "label": "使い方を選ぶ"
+        },
+        {
+          "href": "/learn",
+          "label": "3分で使い方を学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な分析を使う"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "休憩時間と休止期間を設定する →"
+        },
+        {
+          "href": "/learn",
+          "label": "無料学習センターを見る →"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "検査証拠と次の作業を見る →"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "公開URLを開く →"
+        },
+        {
+          "href": "/analysis",
+          "label": "開発用の分析カードを見る →"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/account",
+          "label": "アカウント"
+        },
+        {
+          "href": "/onboarding",
+          "label": "使い方の設定"
+        },
+        {
+          "href": "/sync",
+          "label": "選択型同期"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "休憩・利用上限"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/install",
+          "label": "ホーム画面に追加"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "開発進捗"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・返金設計"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データ条件"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "safety-title",
+        "how",
+        "how-title",
+        "qr-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY モバイル | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 FREE · DEVICE-FIRST · NO BETTING 当たると言わない。 判断を確かめられる形にする。 UMAMETRYは、地方競馬の判断根拠を締切前に封印し、結果と確信度をあとから振り返る無料の情報サービスです。馬券の購入代行、資金の預かり、利用者間取引は行いません。 最初の記録を作る 使い方を選ぶ 3分で使い方を学ぶ 高度な分析を使う 記録は最初にこの端末へ保存されます。必要な人だけ、アカウント同期を選べます。実データと的中保証は提供していません。 TAKE A BREAK 取り返そうと感じたら、いったん閉じる。 長く見続けているときや、損失を取り返したいと感じたときは休みましょう。利用時間と休止期間は端末内で設定できます。 休憩時間と休止期間を設定する → 使い方 01 根拠を締切前に残す 賛成材料、反対材料、確信度、不確実な点を一緒に記録します。記録後の訂正も元の内容を消さずに追加します。 02 結果を別に記録する 当たり外れだけでなく、その時点の判断手順が妥当だったかを分けて振り返ります。 03 自分の傾向を確かめる 標本数、Brierスコア、確信度別の結果、見送りを含む傾向を同じ画面で確認します。 FREE TOOLKIT 学習から高度な振り返りまで、決済なしで使えます。 8レッスン · 30語 · 15 FAQ 詳細検索、期間比較、偏りの手掛かり、シナリオ試算、レビュー用JSON出力も無料です。 無料学習センターを見る → DEVELOPMENT EVIDENCE · 20260904-v28 公開状況と、まだ証明できていないことを分ける。 公開版 v28 · クリーンWSL検証 200/200 自動検査とビルドの通過は、公開運用・実データ契約・法務確認・実機試験の完了を意味しません。 検査証拠と次の作業を見る → PHONE CONTINUITY スマートフォンで続ける QRコードで現在の公開版を開けます。購入・決済機能はありません。 公開URLを開く → EVIDENCE CARDS 出所と不確かさを見てから記録する。 実データではない20件の例で、更新時刻・資料状態・訂正責任・古い資料の警告を確認できます。 開発用の分析カードを見る → 運用・準備状況の詳細リンク 保存・復元 アカウント 使い方の設定 選択型同期 休憩・利用上限 信頼・運用 アクセシビリティ ホーム画面に追加 開発進捗 商用条件 有料化条件 提供案 権限・返金設計 障害復旧 実データ条件 UMAMETRY · 予測情報のみ · 年齢制限と地域ルールを守って利用してください UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": true
+    },
+    {
+      "route": "/records",
+      "status": 200,
+      "elapsedMs": 3938,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "結果を見る前の判断を、 そのまま残す。"
+      ],
+      "buttons": [
+        {
+          "label": "内容を確認する",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析カード"
+        },
+        {
+          "href": "/review",
+          "label": "PC根拠レビュー"
+        },
+        {
+          "href": "/explanations",
+          "label": "理由と限界"
+        },
+        {
+          "href": "/calibration",
+          "label": "判断の振り返り"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元 →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "boundary",
+        "review-title",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "subject",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "observedAt",
+          "type": "date",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "dataStatus",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "uncertainty",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "reasonsFor",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "reasonsAgainst",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "confidence",
+          "type": "number",
+          "disabled": false
+        }
+      ],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 分析カード PC根拠レビュー 理由と限界 判断の振り返り 保存・復元 進捗 SEALED RECORD v2 · 20260904-v28 結果を見る前の判断を、 そのまま残す。 賛成根拠・反対根拠・不確かさ・確信度を一緒に封印します。同じ送信を繰り返しても一件だけ保存し、結果後の振り返りは別の記録です。 LOCAL-FIRST & PORTABLE この端末で始め、いつでも持ち出せます。 旧形式は画面を開くだけでは書き換えず、次に保存するときに内容を保ったまま新形式へ追加します。JSON/CSVの保存と復元は「保存・復元」画面で行えます。 1. 結果前の判断を封印 ステップ 1 /3 0 / 8 項目 0 / 8 対象と資料 賛成・反対根拠 確信度と確認 60秒は入力を急がせる制限ではなく、迷わず記録できるかを見る品質目標です。 対象レース・分析名 出所 確認日 資料の状態 開発用の例 合成した検証用資料 書面確認済み（契約前は選択不可） まだ不確かなこと 賛成する根拠 反対する根拠 確信度（0〜100） 内容を確認する 封印後の編集・削除はありません。誤りは別の訂正、結果は別の振り返りとして残します。 封印済み 0 件 保存・復元 → まだ封印記録はありません。 開発用または合成資料で、賛成と反対の両方を記録してください。 REVIEW WITHOUT REWRITE 2. 結果後に、別の記録を追加 振り返る記録を選んでください。 右側の封印記録から一つ選ぶと、結果と学びを追加できます。 UMAMETRY · ローカル優先の封印記録 · 購入・決済・自動ベットはありません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/review",
+      "status": 200,
+      "elapsedMs": 3938,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "封印時と現在を、 並べて確かめる。"
+      ],
+      "buttons": [
+        {
+          "label": "絞り込む",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "補正"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/review",
+          "label": "解除"
+        },
+        {
+          "href": "/records",
+          "label": "記録する →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "review-detail",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "q",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "status",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "outcome",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "dataStatus",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "source",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "minimum",
+          "type": "number",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "maximum",
+          "type": "number",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "reviewTag",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "from",
+          "type": "date",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "to",
+          "type": "date",
+          "disabled": false
+        }
+      ],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 補正 進捗 PC EVIDENCE WORKSPACE · LOCAL ONLY 封印時と現在を、 並べて確かめる。 準備度ダッシュボードとは別の、端末内記録の作業画面です。元の判断、理由付き訂正、結果、次の学びを同じ対象で比較します。 小さい標本に注意 絞り込み後 0 件。20件未満では傾向を断定せず、各記録の反対根拠と不確かさを優先してください。 検索 状態 すべて 結果確認済み 未確認 訂正あり 結果 すべて 一致 不一致 対象外 未確認 資料状態 すべて 開発例 合成 許可確認 出所 確信度 下限 確信度 上限 回顧タグ 開始 終了 絞り込む 解除 このURLを共有すると同じ条件を開けます。場所・レース種別は構造化項目がないため、自由記述から推測しません。 対象 0 確認済み 0 未確認 0 訂正あり 0 「こうしておけば」記録済み 0 締切前に確認可能（本人記録） 0 結果後のみ判明 0 封印記録。列見出しで内容を確認し、詳細リンクで比較します。 封印日 対象 出所 確信 結果 詳細 条件に合う記録はありません。 条件を解除するか、新しい判断を封印してください。 記録する → 比較する記録を選んでください。 一覧が空なら条件を解除してください。 UMAMETRY · 端末内の判断レビュー · 開発準備度とは別の画面です UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/calibration",
+      "status": 200,
+      "elapsedMs": 2865,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "確信度と結果の差を、 次の判断に変える。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/explanations",
+          "label": "理由と限界"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/records",
+          "label": "記録と振り返りへ →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "bins-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 理由と限界 保存・復元 進捗 CALIBRATION, NOT WIN PROMISES 確信度と結果の差を、 次の判断に変える。 的中率だけではなく「70%と考えた予想が、長い目で約70%一致したか」を確認します。購入や利益を勧める指標ではありません。 SAMPLE CHECK まだ学習中です。結論を急がないでください。 結果確認済み 0 件。20件未満は傾向を断定せず、各記録の根拠と反対根拠を優先してください。 Brierスコア — 0に近いほど確率と結果の差が小さい指標です。標本数と一緒に読みます。 結果確認済み 0 件 判定対象外・未確定の振り返りは計算から除外します。 平均確信度 — 記録時に封印した確信度の平均です。 実際の一致 — 公式結果を優先し、なければ最新の手動振り返りを使います。 計算版 umametry-calibration/v2 分母 0 件 採用 0 件 除外 0 件 公式結果 0 件 手動確認 0 件 CONFIDENCE BINS 確信度の範囲別 確信度 件数 平均確信度 実際の一致 差 0–20% 0 — — — 21–40% 0 — — — 41–60% 0 — — — 61–80% 0 — — — 81–100% 0 — — — 計算対象: 「結果と一致」「結果と不一致」の振り返りだけ。公式結果の確定・訂正は手動記録より優先し、未確定・不一致・判定対象外は除外します。Brier = 平均((確信度÷100 − 結果[一致=1/不一致=0])²)。 次にすること 結果前に賛成・反対根拠と確信度を封印する。 結果後に一致・不一致・判定対象外を分けて記録する。 20件未満では結論を出さず、反対根拠の見落としを振り返る。 記録と振り返りへ → UMAMETRY · 標本数と計算式を隠さない判断レビュー UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/analysis",
+      "status": 200,
+      "elapsedMs": 117,
+      "contentType": "text/html; charset=utf-8",
+      "title": "根拠が見える分析カード | UMAMETRY",
+      "h1": [
+        "予想する前に、 資料の限界を見る。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "根拠を記録"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データ方針"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+01+%C2%B7+%E5%89%8D%E8%B5%B0%E3%83%9A%E3%83%BC%E3%82%B9&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%AE%9F%E5%9C%A8%E3%81%AE%E5%87%BA%E8%B5%B0%E8%A1%A8%E3%83%BB%E7%B5%90%E6%9E%9C%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+02+%C2%B7+%E8%B7%9D%E9%9B%A2%E5%A4%89%E5%8C%96&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E8%B7%9D%E9%9B%A2%E9%81%A9%E6%80%A7%E3%82%92%E7%A4%BA%E3%81%99%E5%AE%9F%E6%B8%AC%E5%80%A4%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+03+%C2%B7+%E6%9E%A0%E9%A0%86&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%AE%9F%E9%9A%9B%E3%81%AE%E6%9E%A0%E9%A0%86%E3%82%84%E9%A6%AC%E5%90%8D%E3%82%92%E5%90%AB%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+04+%C2%B7+%E8%84%9A%E8%B3%AA&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E8%84%9A%E8%B3%AA%E5%88%86%E9%A1%9E%E3%81%AF%E5%90%88%E6%88%90%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+05+%C2%B7+%E9%A6%AC%E5%A0%B4%E7%8A%B6%E6%85%8B&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%BD%93%E6%97%A5%E3%81%AE%E9%A6%AC%E5%A0%B4%E6%83%85%E5%A0%B1%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+06+%C2%B7+%E4%BA%BA%E6%B0%97%E5%B7%AE&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E5%AE%9F%E9%9A%9B%E3%81%AE%E4%BA%BA%E6%B0%97%E3%83%BB%E3%82%AA%E3%83%83%E3%82%BA%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+07+%C2%B7+%E4%BC%91%E9%A4%8A%E9%96%93%E9%9A%94&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%AE%9F%E9%A6%AC%E3%81%AE%E4%BC%91%E9%A4%8A%E5%B1%A5%E6%AD%B4%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+08+%C2%B7+%E9%A8%8E%E6%89%8B%E5%A4%89%E6%9B%B4&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E5%AE%9F%E5%9C%A8%E3%81%AE%E9%A8%8E%E6%89%8B%E6%83%85%E5%A0%B1%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+09+%C2%B7+%E3%82%B3%E3%83%BC%E3%82%B9%E7%B5%8C%E9%A8%93&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%AE%9F%E9%9A%9B%E3%81%AE%E7%AB%B6%E8%B5%B0%E5%B1%A5%E6%AD%B4%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+10+%C2%B7+%E5%B1%95%E9%96%8B%E7%AB%B6%E5%90%88&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E5%87%BA%E8%B5%B0%E6%A7%8B%E6%88%90%E3%81%AF%E5%90%88%E6%88%90%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+11+%C2%B7+%E7%9B%B4%E8%BF%91%E6%88%90%E7%B8%BE&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%85%AC%E5%BC%8F%E6%88%90%E7%B8%BE%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+12+%C2%B7+%E8%B7%9D%E9%9B%A2%E5%AE%9F%E7%B8%BE&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E8%B7%9D%E9%9B%A2%E5%AE%9F%E7%B8%BE%E3%81%AF%E5%90%88%E6%88%90%E5%80%A4%E3%81%A7%E3%81%99%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+13+%C2%B7+%E6%96%A4%E9%87%8F%E5%A4%89%E5%8C%96&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%AE%9F%E9%9A%9B%E3%81%AE%E6%96%A4%E9%87%8F%E6%83%85%E5%A0%B1%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+14+%C2%B7+%E7%99%BA%E8%B5%B0%E4%BD%8D%E7%BD%AE&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E4%BD%8D%E7%BD%AE%E5%8F%96%E3%82%8A%E3%81%AF%E5%90%88%E6%88%90%E3%81%97%E3%81%9F%E6%83%B3%E5%AE%9A%E3%81%A7%E3%81%99%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+15+%C2%B7+%E4%B8%8A%E3%81%8C%E3%82%8A%E5%82%BE%E5%90%91&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%85%AC%E5%BC%8F%E3%81%AE%E6%99%82%E8%A8%88%E3%83%BB%E6%8C%87%E6%95%B0%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+16+%C2%B7+%E3%82%AF%E3%83%A9%E3%82%B9%E5%A4%89%E5%8C%96&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E5%AE%9F%E9%9A%9B%E3%81%AE%E7%B7%A8%E6%88%90%E3%83%BB%E6%A0%BC%E4%BB%98%E3%81%91%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+17+%C2%B7+%E5%A4%A9%E5%80%99%E4%BB%AE%E8%AA%AC&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E5%A4%A9%E5%80%99%E4%BA%88%E5%A0%B1%E3%82%84%E7%8F%BE%E6%B3%81%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+18+%C2%B7+%E8%AA%BF%E6%95%B4%E9%81%8E%E7%A8%8B&source=UMAMETRY+synthetic+test+generator&observedAt=2026-08-20&dataStatus=synthetic&uncertainty=%E8%AA%BF%E6%95%99%E3%83%BB%E4%BD%93%E8%AA%BF%E3%81%AE%E5%AE%9F%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E6%A4%9C%E8%A8%BC%E3%82%AB%E3%83%BC%E3%83%89+19+%C2%B7+%E8%A4%87%E6%95%B0%E6%A0%B9%E6%8B%A0&source=UMAMETRY+internal+development+fixture&observedAt=2026-08-20&dataStatus=development_sample&uncertainty=%E8%A4%87%E6%95%B0%E3%81%AE%E4%BB%AE%E8%AA%AC%E3%81%AF%E4%BA%92%E3%81%84%E3%81%AB%E7%8B%AC%E7%AB%8B%E3%81%A8%E3%81%AF%E9%99%90%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/records?subject=%E5%8F%A4%E3%81%84%E8%B3%87%E6%96%99%E3%81%AE%E4%BE%8B+%C2%B7+%E6%9B%B4%E6%96%B0%E5%BE%85%E3%81%A1&source=UMAMETRY+internal+development+fixture&observedAt=2026-07-01&dataStatus=development_sample&uncertainty=%E5%8F%A4%E3%81%84%E9%96%8B%E7%99%BA%E8%B3%87%E6%96%99%E3%81%A7%E3%81%99%E3%80%82%E7%8F%BE%E5%9C%A8%E3%81%AE%E5%88%A4%E6%96%AD%E3%81%AB%E3%81%AF%E4%BD%BF%E3%81%88%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82#record-form",
+          "label": "この資料をもとに理由を記録する →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "analysis-boundary-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "根拠が見える分析カード | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 根拠を記録 実データ方針 進捗 EVIDENCE CARDS · DEVELOPMENT ONLY 予想する前に、 資料の限界を見る。 20枚すべてが画面と記録の確認用です。実在のレース・馬・オッズ・結果は含みません。出所、更新時刻、資料状態、不確かさを見てから理由を記録します。 CURRENT DATA BOUNDARY 実データ接続 0件 登録された2つの出所は開発用・合成用だけです。このカードは実データではありません。実データの書面許可を示す出所もありません。 出所登録 2 件（開発用のみ） 実データ許可 0件 正確な結果 提供していません 開発用の例 実データではない 検証カード 01 · 前走ペース 前走の流れをどう読むかだけを試す開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 実在の出走表・結果ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 02 · 距離変化 距離変化を理由として記録する手順の合成例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 距離適性を示す実測値ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 03 · 枠順 枠順の仮説と不確かさを分ける練習例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 実際の枠順や馬名を含みません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 04 · 脚質 先行・差しの読みを記録する画面確認用です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 脚質分類は合成したものです。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 05 · 馬場状態 馬場仮説を断定せずに残す開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 当日の馬場情報ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 06 · 人気差 人気と判断理由を混ぜないための合成例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 実際の人気・オッズではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 07 · 休養間隔 間隔を根拠にするときの注意点を記録します。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 実馬の休養履歴ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 08 · 騎手変更 変更要因を過大評価しないための合成例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 実在の騎手情報ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 09 · コース経験 コース経験の仮説を検証する開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 実際の競走履歴ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 10 · 展開競合 似た脚質が重なる場面の記録練習です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 出走構成は合成したものです。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 11 · 直近成績 直近だけで結論を出さないための開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 公式成績ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 12 · 距離実績 実績の標本数を意識するための合成例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 距離実績は合成値です。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 13 · 斤量変化 斤量変化の理由づけを記録する開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 実際の斤量情報ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 14 · 発走位置 位置取り仮説と結果を後で比較する例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 位置取りは合成した想定です。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 15 · 上がり傾向 終盤傾向を根拠として残す開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 公式の時計・指数ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 16 · クラス変化 条件変化を単独で断定しない合成例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 実際の編成・格付けではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 17 · 天候仮説 未確認の天候要因を分離する開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 天候予報や現況ではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 合成した検証用資料 実データではない 検証カード 18 · 調整過程 確認できない状態情報を断定しない例です。 出所 UMAMETRY synthetic test generator 更新時刻 2026-08-20T06:30:00Z 不確かさ 調教・体調の実データではありません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 実データではない 検証カード 19 · 複数根拠 根拠を足し算しすぎないための開発例です。 出所 UMAMETRY internal development fixture 更新時刻 2026-08-20T06:30:00Z 不確かさ 複数の仮説は互いに独立とは限りません。 訂正責任 product-quality-role この資料をもとに理由を記録する → 開発用の例 古い資料の例 古い資料の例 · 更新待ち 古い資料では断定せず、更新を待つ表示を確認します。 出所 UMAMETRY internal development fixture 更新時刻 2026-07-01T00:00:00Z 不確かさ 古い開発資料です。現在の判断には使えません。 訂正責任 product-quality-role 更新待ちです。この資料から判断を断定しないでください。 この資料をもとに理由を記録する → UMAMETRY · 開発用カード20件 · 実データ・購入・決済・自動結果取得はありません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/explanations",
+      "status": 200,
+      "elapsedMs": 101,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "数字の前に、 理由と限界を見る。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/review",
+          "label": "PC根拠レビュー"
+        },
+        {
+          "href": "/calibration",
+          "label": "補正"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/records",
+          "label": "判断を記録する →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 PC根拠レビュー 補正 進捗 WHY / EVIDENCE / LIMIT / NEXT 数字の前に、 理由と限界を見る。 各記録について、何を使い、何が変わり、何が不確かで、次に何を確認するかを同じ順番で説明します。 この画面が約束しないこと 的中・利益・将来結果を保証しません。結果がない記録、古い資料、20件未満の標本は明確に分けます。 説明する封印記録がありません。 賛成根拠・反対根拠・不確かさを含む判断を先に記録してください。 判断を記録する → UMAMETRY · 説明は判断の検証を助けるもので、購入推奨ではありません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/learn",
+      "status": 200,
+      "elapsedMs": 185,
+      "contentType": "text/html; charset=utf-8",
+      "title": "学習センター | UMAMETRY",
+      "h1": [
+        "まず例で学び、 自分の判断を残す。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "#lesson-title",
+          "label": "3分で基本を見る"
+        },
+        {
+          "href": "/records",
+          "label": "自分の記録を始める"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/records#record-form",
+          "label": "記録で試す →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "find-help-title",
+        "lesson-title",
+        "example-title",
+        "glossary-title",
+        "faq-title",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "",
+          "type": "search",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "",
+          "type": "",
+          "disabled": false
+        }
+      ],
+      "publicText": "学習センター | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 FREE LEARNING CENTER · REVIEWED 2026-08-31 まず例で学び、 自分の判断を残す。 8つの基本、5つの全体例、30語の用語集、15の質問を無料で確認できます。実データや的中保証ではありません。 3分で基本を見る 自分の記録を始める このページで分かること 良い根拠の残し方 結果後の振り返り方 補正値の安全な読み方 FIND WHAT YOU NEED いま必要な説明を探す キーワード 学習段階 すべて はじめて 振り返りへ進む 8 CORE LESSONS 判断を記録する8つの基本 8 件 01 はじめて 根拠と感想を分ける 確認できる事実、解釈、まだ分からないことを別々に書きます。 次の一歩 一つの根拠に出所と確認日を付ける 記録で試す → 02 はじめて 反対根拠を先に探す 自分の予想に不利な材料を一つ以上残し、確証だけを集めるのを防ぎます。 次の一歩 予想が外れるとしたら何が原因かを書く 記録で試す → 03 はじめて 不確かさを隠さない 未確認、古い資料、標本不足を明示すると後の振り返りが正確になります。 次の一歩 確認できていない条件を一つ書く 記録で試す → 04 はじめて 確信度は気分ではなく確率 70%は強い気持ちではなく、同じ判断を100回したとき約70回一致する見積もりです。 次の一歩 50%を基準に上下する理由を書く 記録で試す → 05 はじめて 結果前に封印する理由 結果を知った後に記憶を書き換えないよう、元の判断を残します。 次の一歩 全項目を確認してから封印する 記録で試す → 06 振り返り 結果と判断品質を分ける 一度当たったから良い判断、一度外れたから悪い判断とは限りません。その時点で使えた根拠の質を別に見ます。 次の一歩 結果と判断手順を別々に評価する 記録で試す → 07 振り返り 振り返りを次の規則に変える 感想で終わらせず、次回に実行できる一文の判断規則を残します。 次の一歩 次は何を確認してから決めるかを書く 記録で試す → 08 振り返り 補正は標本数と一緒に読む Brierスコアや一致率は、期間・件数・除外条件と一緒に読みます。20件未満で断定しません。 次の一歩 数値の横で標本数を確認する 記録で試す → COMPLETE EXAMPLES 結果だけでなく、判断手順を見る5つの例 すべて教育用の合成例です。実在のレース・馬・結果ではなく、利用者の記録にも自動保存しません。 根拠と反対根拠が均衡した例 確信度 55 % 賛成根拠 距離条件に合うという合成資料がある。 反対根拠 展開競合と古い観察しかなく優位は小さい。 不確かさ 当日状態と実際の出走情報は未確認。 結果 不一致 次の規則 資料が古い場合は確信度を50%付近に保つ。 過信を見直す例 確信度 90 % 賛成根拠 直近の一つの良い結果を重視した。 反対根拠 標本が一件でコース条件も異なる。 不確かさ 再現性を確認できない。 結果 不一致 次の規則 一つの直近結果だけでは80%を超えない。 外れても手順が良かった例 確信度 60 % 賛成根拠 複数の独立した合成根拠を確認した。 反対根拠 天候変化で前提が崩れる可能性を記録した。 不確かさ 当日天候は未確定。 結果 不一致 次の規則 結果より、事前に反例を記録できた手順を維持する。 当たっても改善が必要な例 確信度 75 % 賛成根拠 人気という一項目だけで判断した。 反対根拠 反対資料を十分に探さなかった。 不確かさ 理由の独立性がない。 結果 一致 次の規則 一致しても単一要因の判断は繰り返さない。 見送る判断の例 確信度 50 % 賛成根拠 支持材料と反対材料が同程度だった。 反対根拠 資料が古く公式結果との接続もない。 不確かさ 判断に必要な情報が不足。 結果 判定対象外 次の規則 情報が不足するときは断定せず記録だけ残す。 PLAIN-LANGUAGE GLOSSARY 用語をやさしく確認 30 語 根拠 判断を支える、出所と確認日を示せる情報。 反対根拠 自分の予想が外れる可能性を示す情報。 不確かさ まだ確認できないことや情報の限界。 確信度 予想が一致する可能性を0〜100で表した見積もり。 封印 結果前の記録を後から書き換えない状態にすること。 照合符号 記録が変わっていないか確かめる短い符号。 訂正 原文を残したまま誤りと正しい値を追加すること。 振り返り 結果後に判断の良かった点と改善点を記録すること。 結果 予想と比較する、確定または未確定の出来事。 補正 述べた確率と実際の一致率が近いか確かめること。 Brierスコア 確率予想と結果の差を平均した値。0に近いほど差が小さい。 標本 計算に含めた記録の集まり。 標本数 計算に含めた記録の件数。 除外条件 計算に含めなかった記録の規則。 出所 情報を提供または作成した場所。 確認日 情報を実際に確認した日。 新しさ 情報が現在の判断に使える時点かを示す状態。 更新待ち 古く、現在の判断にそのまま使えない状態。 合成資料 実在の対象ではなく検証のために作った資料。 許可確認資料 用途と保存の書面許可が確認された資料。 下書き 封印前で、端末内に一時保存される入力。 記録台帳 予想・訂正・振り返りを追加順に保つデータ。 バックアップ 記録を失わないよう、別のファイルにも保存すること。 復元 保存ファイルを確認して記録に追加すること。 統合 元の記録を消さず、重複を除いて追加すること。 競合 二つの端末に異なる記録がある状態。 オフライン 通信できない状態。 端末優先 記録をまず利用中の端末に保つ方式。 偏り 特定の情報を過大または過小に見る判断傾向。 次の規則 次回の判断で実行する具体的な改善行動。 15 QUESTIONS よくある質問 15 件 馬券を購入できますか？ できません。購入代行、資金の保管、利用者間取引は提供しません。 的中や利益を保証しますか？ 保証しません。判断記録と振り返りを支援する情報サービスです。 実際のレース情報ですか？ 現在の分析カードは開発・合成例です。実資料は書面許可後だけ表示します。 ログインしないと使えませんか？ 記録、振り返り、補正、JSON保存・復元はログインなしで使えます。 封印後に直せますか？ 原文は直しません。理由付きの訂正を別記録として追加できます。 記録はどこに保存されますか？ 基本は利用中の端末です。手動同期を選んだ場合だけ自分の領域へ追加します。 端末を変えるには？ JSONを保存し、新しい端末で内容を確認してから復元してください。 CSVとJSONの違いは？ JSONは完全復元用、CSVは表計算で読む要約です。 Brierスコアが低ければ当たりますか？ 利益や次回の一致を保証しません。標本数と期間を含めた過去の差です。 記録が20件未満でも分析できますか？ 確認はできますが傾向を断定しません。個々の根拠を優先してください。 オフラインでも使えますか？ 準備済み画面と端末内記録は使えます。同期や新しい資料取得は通信が必要です。 削除できますか？ 端末内、クラウド、将来のアカウント範囲を分けて削除します。先にJSON保存を勧めます。 Googleログインは使えますか？ 実際の接続確認前は有効にしません。別の認証をGoogleと表示しません。 長く使いすぎたら？ 閲覧上限と一定期間の休止を設定できます。保存・復元は休止中も使えます。 問題を見つけたら？ 現在は正式な問い合わせ先の開通待ちです。公開後はヘルプに担当と応答目標を表示します。 UMAMETRY · 無料学習センター · 教育・合成例のみ · 購入・決済なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/pro-tools",
+      "status": 200,
+      "elapsedMs": 168,
+      "contentType": "text/html; charset=utf-8",
+      "title": "高度な振り返り道具 | UMAMETRY",
+      "h1": [
+        "長期の記録から、 次の一手を見つける。"
+      ],
+      "buttons": [
+        {
+          "label": "計算JSONを保存",
+          "disabled": false
+        },
+        {
+          "label": "資料を保存",
+          "disabled": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/review",
+          "label": "元の判断・振り返り・次のルールを比較する →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "counterfactual-progress-title",
+        "advanced-calibration-title",
+        "comparison-date",
+        "filter-title",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "",
+          "type": "date",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "",
+          "type": "search",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "",
+          "type": "range",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "",
+          "type": "radio",
+          "disabled": false
+        }
+      ],
+      "publicText": "高度な振り返り道具 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 ADVANCED TOOLS · FREE · NO CHECKOUT 長期の記録から、 次の一手を見つける。 高機能の分析、検索、偏り候補、シナリオ比較、共有用資料を無料で提供します。処理は端末内が基本で、購入・課金・カード収集はありません。 守る境界 封印原文を変更しない AIや専門診断を装わない 利益・的中を保証しない 決済処理を開始しない 全記録 0件 直近7日 0件 · 30日 0件 振り返り率 0% 0/0件・各対象の最新のみ 結果一致 — 判定済み 0件 Brier — 20件未満・断定しません 「こうしておけば」を次回につなぐ 最新の振り返りで記録済み 0 件 · 締切前に確認できた材料 0 件 · 結果後のみ判明 0 件。いずれも本人の記録であり、実行効果や的中の保証ではありません。 元の判断・振り返り・次のルールを比較する → ADVANCED CALIBRATION · REPRODUCIBLE 期間・資料区分ごとの補正を見る 計算版 v1 全期間・30日・7日のBrierと95%区間を同じ式で比較します。20件未満は必ず小標本と表示し、自由記述から競馬場やレース種別を推測しません。 全期間 — 結果一致 — 95%区間 — 0件・小標本 直近30日 — 結果一致 — 95%区間 — 0件・小標本 直近7日 — 結果一致 — 95%区間 — 0件・小標本 資料区分 件数 Brier 差 計算できる記録がありません。 前後比較の境界日 日付を選ぶと、その前後を同じ計算版で比較します。 計算JSONを保存 これは端末内の観察記録の区間で、次の結果・的中・利益を予測しません。 ADVANCED SEARCH 記録を絞って比較 0 件 文字検索 結果 すべて 振り返り待ち 一致 不一致 判定対象外 最低確信度 0% 50% 70% 80% 条件に一致する記録がありません。 条件を減らしてください。元の記録は変更していません。 読み取り用レビュー資料 現在の絞り込み結果と関連する振り返り・訂正をJSONにまとめます。共有先は原文を編集できません。 資料を保存 RULE-BASED BIAS CHECK 偏り候補を質問に変える AI診断ではありません。端末内記録の明示的な条件だけで注意候補を示します。 現在の記録から強い偏り候補は見つかりません。これは正しさの保証ではありません。 SCENARIO SIMULATOR 次の一件で数値がどう変わるか 仮の確信度 70 % 仮の結果 一致 不一致 仮のBrier 0.090 保存していません · 利益や次回結果の予測ではありません UMAMETRY · 結果を保証しない高度な振り返り · 決済なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/onboarding",
+      "status": 200,
+      "elapsedMs": 109,
+      "contentType": "text/html; charset=utf-8",
+      "title": "使い方を選ぶ | UMAMETRY",
+      "h1": [
+        "必要な案内だけ、 自分で選ぶ。"
+      ],
+      "buttons": [
+        {
+          "label": "理由付きの開始経路を保存",
+          "disabled": false
+        },
+        {
+          "label": "今はスキップ",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "goal-record",
+        "goal-calibration",
+        "goal-evidence",
+        "experience-new",
+        "experience-familiar",
+        "experience-advanced",
+        "density-guided",
+        "density-balanced",
+        "density-detailed",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "goal",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "goal",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "goal",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "experience",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "experience",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "experience",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "density",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "density",
+          "type": "radio",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "density",
+          "type": "radio",
+          "disabled": false
+        }
+      ],
+      "publicText": "使い方を選ぶ | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 OPTIONAL ONBOARDING · DEVICE ONLY 必要な案内だけ、 自分で選ぶ。 目標・慣れ・情報量だけを選びます。賭け金、損失、年齢、健康、性別などから推測しません。ログインせず、スキップしても全機能を使えます。 1. いまの目標 記録する 締切前の賛成・反対材料と確信度を残す 振り返る 確信度と結果のずれ、標本数を確かめる 根拠を比べる 資料の出所、古さ、反対材料を見比べる 2. 使い慣れ 初めて 少し慣れている 詳しく使いたい 3. 情報量 順番に案内 標準 詳細を多く 理由付きの開始経路を保存 今はスキップ 保存しない・推測しないこと 賭け金、損失、購入履歴 年齢、性別、健康、収入などの敏感な属性 広告クリックや外部サイトの行動 初期化しても封印記録、レビュー、バックアップは削除しません。 UMAMETRY · 強制しない個人設定 · この端末だけ · いつでも変更・初期化 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/account",
+      "status": 200,
+      "elapsedMs": 106,
+      "contentType": "text/html; charset=utf-8",
+      "title": "アカウントと端末設定 | UMAMETRY",
+      "h1": [
+        "つながる前も、 自分の記録を守る。"
+      ],
+      "buttons": [
+        {
+          "label": "Googleで続ける",
+          "disabled": true
+        },
+        {
+          "label": "この端末に明示保存",
+          "disabled": false
+        },
+        {
+          "label": "共有する",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/onboarding",
+          "label": "使い方"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/install",
+          "label": "ホーム画面に追加"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元を開く"
+        },
+        {
+          "href": "/data-policy",
+          "label": "データ方針"
+        },
+        {
+          "href": "/trust",
+          "label": "プライバシー・ヘルプ"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内へ戻る"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "google-account-title",
+        "google-auth-reason",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "displayName",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "language",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "dailyGoalMinutes",
+          "type": "",
+          "disabled": false
+        }
+      ],
+      "publicText": "アカウントと端末設定 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 使い方 保存・復元 ホーム画面に追加 進捗 ACCOUNT READINESS つながる前も、 自分の記録を守る。 Googleログインは、実際のOAuth接続を確認できるまで有効にしません。端末内の表示設定、無料バックアップ、共有は先に安全に使えます。 GOOGLE ACCOUNT · configuration_required Googleログイン・無料登録 現在はGoogle認証バックエンドとOAuthクライアントの接続を確認できていません。既存のChatGPT認証をGoogleとして表示せず、ログイン操作を停止しています。 Googleで続ける 準備待ち: AUTH_BACKEND_MISSING / OAUTH_CONFIGURATION_REQUIRED DEVICE-LOCAL SETTINGS この端末の設定 表示名 案内言語 日本語 한국어（設定のみ） English (preference only) 1日の確認目標 5 分 10 分 15 分 20 分 30 分 この端末に明示保存 言語は希望値の保存だけです。現在の本文翻訳を約束しません。 BACKUP & PRIVACY 無料の手動バックアップ JSON保存・確認後の復元・CSV要約は、ログインや有料契約なしで利用できます。自動アップロードや自動統合はしません。 保存・復元を開く データ方針 プライバシー・ヘルプ SHARE & QR 同じ公開URLを共有 https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28 共有する ACCOUNT BOUNDARY Google接続後にだけ表示する項目 伏せ字のGoogle識別情報と接続状態 Googleアカウント管理への案内 ログアウト（端末内記録は削除しない） アカウント削除、Google連携解除、決済はこの変更で作りません。 ← 公開案内へ戻る · ログインなしでも端末内記録と保存・復元を利用できます UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/sync",
+      "status": 200,
+      "elapsedMs": 78,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "端末内を基本に、 必要なときだけ同期。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/privacy-controls",
+          "label": "同意・削除範囲"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/signin-with-chatgpt?return_to=%2Fsync",
+          "label": "ChatGPTでサインイン"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 保存・復元 同意・削除範囲 進捗 OPTIONAL ACCOUNT SYNC 端末内を基本に、 必要なときだけ同期。 同期は初期状態でオフです。サインインしなくても記録・振り返り・保存・復元を使えます。同期を選ぶと、封印事件を自分のアカウント領域へ追加します。 SIGNED OUT 現在は端末内だけに保存しています。 別の端末と同期したい場合だけサインインしてください。サインインしても自動同期は始まりません。この経路はホスティングが提供するChatGPT認証で、準備中のGoogleログインとは別です。 ChatGPTでサインイン BOUNDARY 同期しない選択も同じ第一級機能です。 端末内記録とJSON/CSV保存は無料で利用できます。 競馬データ、決済情報、IPアドレスを同期記録に入れません。 予想・振り返り・訂正を追加型で扱い、同じ識別子の内容が違う場合は処理を止めます。 取得時の衝突は端末内の別ログに両方を保ち、封印記録を自動で上書きしません。 オフライン待機列は操作状態だけを持ち、予想原文を複製したり接続時に自動送信したりしません。 複数事件の追加は原子的な一括処理にし、途中までのアップロードを成功と表示しません。 機器解除、クラウド削除、端末内削除を分け、どの範囲が残るか先に表示します。 UMAMETRY · 明示操作だけで動く選択型同期 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/data-transfer",
+      "status": 200,
+      "elapsedMs": 74,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "自分の記録を、 自分で持ち運ぶ。"
+      ],
+      "buttons": [
+        {
+          "label": "完全なJSONを保存",
+          "disabled": false
+        },
+        {
+          "label": "CSV要約を保存",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "判断の振り返り"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/privacy-controls",
+          "label": "同意・削除範囲を開く"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "summary-title",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "",
+          "type": "file",
+          "disabled": false
+        }
+      ],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 判断の振り返り 進捗 PORTABLE DATA 自分の記録を、 自分で持ち運ぶ。 JSONは完全な復元用、CSVは表計算で読むための要約です。保存・復元・削除を有料機能にはしません。 CURRENT DEVICE 予想 0 件 · 振り返り 0 件 復元は現在の記録を消さず、重複を除いて追加します。壊れたファイルや未来の形式は保存前に拒否します。 EXPORT 1. 保存する 別の端末へ移す前、更新前、削除前にJSONを保存してください。JSONとCSVには秘密情報を含めません。 完全なJSONを保存 CSV要約を保存 IMPORT 2. 確認して復元 状態: ファイル未選択 JSONファイルを選ぶ LOCAL DELETE 削除範囲を確認してから進む 端末内の記録、旧v1、下書き、設定、同期端末情報は別々に選べます。先にJSONを保存し、範囲とクラウド除外を確認してください。 同意・削除範囲を開く UMAMETRY · 無料の保存・復元・ローカル削除 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/privacy-controls",
+      "status": 200,
+      "elapsedMs": 78,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "範囲を見て、 別々に決める。"
+      ],
+      "buttons": [
+        {
+          "label": "この端末で同期を許可",
+          "disabled": false
+        },
+        {
+          "label": "同意を取り消す",
+          "disabled": true
+        },
+        {
+          "label": "この端末で匿名測定を許可",
+          "disabled": false
+        },
+        {
+          "label": "匿名測定の同意を取り消す",
+          "disabled": true
+        },
+        {
+          "label": "削除前の範囲を固定",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/privacy",
+          "label": "説明"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/sync",
+          "label": "クラウド削除"
+        },
+        {
+          "href": "/sync",
+          "label": "同期クラウド記録 — 同じ同期アカウントを再確認して削除"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "name": "scope",
+          "type": "checkbox",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "scope",
+          "type": "checkbox",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "scope",
+          "type": "checkbox",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "scope",
+          "type": "checkbox",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "scope",
+          "type": "checkbox",
+          "disabled": false
+        }
+      ],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 説明 保存・復元 クラウド削除 PRIVACY CONTROLS 範囲を見て、 別々に決める。 端末、同期クラウド、ホスティングのアカウントは別です。この画面は端末内だけを扱い、削除前に範囲を固定します。 OPTIONAL CONSENT 選択型同期への同意 現在: オフ 。同意してもボタンを押すまで通信しません。取り消しても既に送ったクラウド記録は自動削除しません。 この端末で同期を許可 同意を取り消す OPTIONAL ANONYMOUS ANALYTICS 性能・主要操作の匿名測定 現在: オフ 。運用収集は 無効 です。LCP・INP・CLS、操作名、成功または分類済み失敗だけを対象にし、記録内容、検索語、完全なURL、IP、アカウント・端末・セッション識別子、自由記述エラーをアプリの保存項目にしません。 同意を取り消すと以後の測定を止めます。匿名で識別子を持たない集計事件は個別に探せないため、30日で自動削除する設計です。 この端末で匿名測定を許可 匿名測定の同意を取り消す LOCAL INVENTORY この端末で確認できる範囲 封印記録・振り返り・訂正・下書き 0 個の保存領域 移行・復元の作業記録 0 個の保存領域 表示・休憩・同意などの端末設定 0 個の保存領域 同期アカウント照合・衝突保管ログ 0 個の保存領域 移行・復元・削除の受領記録 0 個の保存領域 値そのものは一覧に表示しません。保存期間は利用者が削除するまでです。運営側の最終保存期間は未確定です。 LOCAL DELETE · PREVIEW 削除する端末範囲を選ぶ 封印記録・振り返り・訂正・下書き 移行・復元の作業記録 表示・休憩・同意などの端末設定 同期アカウント照合・衝突保管ログ 移行・復元・削除の受領記録 先に完全なJSONを保存してください。 クラウド記録とChatGPT/Googleアカウントは対象外です。 削除前の範囲を固定 別の削除経路 同期クラウド記録 — 同じ同期アカウントを再確認して削除 ホスティングのアカウント — この製品内では削除せず、提供者のアカウント管理を利用 Googleログイン — 未接続のため削除対象なし UMAMETRY · 範囲別の同意・削除・受領書 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/wellbeing",
+      "status": 200,
+      "elapsedMs": 119,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "続けるより、 休む判断を守る。"
+      ],
+      "buttons": [
+        {
+          "label": "上限を保存",
+          "disabled": false
+        },
+        {
+          "label": "休止を開始",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/trust",
+          "label": "安全方針"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "select",
+          "name": "minutes",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "hours",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "confirmation",
+          "type": "",
+          "disabled": false
+        }
+      ],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 保存・復元 安全方針 進捗 HARM REDUCTION 続けるより、 休む判断を守る。 UMAMETRYは購入を実行せず、損失回復を約束しません。閲覧時間の上限と、早期解除できない休止を端末内で設定できます。 SESSION LIMIT 休憩までの時間 一回の閲覧上限 15分 30分 60分 120分 上限を保存 SELF-EXCLUSION 一定期間休止 休止期間 24時間 7日 30日 「休止する」と入力 休止を開始 取り返そうと感じたら 画面を閉じ、決済手段から離れる。 信頼できる人に現在の状況を伝える。 居住地域の公的な相談窓口や医療機関を利用する。 地域別の正式な支援先は運営者と専門家の確認後に掲載します。緊急時は地域の緊急通報を利用してください。 UMAMETRY · 購入を促さず、休む選択を優先 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/install",
+      "status": 200,
+      "elapsedMs": 102,
+      "contentType": "text/html; charset=utf-8",
+      "title": "ホーム画面に追加 | UMAMETRY",
+      "h1": [
+        "いつもの画面から、 すぐ開けます。"
+      ],
+      "buttons": [
+        {
+          "label": "この端末に追加",
+          "disabled": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗ダッシュボード"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "最新の公開案内を開く"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内へ戻る"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "install-warning-title",
+        "direct-install-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "ホーム画面に追加 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY アクセシビリティ 信頼・運用 商用条件 進捗ダッシュボード ADD TO YOUR DEVICE · 20260904-v28 いつもの画面から、 すぐ開けます。 公開開発案内をホーム画面やPCのアプリ一覧に追加する手順です。追加しても、実データ・購入・決済機能が使えるようになるわけではありません。 最新の公開案内を開く BEFORE YOU ADD これはアプリストア版ではありません。 現在はHTTPSで公開している開発案内を、端末から開きやすくする仕組みです。最後に確認した案内を一時的に読めるようオフライン準備をしていますが、実データ・最新結果・購入機能をオフラインで保証するものではありません。Android実機での追加・更新・読み上げはまだ検証していません。 DIRECT INSTALL 対応ブラウザから追加 操作できる場合だけボタンが有効になります。自動で追加したり、入力中の画面を再読み込みしたりしません。 この端末に追加 対応ブラウザではインストールボタンが表示されます。 Android Chromeで公開URLを開く 右上の︙から「アプリをインストール」または「ホーム画面に追加」を選ぶ 追加したUMAMETRYのアイコンから開く iPhone / iPad Safariなどで公開URLを開く 共有ボタンから「ホーム画面に追加」を選ぶ 右上の「追加」を押してアイコンから開く Windows / macOS ChromeまたはEdgeで公開URLを開く アドレスバーのインストール印、またはメニューの「アプリをインストール」を選ぶ 追加後のUMAMETRYをタスクバーやアプリ一覧から開く SUCCESS SIGNAL 追加できたか確認する UMAMETRYのアイコンから開き、画面に 20260904-v28 と表示されれば最新案内です。 IF IT DOES NOT APPEAR 追加メニューがないとき ブラウザを更新してHTTPSの公開URLを再読込してください。それでも出なければ、ブックマークを代わりに使えます。 OPEN ON PHONE スマートフォンで開く QRと公開URLは同じバージョンを開きます。 https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28 ← 公開案内へ戻る · UMAMETRYは購入を勧めません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/help",
+      "status": 200,
+      "elapsedMs": 90,
+      "contentType": "text/html; charset=utf-8",
+      "title": "ヘルプ | UMAMETRY",
+      "h1": [
+        "迷ったときに、 次の一歩だけ分かる。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/learn",
+          "label": "3分の基本"
+        },
+        {
+          "href": "/records",
+          "label": "封印"
+        },
+        {
+          "href": "/calibration",
+          "label": "補正"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "JSONは完全復元、CSVは閲覧用"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "検索、長期要約、偏り候補、シナリオ、レビュー資料"
+        },
+        {
+          "href": "/sync",
+          "label": "明示的に操作したときだけ"
+        },
+        {
+          "href": "/privacy-controls",
+          "label": "同意・削除範囲"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "閲覧上限と早期解除できない休止"
+        },
+        {
+          "href": "/support",
+          "label": "端末内で確認資料を作る"
+        },
+        {
+          "href": "/status",
+          "label": "監視・障害案内の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼の準備状況"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "ヘルプ | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 HELP · NO PAYMENT SUPPORT 迷ったときに、 次の一歩だけ分かる。 主要な使い方、保存・削除、安全境界をまとめています。購入・決済・実レース資料の問い合わせ窓口ではありません。 初めて使う まず 3分の基本 を読み、合成資料で一件だけ記録してください。 記録する 賛成・反対根拠と不確かさを入力し、確認画面を読んでから 封印 します。 振り返る 結果後に元の記録を変えず、訂正と学びを追加します。 補正 は20件未満で断定しません。 保存・復元 JSONは完全復元、CSVは閲覧用 です。読み込み前に件数と形式を確認します。 高度な道具 検索、長期要約、偏り候補、シナリオ、レビュー資料 は無料で、決済を開始しません。 アカウント同期 明示的に操作したときだけ 本人領域へ追加します。使わなくても主要機能は同じです。 削除 端末内と同期領域は別です。先に保存し、 同意・削除範囲 を確認してください。 使いすぎを防ぐ 閲覧上限と早期解除できない休止 を端末内で設定できます。 正式な問い合わせ先は準備中 公開の連絡先、担当者、営業時間、応答目標はまだ有効化されていません。 そのため、個人情報・緊急情報・カード情報を送らないでください。公開前に運営者が実際に応答できる経路を確認する必要があります。 端末内で確認資料を作る 監視・障害案内の状態 信頼の準備状況 UMAMETRY · 無料ヘルプ · 正式な問い合わせ運用は未開始 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/support",
+      "status": 200,
+      "elapsedMs": 81,
+      "contentType": "text/html; charset=utf-8",
+      "title": "問い合わせ準備 | UMAMETRY",
+      "h1": [
+        "問題を整理する。 まだ送信しません。"
+      ],
+      "buttons": [
+        {
+          "label": "端末内で確認資料を作る",
+          "disabled": false
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/status",
+          "label": "監視と障害案内の状態を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [
+        {
+          "tag": "select",
+          "name": "category",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "name": "urgency",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "summary",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "steps",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "expected",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "textarea",
+          "name": "actual",
+          "type": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "name": "occurredAt",
+          "type": "datetime-local",
+          "disabled": false
+        }
+      ],
+      "publicText": "問い合わせ準備 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 SUPPORT PACKET · DEVICE ONLY 問題を整理する。 まだ送信しません。 これは正式な問い合わせフォームではありません。公開連絡先、担当者、営業時間、応答目標は未確定です。入力はサーバーへ送らず、この端末でJSONにまとめます。 個人情報や秘密を入れない 氏名、メール、電話、カード、IP、認証情報、予想原文は入力しないでください。よくある形式は保存時に伏せますが、完全な検出を保証しません。安全上の緊急事態は、このサービスの返答を待たず地域の緊急・相談窓口を利用してください。 端末内で状況をまとめる 種類 技術的な問題 保存・復元・削除 個人情報 アクセスしやすさ 安全・休止 優先度 通常 主要操作ができない 安全上の心配 短い要約 再現手順 期待した結果 実際の結果 発生時刻（任意） 端末内で確認資料を作る まだ作成していません。 正式な連絡が始まる条件 実際に応答する担当者と公開連絡先 営業時間、初回応答目標、優先度ルール 個人情報の受付範囲と保有・削除期間 試験問い合わせの受信・応答・終了記録 監視と障害案内の状態を見る → UMAMETRY · 端末内の問い合わせ準備 · 送信なし · 応答約束なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/status",
+      "status": 200,
+      "elapsedMs": 90,
+      "contentType": "text/html; charset=utf-8",
+      "title": "サービス状態 | UMAMETRY",
+      "h1": [
+        "見えた状態だけを示す。 稼働率を表示しません。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "公開版を開く →"
+        },
+        {
+          "href": "/support",
+          "label": "確認資料"
+        },
+        {
+          "href": "/operations",
+          "label": "復旧・診断の開発契約を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "サービス状態 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 SERVICE STATUS · NOT LIVE MONITORING 見えた状態だけを示す。 稼働率を表示しません。 自動監視、警報担当、正式な問い合わせ受付はまだ開始していません。そのため「正常」「無事故」「99.9%」とは表示せず、最後の手動確認と未公開候補を分けます。 公開基準 版 20260904-v28 。 2026-09-04 の手動HTTP確認は通過しました。現在を連続監視する証拠ではありません。 公開版を開く → ローカル候補 状態: 未配布。匿名分析の運用収集は 無効 で、ビルド・公開環境の健全性や実利用p75へ反映されていません。 障害履歴 本番運用として収集していません。「障害なし」を意味しません。 問い合わせ 有効な連絡先と応答目標はありません。端末内の 確認資料 だけ準備できます。 実時間表示を始める条件 named alert owner automated public health check incident severity and escalation policy dated alert and recovery drill 復旧・診断の開発契約を見る → UMAMETRY · 実時間監視なし · 稼働率保証なし · 公開版と未公開候補を分離 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/trust",
+      "status": 200,
+      "elapsedMs": 83,
+      "contentType": "text/html; charset=utf-8",
+      "title": "信頼・運用の準備 | UMAMETRY",
+      "h1": [
+        "草案と、 本番の証拠を分ける。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/status",
+          "label": "サービス状態"
+        },
+        {
+          "href": "/support",
+          "label": "問い合わせ準備"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧・診断"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データ方針"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/support",
+          "label": "送信しない問い合わせ確認資料を作る →"
+        },
+        {
+          "href": "/status",
+          "label": "監視・障害案内の現状を見る →"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧・診断の開発契約を見る →"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "PC・モバイルの全商用条件を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "trust-summary-title",
+        "privacy",
+        "terms",
+        "security_incident",
+        "support",
+        "operations",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "信頼・運用の準備 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY サービス状態 問い合わせ準備 障害復旧・診断 アクセシビリティ 商用条件 実データ方針 進捗 ← 公開案内 TRUST & OPERATIONS · 20260904-v28 草案と、 本番の証拠を分ける。 利用者を守る文章や手順を先に用意しても、法務確認・担当者・監視・訓練がなければ商用準備完了とは表示しません。 現在: 発売前の草案 · 有効な問い合わせ窓口なし · 本番監視と事故対応訓練は未確認 CURRENT VERDICT 五つの項目は、すべて本番確認待ちです。 このページは方針の透明性を高めるための開発案内です。法的助言、運用保証、サポート受付開始の告知ではありません。 PRIVACY 草案 個人情報 現在の公開案内には、アカウント・決済・馬券購入・実レースデータの収集機能はありません。将来取り扱う前に、目的・保存期間・削除と問い合わせ方法を確定します。 本番前に必要な証拠 reviewed purposes and lawful basis retention and deletion periods request and complaint channel TERMS 草案 利用条件と法的表示 情報サービスであり、的中・収益・損失回復を保証しません。馬券購入代行、資金保管、利用者間取引は提供しません。 本番前に必要な証拠 jurisdiction-specific legal review effective date and version acceptance and change-notice process SECURITY INCIDENT 草案 セキュリティと事故対応 検知、影響の制限、評価、通知、復旧、振り返りの順序は定義済みです。本番の監視・担当者・訓練記録は未確認です。 本番前に必要な証拠 named incident owner production alert route exercise record and dated review SUPPORT 草案 問い合わせ対応 受付から分類、解決、終了確認までの流れは設計済みです。公開問い合わせ先、担当者、営業時間、応答目標はまだ有効化していません。 本番前に必要な証拠 named support owner active public contact channel service hours and response policy OPERATIONS 草案 監視・バックアップ・復旧 開発継続用のバックアップと、本番サービスの監視・復旧は別に判定します。本番の警報、保存方針、復旧訓練は未確認です。 本番前に必要な証拠 production health checks and alert ownership backup scope and retention dated restore drill and recovery objectives RELEASE BLOCKERS まだ閉じていない条件 独立した法務・個人情報レビュー 公開問い合わせ先、担当者、営業時間と応答方針 本番監視、警報、事故対応の担当と連絡経路 日付のある復旧訓練と事故対応訓練 送信しない問い合わせ確認資料を作る → 監視・障害案内の現状を見る → 障害復旧・診断の開発契約を見る → PC・モバイルの全商用条件を見る → UMAMETRY · 信頼・運用の草案 · 本番証拠がそろうまで商用準備完了とは表示しません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "elapsedMs": 87,
+      "contentType": "text/html; charset=utf-8",
+      "title": "利用条件 | UMAMETRY",
+      "h1": [
+        "できることと、 できないことを先に示す。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "記録を保存"
+        },
+        {
+          "href": "/wellbeing",
+          "label": "休止を設定"
+        },
+        {
+          "href": "/help",
+          "label": "使い方と制限"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "利用条件 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 TERMS · PRODUCT-FACT CANDIDATE できることと、 できないことを先に示す。 確認日: 2026-08-31 。現在の無料機能に合わせた利用条件候補です。法的運営者・対象国・準拠法・正式な問い合わせ先の確定と専門家レビューは未完了です。 効力開始前の未確定事項 この文書だけで正式な契約条件や法令順守を証明しません。 法的運営者、所在地、対象地域、年齢方針、準拠法、連絡先の決定後に版番号と効力開始日を確定します。 サービスの範囲 判断根拠、反対根拠、不確かさ、確信度の端末内記録 結果後の訂正・振り返り・補正 学習コンテンツ、高度な検索・傾向確認・非保存のシナリオ試算 JSON/CSV保存、復元、選択型の本人同期 分析カードは開発・合成例で、書面許可を確認した実レース資料ではありません。 提供しないこと 馬券購入・自動ベット・購入代行 資金・カード情報の保管、利用者間取引 的中、利益、損失回復、将来結果の保証 法律・医療・投資などの専門家判断や認証 利用者が守ること 居住地域の年齢・競馬・オンライン利用ルールを確認する 第三者の個人情報、秘密、権利のない資料を入力・共有しない サービスの安全性、他人のデータ、運用を妨げない 長時間利用や損失回復への衝動を感じたら休止機能を使う 年齢と広告の対象 UMAMETRYは18歳以上の成人向けで、子ども向けサービスではありません。居住地域で競馬関連情報の利用に18歳より高い年齢条件がある場合は、その条件を優先してください。年齢を偽って広告や機能を利用してはいけません。 記録と可用性 端末内データはブラウザー設定や端末故障で失われる可能性があります。重要な記録はJSONで保存してください。オフライン準備画面は使えても、同期や新しい資料取得には通信が必要です。保守や安全上の理由で機能を停止する場合があります。 記録を保存 休止を設定 使い方と制限 変更と連絡 重要な条件を変更する場合は版番号・変更日・要点を表示し、必要な再同意を分けて扱う設計です。正式な問い合わせ先と応答目標は未開通で、公開前の通過条件です。 UMAMETRY · 利用条件候補 · 法的効力と専門家レビューは未確認 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "elapsedMs": 78,
+      "contentType": "text/html; charset=utf-8",
+      "title": "プライバシー情報 | UMAMETRY",
+      "h1": [
+        "集める前に、 範囲と削除を示す。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://policies.google.com/technologies/partner-sites",
+          "label": "Googleのパートナーサイトでのデータ利用を確認する"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の準備状況を見る"
+        },
+        {
+          "href": "/privacy-controls",
+          "label": "同意・削除範囲を確認"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "端末内の保存・復元"
+        },
+        {
+          "href": "/sync",
+          "label": "同期領域の追加・削除"
+        },
+        {
+          "href": "/account",
+          "label": "接続状態を確認"
+        },
+        {
+          "href": "/trust",
+          "label": "準備済みと未確認の信頼項目を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "プライバシー情報 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 PRIVACY · PRODUCT-FACT CANDIDATE 集める前に、 範囲と削除を示す。 確認日: 2026-08-31 。これは現在の機能に合わせた説明候補です。法的運営者と問い合わせ先の確定、独立した法務・個人情報レビューはまだ完了していません。 公開前に確定が必要な情報 法的運営者名、所在地、公開問い合わせ先、対象国、保存期間の最終承認は未確定です。 確認できない情報を仮名で埋めません。この状態は法的レビュー完了や商用公開準備完了を意味しません。 現在扱う情報 端末内だけで使う情報 封印した判断、訂正、結果後の振り返り、下書き 休憩・利用上限、表示とアカウント接続の設定 ブラウザーの保存領域に置き、利用者がJSONで持ち出せます 選択型同期を使った場合 認証済み利用者を区別する内部識別子 利用者が明示的に送った記録事件 同期は初期状態でオフで、端末内利用だけでも主要機能を使えます 扱わない情報 カード番号、決済情報、馬券購入、資金の預かり 実レースの契約資料（書面許可前） 端末内の全記録を自動でアカウントへ送る処理 封印原文を広告や生成AI学習へ自動利用する処理 利用目的 利用者自身の判断記録・復元・振り返り 選択した場合だけ、本人領域への複数端末同期 不正な重複や壊れた入力を防ぐための最小限の検証 匿名の製品分析は現在 無効 です。将来有効にする場合も、端末で別に同意した後のLCP・INP・CLS、主要操作名、成功または分類済み失敗だけを30日間扱います。記録・下書き・検索語・完全なURL・IP・利用者/端末/セッション識別子・自由記述エラーをアプリの分析保存項目にしません。 同意を取り消すと以後の測定とメモリ内の未送信事件を止めます。識別子を持たない既送信事件は個人別に探せないため、運用で30日削除が実行された証拠を公開前に確認します。 広告とCookie 現在はGoogle AdSenseの外部承認と運営者の最終承認がそろっていないため、広告要求を送りません。将来広告を有効にすると、Googleなどの第三者が広告配信のためにCookieを置いたり読み取ったりし、ウェブビーコン、IPアドレスなどを利用する場合があります。現在の公開版は世界から到達できるため、EEA・英国・スイスを含む対象地域に対応したGoogle認定CMPを先に公開し、この説明を正式に承認してから開始します。 最初の広告版は、過去の行動に基づくパーソナライズ広告を要求せず、すべての広告枠に制限付きデータ処理を指定します。米国の対象州には、このサイト専用の「個人情報を販売または共有しない」選択経路も公開します。これらは法令順守の認証ではなく、正式な対象地域・運営者・法務確認は別に必要です。 Googleのパートナーサイトでのデータ利用を確認する · 広告の準備状況を見る 保存・削除・持ち出し 端末内削除と同期領域削除は別操作です。削除前に完全なJSONを保存できます。同期領域削除は認証された本人だけが実行し、結果の受領番号を返す設計です。 同意・削除範囲を確認 端末内の保存・復元 同期領域の追加・削除 接続状態を確認 安全と問い合わせ 通信時の基本的な安全ヘッダー、所有者ごとの同期分離、入力上限を実装しています。本番監視、事故対応責任者、正式な問い合わせ先は未確定です。緊急の個人情報やカード情報を入力しないでください。 準備済みと未確認の信頼項目を見る → UMAMETRY · 個人情報説明候補 · 法的運営者と問い合わせ先は公開前の必須条件 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/accessibility",
+      "status": 200,
+      "elapsedMs": 91,
+      "contentType": "text/html; charset=utf-8",
+      "title": "アクセシビリティ確認 | UMAMETRY",
+      "h1": [
+        "自動確認と、 実際の操作を分ける。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "PC・モバイルの全商用条件を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "automatic-title",
+        "actual-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "アクセシビリティ確認 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 信頼・運用 商用条件 進捗 ← 公開案内 ACCESSIBILITY EVIDENCE · 20260904-v28 自動確認と、 実際の操作を分ける。 コードで防げる問題は繰り返し検査します。ただし、実ブラウザの200%・400%拡大、キーボードだけの主要操作、読み上げ機器の操作は、人と端末で確かめるまで完了にしません。 現在: 自動確認 11 件 · 実環境の確認待ち 4 件 · 商用アクセシビリティは未完了 AUTOMATED CONTRACTS 繰り返し確認できること 11 件 ✓ 文書の言語 ページ全体を日本語として読み上げ機器に伝えます。 自動検査済み · 実機証拠ではありません ✓ 本文へ移動 キーボード操作で繰り返しナビゲーションを飛ばし、本文へ移動できます。 自動検査済み · 実機証拠ではありません ✓ キーボードの現在位置 リンクや操作項目のフォーカスを見える輪郭で示し、ソース順に移動します。 自動検査済み · 実機証拠ではありません ✓ 文字拡大の再配置 長い文字列と画像を縮小・折り返し、横方向の内容を隠さず、狭い画面ではカードを一列にします。 自動検査済み · 実機証拠ではありません ✓ 400%相当の表の再配置 対応環境と封印記録の表を狭い幅では見出し付きカードへ変え、320pxを超える固定最小幅を許しません。 自動検査済み · 実機証拠ではありません ✓ 動きを減らす設定 端末の設定に合わせて不要なアニメーションと滑らかな移動を止めます。 自動検査済み · 実機証拠ではありません ✓ 高コントラスト表示 強制配色とコントラスト設定でも、枠線、リンク、キーボードの現在位置をシステム色で残します。 自動検査済み · 実機証拠ではありません ✓ 操作結果の読み上げ 保存・削除・同期などの結果を、画面を移動せず読み上げ機器へ伝える構造を確認します。 自動検査済み · 実機証拠ではありません ✓ 日本語の状態表示 復元・同期・衝突の内部コードをそのまま見せず、意味が分かる日本語へ変換します。 自動検査済み · 実機証拠ではありません ✓ 横方向の内容保護 横にはみ出した内容を隠す指定と、320pxを超える固定最小幅を検出します。 自動検査済み · 実機証拠ではありません ✓ 全公開画面の対象化 サイトマップにある現在の全画面が、アクセスしやすさの検査一覧にもあることを確認します。 自動検査済み · 実機証拠ではありません ACTUAL ENVIRONMENT 人と端末で確かめること 4 件 ! 実ブラウザの200%確認 対応するPCブラウザで実際に200%へ拡大した日付付き記録はまだありません。 未確認 · 日付、環境、結果の記録が必要 ! 実ブラウザの400%確認 対応するPCブラウザで実際に400%へ拡大し、320px相当で操作できる日付付き記録はまだありません。 未確認 · 日付、環境、結果の記録が必要 ! キーボードだけの主要操作 記録・振り返り・移動・個人情報・同期をキーボードだけで完了した日付付き記録はまだありません。 未確認 · 日付、環境、結果の記録が必要 ! 実際の読み上げ確認 NVDA、Narrator、VoiceOver、TalkBackで順序と名前を確認した記録はまだありません。 未確認 · 日付、環境、結果の記録が必要 COMPLETION RULE 自動検査だけで100%にはしません。 PCの対応ブラウザを実際に200%・400%へ拡大し、横スクロールと隠れた操作がないことを確認する。 記録・振り返り・データ移動・個人情報・同期をキーボードだけで完了できることを確認する。 PCとモバイルの読み上げ機器で見出し、リンク名、警告、次の行動の順序を確認する。 日付・環境・結果を保存し、失敗を直してから商用ゲートを更新する。 PC・モバイルの全商用条件を見る → UMAMETRY · 自動検査と実環境の証拠を分離 · 未確認を完了として表示しません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/compatibility",
+      "status": 200,
+      "elapsedMs": 118,
+      "contentType": "text/html; charset=utf-8",
+      "title": "対応環境・性能 | UMAMETRY",
+      "h1": [
+        "予定を、 対応済みにしない。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/accessibility",
+          "label": "拡大・キーボード・画面読み上げの証拠を見る →"
+        },
+        {
+          "href": "/status",
+          "label": "公開状態と監視の範囲を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "compatibility-heading",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "対応環境・性能 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 COMPATIBILITY & FIELD PERFORMANCE 予定を、 対応済みにしない。 下の環境は試験対象です。日付・実際の版・主要操作の結果がそろうまで「対応」とは表示しません。現在のローカル候補は全対象が未確認です。 公開p75性能は未測定 目標はLCP 2.5秒以下、INP 200ms以下、CLS 0.1以下です。最低75標本・7日間・公開版の実利用p75が必要です。一回のLighthouse最高点やローカル測定だけでは通過にしません。 現在: 実利用性能の収集は 無効 · 公開版のp75証拠なし 試験対象 15 件 対応予定。すべて実環境確認待ちです。 環境 ブラウザ 幅 状態 Windows Chrome current 1440 px 未確認 Windows Chrome previous 1440 px 未確認 Windows Edge current 1440 px 未確認 Windows Edge previous 1440 px 未確認 Windows Chrome current・400% zoom 320 px 未確認 Windows Edge current・forced colors 1440 px 未確認 Windows Chrome current・reduced motion 1440 px 未確認 macOS Safari current 1440 px 未確認 iPhone Safari 390 px 未確認 iPhone Home Screen PWA 390 px 未確認 Android Chrome PWA 360 px 未確認 Android Chrome PWA 390 px 未確認 Android Chrome PWA・TalkBack 360 px 未確認 iPhone Safari・VoiceOver 390 px 未確認 Tablet Chrome or Safari 768 px 未確認 各環境で行う主要操作 開いて限界を理解する 記録を作成して封印する 元の記録を書き換えず振り返る 書き出して復元する 個人情報の設定を変更する ヘルプと運用状態を探す 追加・更新・オフライン利用・再接続を確認する 拡大・キーボード・画面読み上げの証拠を見る → 公開状態と監視の範囲を見る → UMAMETRY · 対応予定と実証を分離 · 一回の最高点をp75と表示しません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/commercial-readiness",
+      "status": 200,
+      "elapsedMs": 260,
+      "contentType": "text/html; charset=utf-8",
+      "title": "商用リリース条件 | UMAMETRY",
+      "h1": [
+        "100%は、 証拠がそろった時だけ。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データ方針"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧・診断"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧と診断記録の開発契約を見る →"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化95%の条件を見る →"
+        },
+        {
+          "href": "/accessibility",
+          "label": "自動確認と実機の未確認を分けて見る →"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用の草案と未確認事項を見る →"
+        },
+        {
+          "href": "/install",
+          "label": "端末別の追加手順を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "free-launch-gates",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "商用リリース条件 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 進捗 実データ方針 信頼・運用 障害復旧・診断 アクセシビリティ 有料化条件 ← 公開案内 COMMERCIAL RELEASE GATE · 20260904-v28 100%は、 証拠がそろった時だけ。 PCウェブとモバイルは別々に確認します。実機、契約、法務、運用のどれか一つでも未確認なら、商用リリース可能とは表示しません。 現在: 商用リリースは停止中。購入代行・資金の預かり・利用者間取引・契約前の実データ提供は行いません。 100% RULE すべての必須項目が実証済みであること A lane may be reported as 100 only when every listed gate is pass and every evidence value is a dated, verifiable production record. FREE LAUNCH · 1 / 10 PASS 無料版でも、10群すべてが必要です。 ローカル候補で通過したのは製品コード群です。部分完了や未確認を合格に置き換えません。 ! product 200/200 clean WSL production-build tests cover shareable fail-closed review filters, reproducible advanced calibration, optional goal-based onboarding, field-performance evidence and the support matrix, disabled admin/audit, support/status, security boundaries, accessibility coverage, PWA recovery, privacy controls, optional sync with atomic upload and offline recovery, decision explanations, PC workspace, mobile flow, calibration, source rights, outcome reconciliation, ledger, local writes, account, free content, advanced tools, AdSense activation, nonce-bound CSP, rendered HTML, traceability, migration and data portability. TypeScript syntax covered 73 files with 0 errors, changed-file ESLint completed with 0 errors, and the production build passed using checksum-verified official Linux Node 22.23.2 in clean WSL. Native Windows build remains blocked by Windows Application Control; new public Sites version is pending. ! data / rights Purpose, region, storage, public-display, expiry, future timestamp, fingerprint and correction-owner checks fail closed before provider invocation; exact race identity and append-only official corrections are tested. No written production race-data display/storage grant or permitted provider sample exists, so real_data_connection_enabled remains false ! mobility / and / deletion Versioned JSON/CSV export, MIME/extension/10MB validation, preview, duplicate/conflict separation, explicit confirmation/cancel, partial-success receipt, concurrent-change refusal, staging/quota protection, verified everyday ledger writes, visible draft-save failure, scoped local/cloud deletion and restart-safe v1 migration contracts exist; production account deletion drill and browser/screen-reader tasks are not recorded ! legal / and / privacy Product-fact /terms, /privacy and /help candidates exist locally; operator identity, public contact, jurisdiction, effective approval and independent review are not recorded ! security Same-origin JSON mutation checks, actual 10MiB body limits, stable public errors, atomic delete/receipt batch, CSP/HSTS and ownership boundaries are tested; production dependency audit and tracked secret-pattern scan report 0 findings. AdSense now also fails closed without ads.txt Authorized, controlled Auto ads mode and sensitive-category review. Google backend/OAuth, deployed header verification, AdSense account ownership/Ready review, two-account testing, external security review and production exercise are not recorded ! operations / and / support Local /help, /support, /status, /operations and trust guidance exist. Optional sync now has an account-bound value-free offline intent queue, interrupted-operation recovery, atomic upload, both-sides conflict review and local device release. Admin is disabled, unindexed, uncached and outside the PWA shell; least-privilege actions, independent approval and tamper-evident value-free audit chains are tested. No configured administrator, protected audit persistence, active support channel, alert owner, response objective, real three-device sync run or production restore drill is recorded ! accessibility / and / devices Public v16 has dated 360px and 390px reflow evidence and public v27 now includes the /m/ entry route, five-tab navigation, content, legal and advertising routes; screen reader, iPhone and current Android runs are not recorded. ADB authorized device count was 0 ! performance A fail-closed field RUM contract now requires the exact public release and origin, at least 75 samples over at least 7 days, with p75 LCP at most 2.5s, INP at most 200ms and CLS at most 0.1. One-off Lighthouse and synthetic results cannot pass. Collection is disabled and no qualifying public measurement window exists. ! real / users No consented five-user end-to-end run ! release / evidence Public v28 Sites version 2 home, dashboard, /m/, QR, robots.txt and sitemap.xml responded HTTP 200 on 2026-09-04. /ads.txt remains HTTP 404 by fail-closed policy until an authorized publisher identifier and reviewed ad configuration exist. Real-user, Android, legal, rights and operational evidence remain unrecorded PC WEB PC web commercial readiness 20 % 未確認または停止中の項目は、100%に含めません。 ✓ Latest public release Existing owner project published source 38c87f9 as Sites version 17; public v16 home and dashboard returned HTTP 200 on 2026-08-19 ! Supported browser matrix No current multi-browser production run ! 200% text and screen-reader check Five automated contracts pass at /accessibility; actual 200% and screen-reader evidence is not recorded ! Commercial data rights No written commercial display and storage grant ! Terms and privacy review Local product-fact /terms, /privacy and /help candidates exist; operator approval and independent legal and privacy review are not recorded ! Security and incident response Draft response sequence exists; production owner, alerts and exercise are not recorded ! Customer support route Local /help recovery guidance exists; active channel, owner and response policy are not recorded ! Monitoring, backup and recovery Local retry deduplication, bounded timeout, offline notice, input preservation and 10,000-record restart-safe v1 migration are automatically verified; production monitoring, load evidence and restore drill are not recorded MOBILE PWA Mobile commercial readiness 5 % 未確認または停止中の項目は、100%に含めません。 ! Real-device install and update PWA install guide exists; real Android and iPhone evidence is not recorded ! Real-device accessibility Automated contracts pass at /accessibility; TalkBack, VoiceOver and actual 200% evidence is not recorded ! Device and OS compatibility matrix No supported-device production matrix ! Commercial data rights No written commercial display and storage grant ! Terms and privacy review Local product-fact /terms, /privacy and /help candidates exist; operator approval and independent legal and privacy review are not recorded ! Security and incident response Draft response sequence exists; production owner, alerts and exercise are not recorded ! Customer support route Local /help recovery guidance exists; active channel, owner and response policy are not recorded ! Monitoring, backup and recovery Shared mobile/PC timeout, offline notice, safe retry, input preservation and explicit source-retaining v1 migration contracts pass; production real-device recovery, monitoring and restore drill are not recorded AUTOMATED RESILIENCE 通信失敗で記録を増やさない準備 ローカル版では、同じ封印送信の重複防止、8秒の応答上限、オフライン表示、入力保持、接続再確認を自動検査しました。これは本番の監視・負荷試験・実機復旧ではないため、operationsの完了には数えません。 障害復旧と診断記録の開発契約を見る → NEXT EVIDENCE 100%に近づく順番 既存の公開先に最新の検証済み版を公開し、PCの実環境で確認する。 AndroidとiPhoneでインストール・更新・読み上げ・文字拡大を実測する。 実データの書面許可、利用規約・個人情報、監視・バックアップ・問い合わせ体制を実運用の証拠で閉じる。 有料化95%の条件を見る → 自動確認と実機の未確認を分けて見る → 信頼・運用の草案と未確認事項を見る → 端末別の追加手順を見る → UMAMETRY · 現在は開発案内 · 商用の100%表示は証拠により自動的に判定します UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/monetization",
+      "status": 200,
+      "elapsedMs": 190,
+      "contentType": "text/html; charset=utf-8",
+      "title": "有料化の条件 | UMAMETRY",
+      "h1": [
+        "価格の仮説と、 実際の決済を分ける。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案の事前確認"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・返金設計"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案の事前確認を見る →"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・解約・返金の状態設計を見る →"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用リリース全体の条件を見る →"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用の未確認事項を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "price-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "有料化の条件 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 進捗 商用条件 提供案の事前確認 権限・返金設計 信頼・運用 ← 公開案内 PAID SERVICE GATE · 20260904-v28 価格の仮説と、 実際の決済を分ける。 月額案を比較する準備はありますが、決済会社・税・返金・有料規約・本番購入の証拠はありません。現在は請求も有料権限の販売も行いません。 現在: checkout_live=false · 入力しても料金は発生しません · カード情報は収集しません 95% RULE 重要条件が一つでも未確認なら95%にしない A paid lane may be reported at 95 or above only when every critical gate is pass with dated actual-production evidence; 100 additionally requires every gate to pass. PRICE HYPOTHESES 比較中の月額案 すべて仮説です。申込み、請求、契約の表示ではありません。 ¥ 2,980 /月 entry hypothesis ¥ 3,980 /月 current comparison hypothesis ¥ 4,980 /月 advanced hypothesis PC PAID PC web paid-service readiness 5 % 価格比較の開発契約だけを5%として数え、実際の決済条件は証拠ができるまで数えません。 ✓ 価格仮説を実測と分ける The local calculator labels 2,980/3,980/4,980 JPY as hypotheses and never presents checkout. ! 有料プランと提供内容 No approved paid plan, entitlement list or commercial launch decision. ! 決済会社・加盟店審査 No provider, merchant review, fee schedule or production credential is configured. ! 決済と失敗時の復旧 No charge, 3-D Secure, retry, duplicate-charge or payment failure production run. ! 領収書・税・会計 No reviewed receipt fields, tax treatment, invoice retention or accounting export. ! 解約・返金 No reviewed cancellation timing, proration, refund policy or production reversal evidence. ! 有料権限の付与・終了 Development-only entitlement state contract exists; no account entitlement, expiration, downgrade or existing-user migration production evidence. ! 有料規約・決済情報 No independent review for billing data, processors, paid terms and disclosures. ! 決済セキュリティ・不正対策 No production threat review, webhook verification, fraud rule or incident exercise. ! 請求サポート・照合 No active billing contact, response target, daily reconciliation or failed-payment runbook. ! 本番の購入から返金まで No dated production purchase, receipt, access, cancellation and refund evidence. MOBILE PAID Mobile PWA paid-service readiness 5 % 価格比較の開発契約だけを5%として数え、実際の決済条件は証拠ができるまで数えません。 ✓ 価格仮説を実測と分ける The shared calculator labels all monthly amounts as hypotheses and performs no charge. ! 有料プランと提供内容 No approved mobile paid plan or entitlement list. ! 決済会社・加盟店審査 No provider decision, mobile browser payment review, fee schedule or production account. ! 決済と失敗時の復旧 No real Android or iPhone charge, authentication, retry or duplicate-charge evidence. ! 領収書・税・会計 No reviewed mobile receipt, tax, invoice retention or accounting export. ! 解約・返金 No mobile cancellation, refund and restoration production run. ! 有料権限の付与・終了 Development-only entitlement state contract exists; no login, cross-device entitlement, expiration or downgrade production evidence. ! 有料規約・決済情報 No independent billing privacy and paid terms review. ! 決済セキュリティ・不正対策 No production mobile threat review, webhook verification, fraud rule or exercise. ! 請求サポート・照合 No active billing contact, response target, reconciliation or failed-payment runbook. ! 本番の購入から返金まで No dated Android and iPhone purchase, receipt, access, cancellation and refund evidence. NO PAYMENT YET 決済を始める前の順番 提供内容と価格を実ユーザー調査で決める。 決済会社、手数料、税、領収書、解約・返金、規約・個人情報を審査する。 PC・Android・iPhoneで購入、失敗、再試行、権限付与、解約、返金を本番証拠として保存する。 提供案の事前確認を見る → 権限・解約・返金の状態設計を見る → 商用リリース全体の条件を見る → 信頼・運用の未確認事項を見る → UMAMETRY · 現在は無料の開発案内 · 決済・請求・カード情報収集なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/offer",
+      "status": 200,
+      "elapsedMs": 91,
+      "contentType": "text/html; charset=utf-8",
+      "title": "有料提供案の事前確認 | UMAMETRY",
+      "h1": [
+        "売る前に、 決めることを分ける。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・返金設計"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化95%の条件を見る →"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・解約・返金の設計を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "draft-price-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "有料提供案の事前確認 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 進捗 有料化条件 権限・返金設計 ← 公開案内 DRAFT PAID-OFFER DECISION 売る前に、 決めることを分ける。 これは有料サービス開始前の確認用です。以下の金額は比較のための仮説で、申込み・契約・請求ではありません。 現在: sales_enabled=false · offer_approved=false · provider_selected=false · カード情報は収集しません HYPOTHESES ONLY 比較中の月額案 利用者価値・需要・提供内容を確認するまで、販売価格として確定しません。 ¥ 2,980 /月 入門案 · 仮説 ¥ 3,980 /月 比較中の案 · 仮説 ¥ 4,980 /月 上位案 · 仮説 DECISION BEFORE PAYMENT 販売開始前に決めること defined user value and included features dated user-demand evidence approved cancellation and refund policy merchant, tax, and receipt review privacy and paid-terms review named billing support owner and escalation PRODUCTION EVIDENCE 実際に販売する前の条件 approved paid offer and entitlement scope selected provider and merchant approval reviewed tax and receipt treatment dated PC, Android, and iPhone purchase-to-refund evidence 有料化95%の条件を見る → 権限・解約・返金の設計を見る → UMAMETRY · 有料提供案の開発用確認 · 販売・請求・カード情報収集なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/entitlements",
+      "status": 200,
+      "elapsedMs": 99,
+      "contentType": "text/html; charset=utf-8",
+      "title": "権限・解約・返金の設計 | UMAMETRY",
+      "h1": [
+        "払った後の権限を、 曖昧にしない。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化の残り条件を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "state-title",
+        "transition-title",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "権限・解約・返金の設計 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 進捗 有料化条件 商用条件 ← 公開案内 DEVELOPMENT-ONLY ENTITLEMENT CONTRACT 払った後の権限を、 曖昧にしない。 これは有料化前の設計と検査対象です。利用者へ請求せず、カード情報を集めず、実際の有料権限も付与しません。 PAYMENT SAFETY 支払いを開始しない payment_actions_enabled=false · card_data_collected=false · 本番購入、返金、アカウント権限は未提供です。状態を進めるには、実際の決済・本人確認・方針審査の証拠が必要です。 ACCESS STATES 権限を持てる状態と、持てない状態 NONE 未加入 アクセスなし 有料アクセスはなく、購入開始前の状態です。 ACTIVATION_PENDING 有効化待ち アクセスなし 承認済みの提供内容は選ばれたが、検証済みの決済証拠はありません。 ACTIVE 有効 アクセスあり 検証済みの決済と重複防止キーを伴う有料アクセスです。 CANCELLATION_SCHEDULED 解約予定 アクセスあり 契約末日まではアクセスを維持し、予定日を記録します。 REFUND_REVIEW 返金審査中 アクセスあり 方針版と申請記録を添えて返金可否を審査します。 REFUNDED 返金済み アクセスなし 返金参照番号と審査記録がそろった後の終了状態です。 EXPIRED 期間終了 アクセスなし 解約予定の契約末日を過ぎた終了状態です。 AUDITABLE TRANSITIONS 状態を変える時に残す記録 none → activation_pending begin_activation 必要な記録: approved_offer activation_pending → active verified_payment 必要な記録: dated_actual_payment_evidence · idempotency_key activation_pending → none activation_failed 必要な記録: failure_reason active → cancellation_scheduled schedule_cancellation 必要な記録: access_ends_at · cancellation_policy_version cancellation_scheduled → expired period_ended 必要な記録: access_ends_at active → refund_review request_refund_review 必要な記録: refund_policy_version · request_reference cancellation_scheduled → refund_review request_refund_review 必要な記録: refund_policy_version · request_reference refund_review → refunded refund_completed 必要な記録: refund_reference · reviewer_reference refund_review → active refund_declined 必要な記録: decision_reason · reviewer_reference 解約予定中も契約末日まではアクセスを維持し、返金完了または期間終了でアクセスを終了します。未審査の支払い、理由のない返金、記録なしの権限変更は許可しません。 有料化の残り条件を見る → UMAMETRY · 開発用の権限状態設計 · 決済・請求・カード情報収集なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/operations",
+      "status": 200,
+      "elapsedMs": 86,
+      "contentType": "text/html; charset=utf-8",
+      "title": "障害復旧・診断の準備 | UMAMETRY",
+      "h1": [
+        "障害の時も、 記録と入力を守る。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/status",
+          "label": "サービス状態"
+        },
+        {
+          "href": "/support",
+          "label": "問い合わせ準備"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用の全条件を見る →"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "PC・モバイル商用条件を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "障害復旧・診断の準備 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY サービス状態 問い合わせ準備 進捗 信頼・運用 商用条件 ← 公開案内 DEVELOPMENT-ONLY RECOVERY CONTRACT 障害の時も、 記録と入力を守る。 これは開発中の障害復旧・診断記録の設計です。本番の監視、アラート、問い合わせ受付、利用者データの診断収集は開始していません。 現在: live_alerts_enabled=false · active_support_channel=false · 本番診断データの収集なし SAFE RECOVERY 送信を増やさず、再確認できる状態に戻す。 入力を消して問題を隠さず、再送が必要な時は同じ要求IDで利用者が確認します。ここで示すのは開発用の契約であり、実運用訓練の証拠ではありません。 OFFLINE BEFORE SUBMIT 開発契約 送信前のオフライン 入力を端末内で保持し、接続後に利用者が確認して再送する。 実運用で必要な証拠 日時、対象環境、担当者、復旧結果を含む本番訓練記録。現在は未確認です。 REQUEST TIMEOUT 開発契約 応答時間切れ 8秒で待機を終え、同じ要求IDで結果を確認する。 実運用で必要な証拠 日時、対象環境、担当者、復旧結果を含む本番訓練記録。現在は未確認です。 DUPLICATE SUBMIT 開発契約 同じ操作の再送 同じ要求IDは一件だけにし、重複した記録を増やさない。 実運用で必要な証拠 日時、対象環境、担当者、復旧結果を含む本番訓練記録。現在は未確認です。 UNEXPECTED RESPONSE 開発契約 想定外の応答 内容を再送せず、利用者に安全な再確認を案内する。 実運用で必要な証拠 日時、対象環境、担当者、復旧結果を含む本番訓練記録。現在は未確認です。 DIAGNOSTIC RECEIPT 診断記録に入れるもの・入れないもの 開発用の記録項目は event_id、scenario、recorded_at、action、recovery_state、release_id のみです。メールアドレス、電話番号、カード番号、IPアドレス、認証情報、予想内容は収集しません。 本番前に必要な条件 named alert owner and escalation path active public support channel and response policy dated production fault drill and recovery record approved retention and redaction policy 信頼・運用の全条件を見る → PC・モバイル商用条件を見る → UMAMETRY · 開発用の障害復旧・診断設計 · 本番監視・問い合わせ受付・診断収集なし UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/data-policy",
+      "status": 200,
+      "elapsedMs": 94,
+      "contentType": "text/html; charset=utf-8",
+      "title": "実データ利用方針 | UMAMETRY",
+      "h1": [
+        "見られるデータと、 使えるデータは違う。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "進捗"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内"
+        },
+        {
+          "href": "https://www.keiba.go.jp/terms.html",
+          "label": "NAR 利用規約"
+        },
+        {
+          "href": "https://www.keiba.go.jp/qa.html",
+          "label": "NAR FAQ"
+        },
+        {
+          "href": "https://developer.jra-van.jp/t/topic/899",
+          "label": "JRA-VAN 商用利用案内"
+        },
+        {
+          "href": "/dashboard?v=28",
+          "label": "開発の進捗と未確認事項へ →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "実データ利用方針 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 商用条件 信頼・運用 アクセシビリティ 進捗 ← 公開案内 REAL DATA READINESS · 20260904-v28 見られるデータと、 使えるデータは違う。 公開サイトで無料閲覧できても、加工・商用表示・再配布まで許可されるとは限りません。UMAMETRYは書面の利用範囲と費用が確定するまで実データを接続しません。 現在: 実データ 0件 · 商用契約 未締結 · 正確な契約費用 未確認 01 · WRITTEN GRANT 書面の許可 閲覧用の月額契約を、サービスへの掲載許可とは扱いません。対象データと利用チャネルを明記した契約が必要です。 02 · ALLOWED USES 用途を分けて確認 内部分析、保存、派生指標、公開表示、有料提供、利用者への出力を別々に確認します。ひとつでも不明ならその用途を止めます。 03 · EXPIRY CHECK 期限を毎回確認 提供者・許可用途・効力開始日・再確認期限が一致しないデータは、取り込み前に自動で拒否します。 COST STATUS 個人向け料金と商用料金は別です。 商用契約の正確な料金は未確認です。 初期費、月額、利用量、最低契約期間、保存・表示・派生結果の許可を見積もりで確認します。契約前は合成データだけを使います。 確認先 NAR 利用規約 NAR FAQ JRA-VAN 商用利用案内 開発の進捗と未確認事項へ → UMAMETRY · 実データ契約前は合成データのみ · 元データの無断再配布は行いません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/ads-readiness",
+      "status": 200,
+      "elapsedMs": 97,
+      "contentType": "text/html; charset=utf-8",
+      "title": "広告の準備状況 | UMAMETRY",
+      "h1": [
+        "広告より先に、 利用者と承認を守る。"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "/privacy",
+          "label": "個人情報と広告の説明を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "広告の準備状況 | UMAMETRY 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 ADSENSE READINESS · FAIL CLOSED 広告より先に、 利用者と承認を守る。 確認日: 2026-08-31 。広告コードは複数形式に対応していますが、すべての条件がそろうまでGoogleへの広告要求を送りません。 現在の送信状態 停止 — 広告要求0件を維持します。 未確認 — 実在の形式に合うパブリッシャーID 未確認 — 3つの広告ユニットID 未確認 — AdSenseサイト審査のReady 未確認 — 公開ads.txtのAuthorized 未確認 — AdSenseが確認するルートドメインのads.txt管理権限 未確認 — パブリッシャーポリシー確認 未確認 — 運営者によるプライバシー説明承認 未確認 — 対象地域に合う同意管理 未確認 — Auto ads停止または除外経路の承認 未確認 — センシティブ広告カテゴリの確認 未確認 — Policy Centerに未解決の問題なし 未確認 — 無効トラフィック監視手順の承認 未確認 — 全広告の非パーソナライズ・制限付きデータ処理 未確認 — 18歳以上・子ども向けではない対象方針 未確認 — 現在サイト向け米国州プライバシーメッセージ 未確認 — 広告対応CSPの実配信確認 未確認 — 本番有効化スイッチ 識別子そのものはこの画面に表示しません。 準備した広告形式 responsive_display — / 、 after primary explanation in_article_fluid — /learn 、 after publisher learning content multiplex_autorelaxed — /analysis 、 after all synthetic analysis cards account_managed_auto_ads — approved routes only 、 controlled in AdSense account 広告の近くに「広告」と表示し、操作ボタン、記録フォーム、アカウント、削除、利用条件、個人情報画面には置きません。 Auto ads: 未確認のため広告全体を停止 Googleと運営者の確認が必要なこと AdSense payee, identity and tax verification beyond the visible completed payment profile site ownership verification and Ready approval Google review of horse-racing-adjacent content eligibility legal operator, public contact and privacy approval published Google-certified CMP when serving users in EEA, UK or Switzerland published current-site US state privacy choice and live opt-out verification AdSense account-side Auto ads route exclusions and sensitive-category choices production ads.txt Authorized status registrable root-domain control; the current shared chatgpt.site parent is not controlled by this project real desktop and mobile ad rendering without overlap or accidental-click risk UMAMETRYは馬券購入や賭けを提供しません。ただし競馬に隣接する内容の広告適格性と広告量はGoogleが審査します。 プライバシーと地域 最初の広告版は全地域で非パーソナライズ広告と制限付きデータ処理だけを要求します。それでも広告配信にはCookie、ウェブビーコン、IPアドレスなどが使われる場合があります。世界から到達できる公開版は、Google認定CMPとTCF連携、現在サイト向けの米国州プライバシーメッセージが実際に公開されるまで有効化できません。 個人情報と広告の説明を見る → 運用開始後の検査 AdSenseのSitesでReadyを確認 /ads.txt がAuthorizedになることを確認 360px、390px、PCで重なり・横あふれ・オクリック誘導がないことを実画面確認 自分の広告をクリックせず、AdSenseレポートとPolicy centerを監視 広告よりページ本来の内容が十分多いことを継続確認 UMAMETRY · 広告コード準備とGoogle外部承認を分離 · 承認前は広告要求0件 UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/dashboard",
+      "status": 200,
+      "elapsedMs": 99,
+      "contentType": "text/html; charset=utf-8",
+      "title": "UMAMETRY | 判断を記録して振り返る",
+      "h1": [
+        "いま、どこまで できている？"
+      ],
+      "buttons": [],
+      "anchors": [
+        {
+          "href": "#main-content",
+          "label": "本文へ移動"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/learn",
+          "label": "学ぶ"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具"
+        },
+        {
+          "href": "/account",
+          "label": "設定・その他"
+        },
+        {
+          "href": "/",
+          "label": "ホーム"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析"
+        },
+        {
+          "href": "/records",
+          "label": "記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "振り返り"
+        },
+        {
+          "href": "/account",
+          "label": "その他"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "UMA METRY"
+        },
+        {
+          "href": "/records",
+          "label": "封印記録"
+        },
+        {
+          "href": "/calibration",
+          "label": "判断の振り返り"
+        },
+        {
+          "href": "/data-transfer",
+          "label": "保存・復元"
+        },
+        {
+          "href": "/sync",
+          "label": "選択型同期"
+        },
+        {
+          "href": "/analysis",
+          "label": "分析カード"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧"
+        },
+        {
+          "href": "/accessibility",
+          "label": "アクセシビリティ"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "商用条件"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化条件"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・返金"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "← 公開案内へ"
+        },
+        {
+          "href": "/records",
+          "label": "根拠を記録・振り返る →"
+        },
+        {
+          "href": "/accessibility",
+          "label": "自動確認と実機待ちを分けて見る →"
+        },
+        {
+          "href": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/?v=28",
+          "label": "公開URLを開く →"
+        },
+        {
+          "href": "/data-policy",
+          "label": "実データの利用条件を見る →"
+        },
+        {
+          "href": "/commercial-readiness",
+          "label": "PC・モバイルの未確認項目を見る →"
+        },
+        {
+          "href": "/monetization",
+          "label": "有料化95%の未確認項目を見る →"
+        },
+        {
+          "href": "/offer",
+          "label": "提供案の事前確認を見る →"
+        },
+        {
+          "href": "/entitlements",
+          "label": "権限・解約・返金の設計を見る →"
+        },
+        {
+          "href": "/operations",
+          "label": "障害復旧・診断の設計を見る →"
+        },
+        {
+          "href": "/trust",
+          "label": "信頼・運用の草案を見る →"
+        },
+        {
+          "href": "/analysis",
+          "label": "開発用の分析カードを見る →"
+        },
+        {
+          "href": "/learn",
+          "label": "学習センターを見る →"
+        },
+        {
+          "href": "/pro-tools",
+          "label": "高度な道具を見る →"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の準備状況を見る →"
+        },
+        {
+          "href": "/help",
+          "label": "ヘルプ"
+        },
+        {
+          "href": "/privacy",
+          "label": "プライバシー"
+        },
+        {
+          "href": "/terms",
+          "label": "利用条件"
+        },
+        {
+          "href": "/ads-readiness",
+          "label": "広告の状態"
+        },
+        {
+          "href": "/trust",
+          "label": "運用状況"
+        }
+      ],
+      "ids": [
+        "main-content",
+        "_R_"
+      ],
+      "fields": [],
+      "publicText": "UMAMETRY | 判断を記録して振り返る 本文へ移動 UMA METRY ホーム 分析 記録 振り返り 学ぶ 高度な道具 設定・その他 ホーム 分析 記録 振り返り その他 UMA METRY 封印記録 判断の振り返り 保存・復元 選択型同期 分析カード 信頼・運用 障害復旧 アクセシビリティ 商用条件 有料化条件 提供案 権限・返金 ← 公開案内へ DEVELOPMENT DASHBOARD · 20260904-v28 · PUBLIC VERSION 28 いま、どこまで できている？ 公開中のv28と、아직 확인되지 않은 운영 조건을 분리합니다. 무료 콘텐츠, 결제 없는 고급 기능, 실패 시 광고를 보내지 않는 AdSense 기반을 포함합니다. ! 🟡 注意 최신 공개판 빌드는 통과. Android·상용 운영·실사용자는 미확인 FIRST LOOK 今日やったこと / いまの状態 / あなたの番 ✓ 今日やったこと 모바일 진입 경로와 공개 Sites 연결 클린 WSL 빌드·자동검사 200/200, `/m/`·QR·정책 경로를 공개판에 반영 ↗ いまの状態 公開v27は応答、運用証拠は未確認 実Android、実ユーザー、자료 권리·지원·법률은 미확인 → あなたの番 운영자·문의·대상국 확정 실자료 계약, Android 연결, 광고 단위·결제·Sites 운영 정책이 필요합니다 PROGRESS 進捗率は、3つに分けます 自動検査と商用準備を混ぜません 公開版ビルド検査 100 % 200/200 通過 → この図の意味: クリーンな本番ビルドと自動検査だけの100%です。資料権利、실기기, 운영, 법률, 상용화의 100%가 아닙니다. モバイル商用準備 5 % 公開入口を追加 → この図の意味: /m/와 5탭 내비게이션을 공개했지만 Android 실기기·업데이트·운영은 미검증입니다. PCウェブ商用準備 20 % 公開v28 응답 확인 → この図の意味: 公開 v28의 응답을 반영하며 미확인 계약·법무·운영은 포함하지 않습니다. PROGRESS TRAIN 進行列車 ✓ 記録の信頼 契約済み ✓ 無料コンテンツ 契約済み ✓ 高度な道具 契約済み ▶ ビルド・公開 いまここ 5 実機・運用 未確認 → この図の意味: 完了はソースと契約の確認、矢印は環境で止まった作業、数字は外部証拠待ちです。 CURRENT WORK いま進める作業 根拠を残し、結果のあとで振り返る 端末内の開発用記録では、出所・不確かさ・理由・確信度を残し、元の予想を書き換えずに別の振り返りを追加します。実データ・購入・送信はありません。 優先度 P0 · 開発用の端末内記録 根拠を記録・振り返る → 自動確認と実機待ちを分けて見る → PHONE CONTINUITY スマートフォンで開く このQRは公開開発案内を開きます。購入・決済・実データはありません。 公開URLを開く → CHECK EVIDENCE 検査の証拠 確認済みと未確認を混ぜません ✓ 封印・振り返り・補正 追加専用の封印1件、別の結果確認1件、Brier 0.090を実ブラウザーの流れで確認 ✓ 自動検査・ビルド クリーンWSLの本番ビルドと自動検査200/200。Windowsネイティブ実行だけは端末の実行制御で停止 ! 資料権利・公式結果 用途・地域・保存・表示権利を呼出前に検査し、別レース・部分結果・訂正履歴を隔離。実資料契約は未確認 ✓ 無料学習コンテンツ 8レッスン、5つの全体例、30語、15 FAQを構造化し、検索と段階フィルターを契約検査 ✓ 決済なしの高度機能 長期要約、検索、偏り候補、シナリオ、読み取り用レビュー資料を端末内で実装 ! 目標別オンボーディング 記録・補正・根拠比較の目的、習熟度、情報密度だけを端末内に保存し、理由付きの開始経路を提示。実利用者の改善効果は未確認 ! 高度な補正 全期間・30日・7日、95%区間、明示資料区分、日付境界の前後比較、計算版JSONを実装。実利用者の理解度は未確認 ! 高度な検索 期間・状態・結果・資料状態・出所・確信度・回顧タグをURLで再現し、不正値を拒否。場所・レース種別の構造化項目は未実装 ! 利用条件・個人情報・ヘルプ 製品事実に合わせた候補を実装。法的運営者・連絡先・専門家レビューは未確定 ! Google AdSense 3形式、ads.txt、Cookie説明、承認ゲートを実装。実ID・Sites Ready・地域同意・Google審査がないため広告要求0件 ! 狭い画面の再配置 公開v28にモバイル入口と5탭 내비게이션을 포함。実ブラウザーの新規判定は未確認 ! 公開版 公開v28は新Sites versionとして応答するが、実ユーザー・Android・運用証拠は未確認 ✓ 持ち運べる記録 JSON/CSV、読込前確認、重複しない追加、範囲を示す削除の契約 ! Googleアカウント 提供者中立の境界と端末設定を実装。GoogleバックエンドとOAuth未確認のためログイン停止 ! 多機器同期の復旧 原子的アップロード、原文を複製しないオフライン待機、割込み復旧、アカウント変更拒否、衝突両方保存、機器解除を実装。実3機器は未確認 ! PWA更新・復旧 更新失敗表示、下書き中の適用停止、失敗応答のキャッシュ禁止、以前のシェル維持。Android実機は未検証 ! アクセシビリティ 公開経路の対象漏れ、操作結果の読み上げ、横内容の非表示、320px超の固定幅を自動検査。実際の200%・400%拡大、キーボード、読み上げ機器は未検証 ! 問い合わせ・状態 端末内の確認資料、秘密形式の伏せ字、監視なし・稼働率なしの状態画面を実装。実際の問い合わせ先・担当・応答・警報は未開始 ! 管理・監査 管理画面は既定404・検索/PWA除外。最小権限、2人承認、改変検出監査を自動検査し、実管理者・保存・警報は未設定 ✓ PWA更新 認証経路をキャッシュせず、入力確認前は新しい版を自動適用しない ! セキュリティ境界 同一出所JSON、10MiB制限、内部エラー非表示、削除一括処理、CSP/HSTS、所有権、悪意あるJSON、CSV数式を自動検査。実侵入検査は未実施 ! Android新候補 2026-08-31確認時点でADB認証済み端末0台のため実機試験は未実施 ! 無料リリースゲート ビルド、Sites接続、運営者、問い合わせ、法務、実機、外部運用証拠が未確認 BOTTLENECK いちばん大きい壁 実データのライセンスとAndroid実機検査 契約情報は用途・期限・提供者まで機械確認します。書面許可と費用はまだ未確認です。 実データの利用条件を見る → 100% GATE 商用・有料化の条件 PCとモバイルは、実機・契約・法務・運用・決済の証拠がそろった時だけ高い完了率になります。 PC・モバイルの未確認項目を見る → 有料化95%の未確認項目を見る → 提供案の事前確認を見る → 権限・解約・返金の設計を見る → 障害復旧・診断の設計を見る → 信頼・運用の草案を見る → EVIDENCE CARD FLOW 出所付きの開発用カード20件 更新時刻・資料状態・不確かさ・訂正責任を確認し、その内容を端末内の記録へ引き継げます。実データではありません。 開発用の分析カードを見る → FREE LEARNING 例から学ぶ無料センター 8レッスン、5例、30語、15の質問を検索できます。 学習センターを見る → ADVANCED · NO CHECKOUT 決済なしの高度な振り返り 端末内記録を検索・比較し、偏り候補、非保存シナリオ、レビュー資料を使えます。 高度な道具を見る → ADSENSE · FAIL CLOSED 広告コードと外部承認を分ける 反応型・本文型・多重コンテンツ型を実装し、承認情報が一つでも足りない間は広告要求を送りません。 広告の準備状況を見る → UMAMETRY · 公開中なのは開発案内です · 実データ・購入・決済機能は提供していません UMAMETRY · 無料の判断記録と振り返り ヘルプ プライバシー 利用条件 広告の状態 運用状況",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/manifest.json",
+      "status": 200,
+      "elapsedMs": 65,
+      "contentType": "application/json",
+      "title": "",
+      "h1": [],
+      "buttons": [],
+      "anchors": [],
+      "ids": [],
+      "fields": [],
+      "publicText": "{\"id\":\"/\",\"name\":\"UMAMETRY\",\"short_name\":\"UMAMETRY\",\"description\":\"数字の根拠と限界を分けて確認する、公開開発中の競馬情報サービス。\",\"lang\":\"ja\",\"start_url\":\"/?source=pwa\",\"scope\":\"/\",\"display\":\"standalone\",\"background_color\":\"#071611\",\"theme_color\":\"#071611\",\"prefer_related_applications\":false,\"icons\":[{\"src\":\"/app-icon-192.png\",\"sizes\":\"192x192\",\"type\":\"image/png\",\"purpose\":\"any\"},{\"src\":\"/app-icon-512.png\",\"sizes\":\"512x512\",\"type\":\"image/png\",\"purpose\":\"any\"},{\"src\":\"/app-icon-maskable-512.png\",\"sizes\":\"512x512\",\"type\":\"image/png\",\"purpose\":\"maskable\"}]}",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "elapsedMs": 104,
+      "contentType": "text/plain; charset=utf-8",
+      "title": "",
+      "h1": [],
+      "buttons": [],
+      "anchors": [],
+      "ids": [],
+      "fields": [],
+      "publicText": "User-agent: * Allow: / Disallow: /admin Sitemap: https://umametry-verified-20260904.hanksleedee.chatgpt.site/sitemap.xml",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "elapsedMs": 108,
+      "contentType": "application/xml; charset=utf-8",
+      "title": "",
+      "h1": [],
+      "buttons": [],
+      "anchors": [],
+      "ids": [],
+      "fields": [],
+      "publicText": "https://umametry-verified-20260904.hanksleedee.chatgpt.site/ https://umametry-verified-20260904.hanksleedee.chatgpt.site/m/ https://umametry-verified-20260904.hanksleedee.chatgpt.site/onboarding https://umametry-verified-20260904.hanksleedee.chatgpt.site/analysis https://umametry-verified-20260904.hanksleedee.chatgpt.site/records https://umametry-verified-20260904.hanksleedee.chatgpt.site/review https://umametry-verified-20260904.hanksleedee.chatgpt.site/explanations https://umametry-verified-20260904.hanksleedee.chatgpt.site/calibration https://umametry-verified-20260904.hanksleedee.chatgpt.site/learn https://umametry-verified-20260904.hanksleedee.chatgpt.site/pro-tools https://umametry-verified-20260904.hanksleedee.chatgpt.site/help https://umametry-verified-20260904.hanksleedee.chatgpt.site/support https://umametry-verified-20260904.hanksleedee.chatgpt.site/status https://umametry-verified-20260904.hanksleedee.chatgpt.site/compatibility https://umametry-verified-20260904.hanksleedee.chatgpt.site/privacy https://umametry-verified-20260904.hanksleedee.chatgpt.site/privacy-controls https://umametry-verified-20260904.hanksleedee.chatgpt.site/terms https://umametry-verified-20260904.hanksleedee.chatgpt.site/ads-readiness https://umametry-verified-20260904.hanksleedee.chatgpt.site/data-transfer https://umametry-verified-20260904.hanksleedee.chatgpt.site/account https://umametry-verified-20260904.hanksleedee.chatgpt.site/sync https://umametry-verified-20260904.hanksleedee.chatgpt.site/wellbeing https://umametry-verified-20260904.hanksleedee.chatgpt.site/dashboard https://umametry-verified-20260904.hanksleedee.chatgpt.site/data-policy https://umametry-verified-20260904.hanksleedee.chatgpt.site/trust https://umametry-verified-20260904.hanksleedee.chatgpt.site/accessibility https://umametry-verified-20260904.hanksleedee.chatgpt.site/install https://umametry-verified-20260904.hanksleedee.chatgpt.site/commercial-readiness https://umametry-verified-20260904.hanksleedee.chatgpt.site/monetization https://umametry-verified-20260904.hanksleedee.chatgpt.site/operations https://umametry-verified-20260904.hanksleedee.chatgpt.site/offer https://umametry-verified-20260904.hanksleedee.chatgpt.site/entitlements",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/ads.txt",
+      "status": 404,
+      "elapsedMs": 47,
+      "contentType": "text/plain; charset=utf-8",
+      "title": "",
+      "h1": [],
+      "buttons": [],
+      "anchors": [],
+      "ids": [],
+      "fields": [],
+      "publicText": "# AdSense publisher ID is not configured. No seller is authorized.",
+      "newHomeCandidate": false,
+      "oldHero": false
+    },
+    {
+      "route": "/umametry-public-qr.png",
+      "status": 200,
+      "elapsedMs": 72,
+      "contentType": "image/png",
+      "title": "",
+      "h1": [],
+      "buttons": [],
+      "anchors": [],
+      "ids": [],
+      "fields": [],
+      "publicText": "",
+      "newHomeCandidate": false,
+      "oldHero": false
+    }
+  ],
+  "sameOriginFragments": [
+    {
+      "from": "/",
+      "label": "本文へ移動",
+      "target": "/#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/m/",
+      "label": "本文へ移動",
+      "target": "/m/#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/records",
+      "label": "本文へ移動",
+      "target": "/records#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/review",
+      "label": "本文へ移動",
+      "target": "/review#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/calibration",
+      "label": "本文へ移動",
+      "target": "/calibration#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/analysis",
+      "label": "本文へ移動",
+      "target": "/analysis#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/analysis",
+      "label": "この資料をもとに理由を記録する →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/explanations",
+      "label": "本文へ移動",
+      "target": "/explanations#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/learn",
+      "label": "本文へ移動",
+      "target": "/learn#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/learn",
+      "label": "3分で基本を見る",
+      "target": "/learn#lesson-title",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/learn",
+      "label": "記録で試す →",
+      "target": "/records#record-form",
+      "targetExistsInServerHTML": false
+    },
+    {
+      "from": "/pro-tools",
+      "label": "本文へ移動",
+      "target": "/pro-tools#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/onboarding",
+      "label": "本文へ移動",
+      "target": "/onboarding#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/account",
+      "label": "本文へ移動",
+      "target": "/account#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/sync",
+      "label": "本文へ移動",
+      "target": "/sync#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/data-transfer",
+      "label": "本文へ移動",
+      "target": "/data-transfer#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/privacy-controls",
+      "label": "本文へ移動",
+      "target": "/privacy-controls#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/wellbeing",
+      "label": "本文へ移動",
+      "target": "/wellbeing#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/install",
+      "label": "本文へ移動",
+      "target": "/install#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/help",
+      "label": "本文へ移動",
+      "target": "/help#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/support",
+      "label": "本文へ移動",
+      "target": "/support#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/status",
+      "label": "本文へ移動",
+      "target": "/status#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/trust",
+      "label": "本文へ移動",
+      "target": "/trust#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/terms",
+      "label": "本文へ移動",
+      "target": "/terms#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/privacy",
+      "label": "本文へ移動",
+      "target": "/privacy#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/accessibility",
+      "label": "本文へ移動",
+      "target": "/accessibility#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/compatibility",
+      "label": "本文へ移動",
+      "target": "/compatibility#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/commercial-readiness",
+      "label": "本文へ移動",
+      "target": "/commercial-readiness#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/monetization",
+      "label": "本文へ移動",
+      "target": "/monetization#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/offer",
+      "label": "本文へ移動",
+      "target": "/offer#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/entitlements",
+      "label": "本文へ移動",
+      "target": "/entitlements#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/operations",
+      "label": "本文へ移動",
+      "target": "/operations#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/data-policy",
+      "label": "本文へ移動",
+      "target": "/data-policy#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/ads-readiness",
+      "label": "本文へ移動",
+      "target": "/ads-readiness#main-content",
+      "targetExistsInServerHTML": true
+    },
+    {
+      "from": "/dashboard",
+      "label": "本文へ移動",
+      "target": "/dashboard#main-content",
+      "targetExistsInServerHTML": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿requirement_id,statement,stage_id,task_id,evidence_ids,acceptance,status
+REQ-001,근거 장부와 실행 통제 고정의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-002,서비스·URL·파일·검사 기준선 목록화의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-003,범위·위험·출시 차단선 판정의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-004,데이터 구조·저장·호환 계약의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-005,권한·자료 권리·개인정보 경계의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-006,접근성·지원·관측 공통 바닥의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-007,사전 기록·봉인·결과·복기 흐름의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-008,분석·보정·학습 설명 흐름의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-009,내보내기·이사·동기화 경계의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-010,PC·모바일·Android·보조기술 품질의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-011,보안·개인정보·성능·운영 내구성의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-012,톱10·Outcome Frontier·합성 경계 사례의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-013,권리·법무·지원·출시 통과표의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-014,이전·복구·공개 회귀·되돌리기의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-015,인계·대시보드·다음 실행 목록의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-016,근거 장부와 실행 통제 고정의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-017,서비스·URL·파일·검사 기준선 목록화의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-018,범위·위험·출시 차단선 판정의 근거·실패·복구·인계를 확인,STAGE-1-BASELINE,T1-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-019,데이터 구조·저장·호환 계약의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-020,권한·자료 권리·개인정보 경계의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-021,접근성·지원·관측 공통 바닥의 근거·실패·복구·인계를 확인,STAGE-2-FOUNDATION,T2-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-022,사전 기록·봉인·결과·복기 흐름의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-023,분석·보정·학습 설명 흐름의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-024,내보내기·이사·동기화 경계의 근거·실패·복구·인계를 확인,STAGE-3-CORE,T3-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-025,PC·모바일·Android·보조기술 품질의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-026,보안·개인정보·성능·운영 내구성의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-027,톱10·Outcome Frontier·합성 경계 사례의 근거·실패·복구·인계를 확인,STAGE-4-QUALITY,T4-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-028,권리·법무·지원·출시 통과표의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-001,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-029,이전·복구·공개 회귀·되돌리기의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-002,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
+REQ-030,인계·대시보드·다음 실행 목록의 근거·실패·복구·인계를 확인,STAGE-5-RELEASE,T5-003,"E-001,E-002,E-003",계약·시험·증거 경로가 있고 미확인은 U 또는 BLOCKED_EXTERNAL,PLANNED
